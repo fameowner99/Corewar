@@ -1,4 +1,5 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/vmiachko/Corewar
+/home/fameowner/Programs/clion-2017.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/fameowner/Corewar
+-- Found Curses: /usr/lib/x86_64-linux-gnu/libcurses.so  
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/vmiachko/Corewar/cmake-build-debug
+-- Build files have been written to: /home/fameowner/Corewar/cmake-build-debug

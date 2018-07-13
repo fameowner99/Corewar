@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/fameowner/Programs/clion-2017.3.4/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/fameowner/Programs/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vmiachko/Corewar
+CMAKE_SOURCE_DIR = /home/fameowner/Corewar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vmiachko/Corewar/cmake-build-debug
+CMAKE_BINARY_DIR = /home/fameowner/Corewar/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/vmiachko/Corewar/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/fameowner/Programs/clion-2017.3.4/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/fameowner/Programs/clion-2017.3.4/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles /Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fameowner/Corewar/cmake-build-debug/CMakeFiles /home/fameowner/Corewar/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fameowner/Corewar/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ Corewar: cmake_check_build_system
 Corewar/fast:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/build
 .PHONY : Corewar/fast
+
+VirtualMachine/src/display_map.o: VirtualMachine/src/display_map.c.o
+
+.PHONY : VirtualMachine/src/display_map.o
+
+# target to build an object file
+VirtualMachine/src/display_map.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/display_map.c.o
+.PHONY : VirtualMachine/src/display_map.c.o
+
+VirtualMachine/src/display_map.i: VirtualMachine/src/display_map.c.i
+
+.PHONY : VirtualMachine/src/display_map.i
+
+# target to preprocess a source file
+VirtualMachine/src/display_map.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/display_map.c.i
+.PHONY : VirtualMachine/src/display_map.c.i
+
+VirtualMachine/src/display_map.s: VirtualMachine/src/display_map.c.s
+
+.PHONY : VirtualMachine/src/display_map.s
+
+# target to generate assembly for a file
+VirtualMachine/src/display_map.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/display_map.c.s
+.PHONY : VirtualMachine/src/display_map.c.s
 
 VirtualMachine/src/main.o: VirtualMachine/src/main.c.o
 
@@ -203,6 +230,33 @@ VirtualMachine/src/manage_pc_list.s: VirtualMachine/src/manage_pc_list.c.s
 VirtualMachine/src/manage_pc_list.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/manage_pc_list.c.s
 .PHONY : VirtualMachine/src/manage_pc_list.c.s
+
+VirtualMachine/src/parsing/get_bot_info.o: VirtualMachine/src/parsing/get_bot_info.c.o
+
+.PHONY : VirtualMachine/src/parsing/get_bot_info.o
+
+# target to build an object file
+VirtualMachine/src/parsing/get_bot_info.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o
+.PHONY : VirtualMachine/src/parsing/get_bot_info.c.o
+
+VirtualMachine/src/parsing/get_bot_info.i: VirtualMachine/src/parsing/get_bot_info.c.i
+
+.PHONY : VirtualMachine/src/parsing/get_bot_info.i
+
+# target to preprocess a source file
+VirtualMachine/src/parsing/get_bot_info.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.i
+.PHONY : VirtualMachine/src/parsing/get_bot_info.c.i
+
+VirtualMachine/src/parsing/get_bot_info.s: VirtualMachine/src/parsing/get_bot_info.c.s
+
+.PHONY : VirtualMachine/src/parsing/get_bot_info.s
+
+# target to generate assembly for a file
+VirtualMachine/src/parsing/get_bot_info.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.s
+.PHONY : VirtualMachine/src/parsing/get_bot_info.c.s
 
 VirtualMachine/src/parsing/manage_arguments.o: VirtualMachine/src/parsing/manage_arguments.c.o
 
@@ -321,6 +375,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Corewar"
+	@echo "... VirtualMachine/src/display_map.o"
+	@echo "... VirtualMachine/src/display_map.i"
+	@echo "... VirtualMachine/src/display_map.s"
 	@echo "... VirtualMachine/src/main.o"
 	@echo "... VirtualMachine/src/main.i"
 	@echo "... VirtualMachine/src/main.s"
@@ -330,6 +387,9 @@ help:
 	@echo "... VirtualMachine/src/manage_pc_list.o"
 	@echo "... VirtualMachine/src/manage_pc_list.i"
 	@echo "... VirtualMachine/src/manage_pc_list.s"
+	@echo "... VirtualMachine/src/parsing/get_bot_info.o"
+	@echo "... VirtualMachine/src/parsing/get_bot_info.i"
+	@echo "... VirtualMachine/src/parsing/get_bot_info.s"
 	@echo "... VirtualMachine/src/parsing/manage_arguments.o"
 	@echo "... VirtualMachine/src/parsing/manage_arguments.i"
 	@echo "... VirtualMachine/src/parsing/manage_arguments.s"

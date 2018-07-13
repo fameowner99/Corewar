@@ -19,4 +19,9 @@
 int 				parsing(int argc, char **argv, t_union *un);
 int					check_if_input_correct(char **argv, t_union *un);
 int					set_bot_id(t_union *un);
+int 				get_bot_name(const int fd, t_bot **tmp);
+int 				get_bot_size(const int fd, t_bot **tmp);
+int 				get_bot_comment(const int fd, t_bot **tmp);
+int 				get_bot_code(const int fd, t_bot **tmp);
+int 				check_size_is_true(t_bot bot);
 #endif

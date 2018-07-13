@@ -6,7 +6,7 @@ FLAGS = #-Wall -Wextra -Werror
 
 RM = rm -f
 
-SRC = src/main.c src/parsing/manage_arguments.c src/parsing/parsing.c src/manage_bot_list.c src/parsing/parse_bot.c src/parsing/parse_bot_id.c
+SRC = src/main.c src/parsing/manage_arguments.c src/parsing/parsing.c src/manage_bot_list.c src/parsing/parse_bot.c src/parsing/parse_bot_id.c src/display_map.c src/parsing/get_bot_info.c
 
 LIB_DIR = ../libft/
 
@@ -16,7 +16,7 @@ all: $(NAME)
 
 $(NAME): $(OBJ)
 	@make -C $(LIB_DIR) all
-	$(CC) $(FLAGS) $(OBJ) -o $@ -L$(LIB_DIR) -lft 
+	$(CC) $(FLAGS) $(OBJ) -o $@ -L$(LIB_DIR) -lft -lncurses
 	@echo "corewar done."
 
 %.o: %.c

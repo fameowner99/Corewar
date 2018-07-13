@@ -20,9 +20,11 @@ static t_bot		*bot_new(char *filename, int id)
 		return (NULL);
 	if (!(res->filename = (char *)ft_memalloc(ft_strlen(filename) + 1)))
 		return (NULL);
+	res->code = (unsigned char*)ft_memalloc(CHAMP_MAX_SIZE + 1);
 	res->filename = ft_strcpy(res->filename, filename);
 	res->size = 0;
 	res->id = id;
+	res->code_length = 0;
 	res->next = NULL;
 	return (res);
 }
@@ -40,4 +42,19 @@ t_bot				*bot_push_back(t_bot *head, char *filename, int id)
 	new = bot_new(filename, id);
 	tmp->next = new;
 	return (head);
+}
+
+void				bot_clear_list(t_bot *head)
+{
+	t_bot		*tmp;
+
+	while (head)
+	{
+		tmp = head->next;
+		free(head->filename);
+		free(head->code);
+		free(head);
+		head = tmp;
+	}
+
 }
