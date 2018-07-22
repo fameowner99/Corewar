@@ -6,7 +6,7 @@ FLAGS = #-Wall -Wextra -Werror
 
 RM = rm -f
 
-SRC = src/main.c src/parsing/manage_arguments.c src/parsing/parsing.c src/manage_bot_list.c src/parsing/parse_bot.c src/parsing/parse_bot_id.c src/display_map.c src/parsing/get_bot_info.c
+SRC = src/main.c src/parsing/manage_arguments.c src/parsing/parsing.c src/manage_bot_list.c src/manage_pc_list.c src/parsing/parse_bot.c src/parsing/parse_bot_id.c src/display_map.c src/parsing/get_bot_info.c src/commands.c src/ft_get_int.c src/corewar.c
 
 LIB_DIR = ../libft/
 

@@ -24,6 +24,8 @@ static t_bot		*bot_new(char *filename, int id)
 	res->filename = ft_strcpy(res->filename, filename);
 	res->size = 0;
 	res->id = id;
+	res->num_live = 0;
+	res->last_live = 0;
 	res->code_length = 0;
 	res->next = NULL;
 	return (res);

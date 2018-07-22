@@ -24,6 +24,7 @@ void			initialize_map(t_union *un)
 	{
 		tmp[i].color = 1;
 		tmp[i].value = '\0';
+		tmp[i].cursor = 0;
 		++i;
 	}
 }

@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/fameowner/Corewar/VirtualMachine/inc/op.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/op.h
 
-/home/fameowner/Corewar/VirtualMachine/inc/parsing.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../libft/libft.h
-/home/fameowner/Corewar/libft/libft.h
+/Users/vmiachko/Corewar/libft/libft.h
 op.h
-/home/fameowner/Corewar/VirtualMachine/inc/op.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/op.h
 fcntl.h
 -
 sys/types.h
@@ -28,65 +28,77 @@ unistd.h
 ncurses.h
 -
 
-/home/fameowner/Corewar/VirtualMachine/src/display_map.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands.c
 ../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/main.c
+/Users/vmiachko/Corewar/VirtualMachine/src/corewar.c
 ../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+
+/Users/vmiachko/Corewar/VirtualMachine/src/display_map.c
+../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+
+/Users/vmiachko/Corewar/VirtualMachine/src/ft_get_int.c
+../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+
+/Users/vmiachko/Corewar/VirtualMachine/src/main.c
+../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../inc/parsing.h
-/home/fameowner/Corewar/VirtualMachine/inc/parsing.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 
-/home/fameowner/Corewar/VirtualMachine/src/manage_bot_list.c
+/Users/vmiachko/Corewar/VirtualMachine/src/manage_bot_list.c
 ../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/manage_pc_list.c
+/Users/vmiachko/Corewar/VirtualMachine/src/manage_pc_list.c
 ../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/parsing/get_bot_info.c
+/Users/vmiachko/Corewar/VirtualMachine/src/parsing/get_bot_info.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/parsing/manage_arguments.c
+/Users/vmiachko/Corewar/VirtualMachine/src/parsing/manage_arguments.c
 ../../inc/parsing.h
-/home/fameowner/Corewar/VirtualMachine/inc/parsing.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/parsing/parse_bot.c
+/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/parsing.h
-/home/fameowner/Corewar/VirtualMachine/inc/parsing.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 
-/home/fameowner/Corewar/VirtualMachine/src/parsing/parse_bot_id.c
+/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot_id.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/parsing/parsing.c
+/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parsing.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/parsing.h
-/home/fameowner/Corewar/VirtualMachine/inc/parsing.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 
-/home/fameowner/Corewar/libft/ft_printf/ft_printf.h
+/Users/vmiachko/Corewar/libft/ft_printf/ft_printf.h
 ../libft.h
-/home/fameowner/Corewar/libft/libft.h
+/Users/vmiachko/Corewar/libft/libft.h
 stdarg.h
 -
 stdlib.h
 -
 
-/home/fameowner/Corewar/libft/libft.h
+/Users/vmiachko/Corewar/libft/libft.h
 string.h
 -
 stdlib.h
 -
 ft_printf/ft_printf.h
-/home/fameowner/Corewar/libft/ft_printf/ft_printf.h
+/Users/vmiachko/Corewar/libft/ft_printf/ft_printf.h
 stdint.h
 -
 

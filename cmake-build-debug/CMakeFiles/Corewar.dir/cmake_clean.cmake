@@ -8,6 +8,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot_id.c.o"
   "CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o"
   "CMakeFiles/Corewar.dir/VirtualMachine/src/display_map.c.o"
+  "CMakeFiles/Corewar.dir/VirtualMachine/src/commands.c.o"
+  "CMakeFiles/Corewar.dir/VirtualMachine/src/ft_get_int.c.o"
+  "CMakeFiles/Corewar.dir/VirtualMachine/src/corewar.c.o"
   "Corewar.pdb"
   "Corewar"
 )

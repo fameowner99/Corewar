@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/fameowner/Programs/clion-2017.3.4/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/fameowner/Programs/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fameowner/Corewar
+CMAKE_SOURCE_DIR = /Users/vmiachko/Corewar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fameowner/Corewar/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/vmiachko/Corewar/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/Corewar.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/fameowner/Corewar/cmake-build-debug
 CMakeFiles/Corewar.dir/all:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/depend
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fameowner/Corewar/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target Corewar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target Corewar"
 .PHONY : CMakeFiles/Corewar.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/Corewar.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Corewar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fameowner/Corewar/cmake-build-debug/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Corewar.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fameowner/Corewar/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Corewar.dir/rule
 
 # Convenience name for target.

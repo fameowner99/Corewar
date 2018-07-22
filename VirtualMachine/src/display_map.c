@@ -10,15 +10,19 @@ void 		move_code_to_map(t_union *un, int color)
 	t_bot	*bot;
 
 	j = 0;
+	un->pc = NULL;
 	bot = un->bot;
 	move = 0;
 	while (bot)
 	{
+		un->pc = pc_push_front(un->pc, j + move, bot->id);
 		i = 0;
 		while (i < bot->code_length)
 		{
 			un->map[j + move].value = bot->code[i];
 			un->map[j + move].color = color;
+			if (i == 0)
+				un->map[j + move].cursor = 1;
 			++i;
 			++j;
 		}
@@ -44,11 +48,18 @@ void		display_map(t_union *un)
 	curs_set(0);
 	move_code_to_map(un, 2);
 	start_color();
+	init_pair(9,  COLOR_BLACK,COLOR_WHITE);
 	init_pair(1, COLOR_WHITE, COLOR_BLACK);
 	init_pair(2, COLOR_RED, COLOR_BLACK);
 	init_pair(3, COLOR_BLUE, COLOR_BLACK);
 	init_pair(5, COLOR_YELLOW, COLOR_BLACK);
 	init_pair(4, COLOR_MAGENTA, COLOR_BLACK);
+	init_pair(12, COLOR_WHITE, COLOR_RED);
+	init_pair(13, COLOR_WHITE, COLOR_BLUE);
+	init_pair(14, COLOR_WHITE, COLOR_MAGENTA);
+	init_pair(15, COLOR_WHITE, COLOR_YELLOW);
+
+
 	while (key)
 	{
 
@@ -56,14 +67,23 @@ void		display_map(t_union *un)
 		k = 0;
 
 			/* Start color 			*/
-
-
 		while (i < MEM_SIZE)
 		{
-
 			attron(COLOR_PAIR(un->map[i].color));
-			printw("%02x ", un->map[i].value);
+			if (un->map[i].cursor)
+			{
+				attron(A_BOLD);
+				attron(COLOR_PAIR(un->map[i].color + 10));
+			}
+
+			printw("%02x", un->map[i].value);
 			attroff(COLOR_PAIR(un->map[i].color));
+			printw(" ");
+			if (un->map[i].cursor)
+			{
+				attroff(A_BOLD);
+				attroff(COLOR_PAIR(un->map[i].color + 10));
+			}
 			++k;
 			if (k == 64)
 			{
@@ -72,13 +92,12 @@ void		display_map(t_union *un)
 			}
 			++i;
 		}
-
 		refresh();
-
 		key = getch();
 		if (key == 27)
 			break ;
-		sleep(1);
+		usleep(13 *100000);
+		//corewar();
 		clear();
 }
 

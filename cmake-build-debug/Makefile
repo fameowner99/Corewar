@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/fameowner/Programs/clion-2017.3.4/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/fameowner/Programs/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fameowner/Corewar
+CMAKE_SOURCE_DIR = /Users/vmiachko/Corewar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fameowner/Corewar/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/vmiachko/Corewar/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/fameowner/Corewar/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/fameowner/Programs/clion-2017.3.4/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/fameowner/Programs/clion-2017.3.4/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fameowner/Corewar/cmake-build-debug/CMakeFiles /home/fameowner/Corewar/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles /Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fameowner/Corewar/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ Corewar/fast:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/build
 .PHONY : Corewar/fast
 
+VirtualMachine/src/commands.o: VirtualMachine/src/commands.c.o
+
+.PHONY : VirtualMachine/src/commands.o
+
+# target to build an object file
+VirtualMachine/src/commands.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands.c.o
+.PHONY : VirtualMachine/src/commands.c.o
+
+VirtualMachine/src/commands.i: VirtualMachine/src/commands.c.i
+
+.PHONY : VirtualMachine/src/commands.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands.c.i
+.PHONY : VirtualMachine/src/commands.c.i
+
+VirtualMachine/src/commands.s: VirtualMachine/src/commands.c.s
+
+.PHONY : VirtualMachine/src/commands.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands.c.s
+.PHONY : VirtualMachine/src/commands.c.s
+
+VirtualMachine/src/corewar.o: VirtualMachine/src/corewar.c.o
+
+.PHONY : VirtualMachine/src/corewar.o
+
+# target to build an object file
+VirtualMachine/src/corewar.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/corewar.c.o
+.PHONY : VirtualMachine/src/corewar.c.o
+
+VirtualMachine/src/corewar.i: VirtualMachine/src/corewar.c.i
+
+.PHONY : VirtualMachine/src/corewar.i
+
+# target to preprocess a source file
+VirtualMachine/src/corewar.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/corewar.c.i
+.PHONY : VirtualMachine/src/corewar.c.i
+
+VirtualMachine/src/corewar.s: VirtualMachine/src/corewar.c.s
+
+.PHONY : VirtualMachine/src/corewar.s
+
+# target to generate assembly for a file
+VirtualMachine/src/corewar.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/corewar.c.s
+.PHONY : VirtualMachine/src/corewar.c.s
+
 VirtualMachine/src/display_map.o: VirtualMachine/src/display_map.c.o
 
 .PHONY : VirtualMachine/src/display_map.o
@@ -149,6 +203,33 @@ VirtualMachine/src/display_map.s: VirtualMachine/src/display_map.c.s
 VirtualMachine/src/display_map.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/display_map.c.s
 .PHONY : VirtualMachine/src/display_map.c.s
+
+VirtualMachine/src/ft_get_int.o: VirtualMachine/src/ft_get_int.c.o
+
+.PHONY : VirtualMachine/src/ft_get_int.o
+
+# target to build an object file
+VirtualMachine/src/ft_get_int.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/ft_get_int.c.o
+.PHONY : VirtualMachine/src/ft_get_int.c.o
+
+VirtualMachine/src/ft_get_int.i: VirtualMachine/src/ft_get_int.c.i
+
+.PHONY : VirtualMachine/src/ft_get_int.i
+
+# target to preprocess a source file
+VirtualMachine/src/ft_get_int.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/ft_get_int.c.i
+.PHONY : VirtualMachine/src/ft_get_int.c.i
+
+VirtualMachine/src/ft_get_int.s: VirtualMachine/src/ft_get_int.c.s
+
+.PHONY : VirtualMachine/src/ft_get_int.s
+
+# target to generate assembly for a file
+VirtualMachine/src/ft_get_int.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/ft_get_int.c.s
+.PHONY : VirtualMachine/src/ft_get_int.c.s
 
 VirtualMachine/src/main.o: VirtualMachine/src/main.c.o
 
@@ -375,9 +456,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Corewar"
+	@echo "... VirtualMachine/src/commands.o"
+	@echo "... VirtualMachine/src/commands.i"
+	@echo "... VirtualMachine/src/commands.s"
+	@echo "... VirtualMachine/src/corewar.o"
+	@echo "... VirtualMachine/src/corewar.i"
+	@echo "... VirtualMachine/src/corewar.s"
 	@echo "... VirtualMachine/src/display_map.o"
 	@echo "... VirtualMachine/src/display_map.i"
 	@echo "... VirtualMachine/src/display_map.s"
+	@echo "... VirtualMachine/src/ft_get_int.o"
+	@echo "... VirtualMachine/src/ft_get_int.i"
+	@echo "... VirtualMachine/src/ft_get_int.s"
 	@echo "... VirtualMachine/src/main.o"
 	@echo "... VirtualMachine/src/main.i"
 	@echo "... VirtualMachine/src/main.s"
