@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot.c.o"
   "/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot_id.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot_id.c.o"
   "/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parsing.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.o"
+  "/Users/vmiachko/Corewar/VirtualMachine/src/parsing_comands.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

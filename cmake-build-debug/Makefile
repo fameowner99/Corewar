@@ -447,6 +447,33 @@ VirtualMachine/src/parsing/parsing.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.s
 .PHONY : VirtualMachine/src/parsing/parsing.c.s
 
+VirtualMachine/src/parsing_comands.o: VirtualMachine/src/parsing_comands.c.o
+
+.PHONY : VirtualMachine/src/parsing_comands.o
+
+# target to build an object file
+VirtualMachine/src/parsing_comands.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o
+.PHONY : VirtualMachine/src/parsing_comands.c.o
+
+VirtualMachine/src/parsing_comands.i: VirtualMachine/src/parsing_comands.c.i
+
+.PHONY : VirtualMachine/src/parsing_comands.i
+
+# target to preprocess a source file
+VirtualMachine/src/parsing_comands.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.i
+.PHONY : VirtualMachine/src/parsing_comands.c.i
+
+VirtualMachine/src/parsing_comands.s: VirtualMachine/src/parsing_comands.c.s
+
+.PHONY : VirtualMachine/src/parsing_comands.s
+
+# target to generate assembly for a file
+VirtualMachine/src/parsing_comands.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.s
+.PHONY : VirtualMachine/src/parsing_comands.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -492,6 +519,9 @@ help:
 	@echo "... VirtualMachine/src/parsing/parsing.o"
 	@echo "... VirtualMachine/src/parsing/parsing.i"
 	@echo "... VirtualMachine/src/parsing/parsing.s"
+	@echo "... VirtualMachine/src/parsing_comands.o"
+	@echo "... VirtualMachine/src/parsing_comands.i"
+	@echo "... VirtualMachine/src/parsing_comands.s"
 .PHONY : help
 
 

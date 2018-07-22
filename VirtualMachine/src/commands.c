@@ -1,31 +1,21 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   commands.c                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: tpiven <marvin@42.fr>                      +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/07/19 17:55:40 by tpiven            #+#    #+#             */
-/*   Updated: 2018/07/19 17:55:41 by tpiven           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "../inc/vm.h"
 
 
 void ft_live(t_pc *pc, t_union *un)
 {
     int num_player;
+    t_bot *tmp;
     
     pc->alive = 1;
+    tmp = un->bot;
     num_player = ft_get_int(un, pc->curr_position + 1, 4);
-    while (un->bot->next != NULL)
+    while (tmp != NULL)
     {
-        if (un->bot->id == num_player)
-           un->bot->last_live = un->cycle;
-        if (pc->creator_id == un->bot->id)
-             un->bot->num_live += 1;
-       un->bot = un->bot->next;
+        if (tmp->id == num_player)
+           tmp->last_live = un->cycle;
+        if (pc->creator_id == tmp->id)
+             tmp->num_live += 1;
+       tmp = tmp->next;
     }
 }
 
@@ -347,7 +337,12 @@ void ft_sti(t_pc *pc, t_union *un)
 
 void ft_fork(t_pc *pc, t_union *un)
 {
+    int position;
+    t_pc *new;
     
+    position = pc->curr_position + ((short)ft_get_int(un, pc->curr_position + 1, 2) % IDX_MOD);
+    new = pc_copy(pc, position);
+    pc_push_front(un->pc, new);
 }
 
 void ft_lld(t_pc *pc, t_union *un)
@@ -412,14 +407,17 @@ void ft_lldi(t_pc *pc, t_union *un)
         pc->carry = 0;
 }
 
-
-
 void ft_lfork(t_pc *pc, t_union *un)
 {
+    int position;
+    t_pc *new;
     
+    position = pc->curr_position + ((short)ft_get_int(un, pc->curr_position + 1, 2));
+    new = pc_copy(pc, position);
+    pc_push_front(un->pc, new);
 }
 
-void ft_aff(t_pc *pc, t_union *un)
+/*void ft_aff(t_pc *pc, t_union *un)
 {
     
-}
+}*/

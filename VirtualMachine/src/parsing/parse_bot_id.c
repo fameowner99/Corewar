@@ -52,7 +52,7 @@ int 			set_bot_id(t_union *un)
 	t_bot		*tmp;
 	t_bot		*tmp1;
 
-	static int	id = 1;
+	static int	id = -1;
 
 	if (id == 1 && !first_check(un))
 		return (-1);
@@ -66,13 +66,13 @@ int 			set_bot_id(t_union *un)
 			{
 				if (tmp1->id == id)
 				{
-					++id;
+					--id;
 					return (0);
 				}
 				tmp1 = tmp1->next;
 			}
 			tmp->id = id;
-			++id;
+			--id;
 		}
 		tmp = tmp->next;
 	}

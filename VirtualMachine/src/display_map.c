@@ -15,7 +15,7 @@ void 		move_code_to_map(t_union *un, int color)
 	move = 0;
 	while (bot)
 	{
-		un->pc = pc_push_front(un->pc, j + move, bot->id);
+		un->pc = pc_push_front(un->pc,pc_new(j + move, bot->id));
 		i = 0;
 		while (i < bot->code_length)
 		{
@@ -38,8 +38,6 @@ void		display_map(t_union *un)
 	int i;
 	int k;
 
-
-
 	key = 1;
 	initscr();
 	raw();
@@ -59,7 +57,7 @@ void		display_map(t_union *un)
 	init_pair(14, COLOR_WHITE, COLOR_MAGENTA);
 	init_pair(15, COLOR_WHITE, COLOR_YELLOW);
 
-
+static int p = 0;
 	while (key)
 	{
 
@@ -72,7 +70,7 @@ void		display_map(t_union *un)
 			attron(COLOR_PAIR(un->map[i].color));
 			if (un->map[i].cursor)
 			{
-				attron(A_BOLD);
+				//attron(A_BOLD);
 				attron(COLOR_PAIR(un->map[i].color + 10));
 			}
 
@@ -98,6 +96,8 @@ void		display_map(t_union *un)
 			break ;
 		usleep(13 *100000);
 		//corewar();
+		ft_sti(un->pc, un);
+		++p;
 		clear();
 }
 

@@ -116,6 +116,9 @@
 		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parsing.c">
 			<Option target="Corewar"/>
 		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing_comands.c">
+			<Option target="Corewar"/>
+		</Unit>
 		<Unit filename="/Users/vmiachko/Corewar/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

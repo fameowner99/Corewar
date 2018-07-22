@@ -41,9 +41,9 @@ typedef	struct		s_pc
 	int 			curr_position;
 	int 			carry;
 	int 			creator_id;
-	int 			reg[16];
+	unsigned int 	reg[16];
 	int 			alive;
-	char 			*curr_command;
+	int				curr_command;
 	int 			number_cycles_to_wait;
 	uint8_t			arg[3]; //?
 	struct s_pc		*next;
@@ -73,24 +73,41 @@ typedef struct		s_union
 	int 			argc;
 	t_counter		count;
 	int 			cycle;
+	int 			visual;
 }					t_union;
 
 t_bot				*bot_push_back(t_bot *head, char *filename, int id);
 void				bot_clear_list(t_bot *head);
 int 				parse_bot(t_union *un);
 t_pc				*pc_push_back(t_pc *head, int pos, int bot_num);
-t_pc				*pc_push_front(t_pc *head, int pos, int bot_num);
+t_pc				*pc_push_front(t_pc *head, t_pc *new);
 void				delete_pc(t_pc *head, t_pc *to_del);
 void				display_map(t_union *un);
 void				corewar(t_union *un);
+t_pc	*pc_new(int pos, int bot_num);
+
 
 
 //
 int					ft_get_int(t_union *un, int start, int lenght);
 uint8_t				*ft_get_char_from_int(t_pc *pc, int num);
 void				ft_check_codage(uint8_t codage, t_pc *pc);
-void ft_live(t_pc *pc, t_union *un);
-
+void				ft_live(t_pc *pc, t_union *un);
+void ft_load(t_pc *pc, t_union *un);
+void ft_st(t_pc *pc, t_union *un);
+void ft_add(t_pc *pc, t_union *un);
+void ft_sub(t_pc *pc, t_union *un);
+void ft_and(t_pc *pc, t_union *un);
+void ft_or(t_pc *pc, t_union *un);
+void ft_xor(t_pc *pc, t_union *un);
+void ft_zjmp(t_pc *pc, t_union *un);
+void ft_ldi(t_pc *pc, t_union *un);
+void ft_sti(t_pc *pc, t_union *un);
+void ft_fork(t_pc *pc, t_union *un);
+void ft_lld(t_pc *pc, t_union *un);
+void ft_lldi(t_pc *pc, t_union *un);
+void ft_lfork(t_pc *pc, t_union *un);
+t_pc    *pc_copy(t_pc *prev, int position);
 
 //
 #endif

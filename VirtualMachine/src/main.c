@@ -33,6 +33,7 @@ int				main(int argc, char **argv)
 {
 	t_union		un;
 
+	un.visual = 0;
 	if (parsing(argc, argv, &un))
 	{
 		ft_printf("OK\n");

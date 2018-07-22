@@ -44,16 +44,15 @@ static int if_file(t_union *un, char *num, char *filename)
 	return (1);
 }
 
-static void	visualisation(int *i)
+static void	visualisation(int *i, t_union *un)
 {
-	ft_printf("Visualisation\n");
+	un->visual = 1;
 	++*i;
 }
 
 static int flag_n(t_union *un, char **argv)
 {
-	if (un->count.i + 2 >= un->argc || !is_number(argv[un->count.i + 1])
-				|| ft_atoi(argv[un->count.i + 1]) < 0)
+	if (un->count.i + 2 >= un->argc || !is_number(argv[un->count.i + 1]))
 		return (0);
 	un->count.i += 2;
 	if ((un->count.fd = open(argv[un->count.i], O_RDONLY)) < 0)
@@ -92,7 +91,7 @@ int		check_if_input_correct(char **argv, t_union *un)
 				return (-1);
 		}
 		else if (!ft_strcmp("-v", argv[un->count.i]))
-			visualisation(&un->count.i);
+			visualisation(&un->count.i, un);
 		else
 			return (0);
 	}

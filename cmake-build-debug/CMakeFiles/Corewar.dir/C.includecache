@@ -84,6 +84,10 @@ ncurses.h
 ../../inc/parsing.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 
+/Users/vmiachko/Corewar/VirtualMachine/src/parsing_comands.c
+../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+
 /Users/vmiachko/Corewar/libft/ft_printf/ft_printf.h
 ../libft.h
 /Users/vmiachko/Corewar/libft/libft.h
