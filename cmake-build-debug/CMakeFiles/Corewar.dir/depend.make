@@ -77,9 +77,9 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.o: ../VirtualMachine
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.o: ../libft/libft.h
 
-CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o: ../VirtualMachine/inc/op.h
-CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o: ../VirtualMachine/inc/vm.h
-CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o: ../VirtualMachine/src/parsing_comands.c
-CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o: ../libft/ft_printf/ft_printf.h
-CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o: ../libft/libft.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o: ../VirtualMachine/src/parsing_commands.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o: ../libft/libft.h
 

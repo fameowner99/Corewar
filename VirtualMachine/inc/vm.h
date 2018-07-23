@@ -45,7 +45,6 @@ typedef	struct		s_pc
 	int 			alive;
 	int				curr_command;
 	int 			number_cycles_to_wait;
-	uint8_t			arg[3]; //?
 	struct s_pc		*next;
 	struct s_pc		*prev;
 }					t_pc;
@@ -74,6 +73,7 @@ typedef struct		s_union
 	t_counter		count;
 	int 			cycle;
 	int 			visual;
+	uint8_t			arg[3];
 }					t_union;
 
 t_bot				*bot_push_back(t_bot *head, char *filename, int id);
@@ -85,13 +85,14 @@ void				delete_pc(t_pc *head, t_pc *to_del);
 void				display_map(t_union *un);
 void				corewar(t_union *un);
 t_pc	*pc_new(int pos, int bot_num);
-
+void 		move_code_to_map(t_union *un, int color);
+void		update_pc(t_union *un);
 
 
 //
 int					ft_get_int(t_union *un, int start, int lenght);
-uint8_t				*ft_get_char_from_int(t_pc *pc, int num);
-void				ft_check_codage(uint8_t codage, t_pc *pc);
+uint8_t* ft_get_char_from_int(t_pc *pc, unsigned int num);
+void ft_check_codage(uint8_t codage, t_union *un);
 void				ft_live(t_pc *pc, t_union *un);
 void ft_load(t_pc *pc, t_union *un);
 void ft_st(t_pc *pc, t_union *un);
@@ -108,6 +109,8 @@ void ft_lld(t_pc *pc, t_union *un);
 void ft_lldi(t_pc *pc, t_union *un);
 void ft_lfork(t_pc *pc, t_union *un);
 t_pc    *pc_copy(t_pc *prev, int position);
+void choose_number_cycles_to_wait(t_pc *pc, t_union *un);
+void choose_commands(t_pc *pc, t_union *un);
 
 //
 #endif

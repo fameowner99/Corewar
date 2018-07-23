@@ -39,6 +39,12 @@ int				main(int argc, char **argv)
 		ft_printf("OK\n");
 		un.map = (t_map *)malloc(MEM_SIZE * sizeof(t_map) + 1);
 		initialize_map(&un);
+		move_code_to_map(&un, 2);
+		/*while(1)
+		{
+			corewar(&un);
+			update_pc(&un);
+		}*/
 		display_map(&un);
 	}
 	return (0);

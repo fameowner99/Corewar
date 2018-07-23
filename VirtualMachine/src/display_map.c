@@ -16,13 +16,17 @@ void 		move_code_to_map(t_union *un, int color)
 	while (bot)
 	{
 		un->pc = pc_push_front(un->pc,pc_new(j + move, bot->id));
+
 		i = 0;
 		while (i < bot->code_length)
 		{
 			un->map[j + move].value = bot->code[i];
 			un->map[j + move].color = color;
 			if (i == 0)
+			{
 				un->map[j + move].cursor = 1;
+				un->pc->curr_command = un->map[j + move].value;
+			}
 			++i;
 			++j;
 		}
@@ -30,6 +34,27 @@ void 		move_code_to_map(t_union *un, int color)
 		++color;
 		bot = bot->next;
 	}
+}
+
+
+void		update_pc(t_union *un)
+{
+	int		i;
+	t_pc	*pc;
+
+	i = 0;
+	while (i < MEM_SIZE)
+	{
+		un->map[i].cursor = 0;
+		++i;
+	}
+	pc = un->pc;
+	while (pc)
+	{
+		un->map[pc->curr_position].cursor = 1;
+		pc = pc->next;
+	}
+
 }
 
 void		display_map(t_union *un)
@@ -52,6 +77,8 @@ void		display_map(t_union *un)
 	init_pair(3, COLOR_BLUE, COLOR_BLACK);
 	init_pair(5, COLOR_YELLOW, COLOR_BLACK);
 	init_pair(4, COLOR_MAGENTA, COLOR_BLACK);
+	init_pair(11, COLOR_WHITE, COLOR_CYAN);
+	init_pair(19, COLOR_GREEN, COLOR_GREEN);
 	init_pair(12, COLOR_WHITE, COLOR_RED);
 	init_pair(13, COLOR_WHITE, COLOR_BLUE);
 	init_pair(14, COLOR_WHITE, COLOR_MAGENTA);
@@ -94,9 +121,9 @@ static int p = 0;
 		key = getch();
 		if (key == 27)
 			break ;
-		usleep(13 *100000);
-		//corewar();
-		ft_sti(un->pc, un);
+		usleep( 10000);
+		corewar(un);
+		update_pc(un);
 		++p;
 		clear();
 }

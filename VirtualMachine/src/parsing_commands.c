@@ -1,14 +1,8 @@
-//
-//  parsing_comands.c
-//  corewar
-//
-//  Created by Tetiana PIVEN on 7/22/18.
-//  Copyright © 2018 Tetiana PIVEN. All rights reserved.
-//
+
 
 #include "../inc/vm.h"
 
-void ft_pc_commands(t_pc *pc, t_union *un)
+void choose_number_cycles_to_wait(t_pc *pc, t_union *un)
 {
     pc->curr_command = un->map[pc->curr_position].value;
     if (pc->curr_command == 1 || pc->curr_command == 4 || pc->curr_command == 5 || pc->curr_command == 13)
@@ -31,7 +25,7 @@ void ft_pc_commands(t_pc *pc, t_union *un)
         pc->number_cycles_to_wait = 2;
 }
 
-void ft_choise_commands(t_pc *pc, t_union *un)
+void choose_commands(t_pc *pc, t_union *un)
 {
     if (pc->curr_command == 1)
         ft_live(pc, un);
@@ -63,7 +57,10 @@ void ft_choise_commands(t_pc *pc, t_union *un)
         ft_lldi(pc, un);
     if (pc->curr_command == 15)
         ft_lfork(pc, un);
+	if (pc->curr_command == 0)
+		++pc->curr_position;
+
     //if (pc->curr_command == 16)
       //  ft_aff(pc, un);
-    
+
 }

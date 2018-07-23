@@ -11,7 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Corewar.dir/VirtualMachine/src/commands.c.o"
   "CMakeFiles/Corewar.dir/VirtualMachine/src/ft_get_int.c.o"
   "CMakeFiles/Corewar.dir/VirtualMachine/src/corewar.c.o"
-  "CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o"
+  "CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o"
   "Corewar.pdb"
   "Corewar"
 )

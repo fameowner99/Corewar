@@ -84,7 +84,7 @@ ncurses.h
 ../../inc/parsing.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 
-/Users/vmiachko/Corewar/VirtualMachine/src/parsing_comands.c
+/Users/vmiachko/Corewar/VirtualMachine/src/parsing_commands.c
 ../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 

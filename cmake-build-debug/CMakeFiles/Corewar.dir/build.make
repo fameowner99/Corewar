@@ -345,28 +345,28 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/corewar.c.o.provides: CMakeFiles/Corew
 CMakeFiles/Corewar.dir/VirtualMachine/src/corewar.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/corewar.c.o
 
 
-CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o: CMakeFiles/Corewar.dir/flags.make
-CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o: ../VirtualMachine/src/parsing_comands.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/parsing_comands.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o: ../VirtualMachine/src/parsing_commands.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/parsing_commands.c
 
-CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/parsing_comands.c > CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.i
+CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/parsing_commands.c > CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.i
 
-CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/parsing_comands.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.s
+CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/parsing_commands.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.s
 
-CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o.requires:
+CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o.requires:
 
-.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o.requires
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o.requires
 
-CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o.requires
-	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o.provides.build
-.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o.provides
+CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o.provides
 
-CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o
+CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o
 
 
 # Object files for target Corewar
@@ -383,7 +383,7 @@ Corewar_OBJECTS = \
 "CMakeFiles/Corewar.dir/VirtualMachine/src/commands.c.o" \
 "CMakeFiles/Corewar.dir/VirtualMachine/src/ft_get_int.c.o" \
 "CMakeFiles/Corewar.dir/VirtualMachine/src/corewar.c.o" \
-"CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o"
+"CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o"
 
 # External object files for target Corewar
 Corewar_EXTERNAL_OBJECTS =
@@ -400,7 +400,7 @@ Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/display_map.c.o
 Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands.c.o
 Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/ft_get_int.c.o
 Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/corewar.c.o
-Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o
 Corewar: CMakeFiles/Corewar.dir/build.make
 Corewar: /usr/lib/libcurses.dylib
 Corewar: /usr/lib/libform.dylib
@@ -426,7 +426,7 @@ CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/displ
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/ft_get_int.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/corewar.c.o.requires
-CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_comands.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/parsing_commands.c.o.requires
 
 .PHONY : CMakeFiles/Corewar.dir/requires
 

@@ -17,7 +17,7 @@ add_executable(Corewar
         VirtualMachine/src/commands.c
         VirtualMachine/src/ft_get_int.c
         VirtualMachine/src/corewar.c
-        VirtualMachine/src/parsing_comands.c)
+        VirtualMachine/src/parsing_commands.c)
 
 find_package(Curses REQUIRED)
 
