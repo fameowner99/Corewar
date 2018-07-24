@@ -72,6 +72,8 @@ typedef struct		s_union
 	int 			argc;
 	t_counter		count;
 	int 			cycle;
+	int 			cycle_to_die;
+	int 			checks;
 	int 			visual;
 	uint8_t			arg[3];
 }					t_union;
@@ -108,6 +110,7 @@ void ft_fork(t_pc *pc, t_union *un);
 void ft_lld(t_pc *pc, t_union *un);
 void ft_lldi(t_pc *pc, t_union *un);
 void ft_lfork(t_pc *pc, t_union *un);
+void ft_aff(t_pc *pc, t_union *un);
 t_pc    *pc_copy(t_pc *prev, int position);
 void choose_number_cycles_to_wait(t_pc *pc, t_union *un);
 void choose_commands(t_pc *pc, t_union *un);

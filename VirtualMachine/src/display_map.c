@@ -69,7 +69,6 @@ void		display_map(t_union *un)
 	nodelay(stdscr, TRUE);
 	noecho();
 	curs_set(0);
-	move_code_to_map(un, 2);
 	start_color();
 	init_pair(9,  COLOR_BLACK,COLOR_WHITE);
 	init_pair(1, COLOR_WHITE, COLOR_BLACK);
@@ -84,7 +83,7 @@ void		display_map(t_union *un)
 	init_pair(14, COLOR_WHITE, COLOR_MAGENTA);
 	init_pair(15, COLOR_WHITE, COLOR_YELLOW);
 
-static int p = 0;
+
 	while (key)
 	{
 
@@ -121,13 +120,11 @@ static int p = 0;
 		key = getch();
 		if (key == 27)
 			break ;
-		usleep( 10000);
+		usleep(100000);
 		corewar(un);
 		update_pc(un);
-		++p;
 		clear();
 }
-
 	endwin();
 	curs_set(1);
 }

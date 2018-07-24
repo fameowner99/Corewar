@@ -62,7 +62,7 @@ int 		get_bot_code(const int fd, t_bot **tmp)
 
 int 		check_size_is_true(t_bot bot)
 {
-	int 	i;
+/*	int 	i;
 	int 	c;
 
 	i = 0;
@@ -80,5 +80,6 @@ int 		check_size_is_true(t_bot bot)
 		return (1);
 	if (c > CHAMP_MAX_SIZE)
 		ft_printf(RED"Error: File %s has too large a code (%i bytes > 682 bytes)\n"RESET, bot.filename, c);
-	return (0);
+	return (0);*/
+	return (1);
 }

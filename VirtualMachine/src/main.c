@@ -29,23 +29,32 @@ void			initialize_map(t_union *un)
 	}
 }
 
+void			without_visual(t_union *un)
+{
+	while(un->cycle_to_die > 0 && un->pc)
+	{
+		corewar(un);
+		update_pc(un);
+	}
+}
+
 int				main(int argc, char **argv)
 {
 	t_union		un;
 
 	un.visual = 0;
+	un.checks = 0;
+	un.cycle_to_die = CYCLE_TO_DIE;
 	if (parsing(argc, argv, &un))
 	{
 		ft_printf("OK\n");
 		un.map = (t_map *)malloc(MEM_SIZE * sizeof(t_map) + 1);
 		initialize_map(&un);
 		move_code_to_map(&un, 2);
-		/*while(1)
-		{
-			corewar(&un);
-			update_pc(&un);
-		}*/
-		display_map(&un);
+		if (un.visual)
+			display_map(&un);
+		else
+			without_visual(&un);
 	}
 	return (0);
 }
