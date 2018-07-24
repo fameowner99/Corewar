@@ -34,7 +34,6 @@ void			without_visual(t_union *un)
 	while(un->cycle_to_die > 0 && un->pc)
 	{
 		corewar(un);
-		update_pc(un);
 	}
 }
 

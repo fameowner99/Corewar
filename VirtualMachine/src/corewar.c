@@ -46,7 +46,7 @@ void		check_if_pc_alive(t_union *un)
 	while (pc)
 	{
 		if (!pc->alive)
-			delete_pc(un->pc, pc);
+			un->pc = delete_pc(un->pc, pc);
 		else
 			pc->alive = 0;
 		pc = pc->next;
@@ -56,26 +56,12 @@ void		check_if_pc_alive(t_union *un)
 int		decrease_cycle_to_die(t_union *un)
 {
 	t_bot	*bot;
-	t_pc	*pc;
-	int 	sum;
-
 
 	bot = un->bot;
 	while (bot)
 	{
-		sum = 0;
-		pc = un->pc;
-		while (pc)
-		{
-			if (bot->id == pc->creator_id)
-				++sum;
-			pc = pc->next;
-		}
-		if (sum > 21)
-		{
-			un->checks = 0;
+		if (bot->num_live > 21)
 			return (1);
-		}
 		bot = bot->next;
 	}
 	return (0);

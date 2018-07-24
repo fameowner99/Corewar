@@ -101,27 +101,42 @@ t_pc		*pc_push_front(t_pc *head, t_pc *new)
 	return (head);
 }*/
 
-void		delete_pc(t_pc *head, t_pc *to_del)
+t_pc		*delete_pc(t_pc *head, t_pc *to_del)
 {
 	t_pc	*tmp;
-	t_pc	*prev;
 	t_pc	*next;
 
-	prev = NULL;
 	tmp = head;
 	while (tmp)
 	{
-		next = tmp->next;
 		if (tmp == to_del)
 		{
+			next = tmp->next;
+			if (tmp == head)
+			{
+				if (next)
+					next->prev = NULL;
+				return (next);
+			}
+			if (tmp->prev)
+				tmp->prev->next = tmp->next;
+			if (tmp->next)
+				tmp->next->prev = tmp->prev;
 			free(tmp);
-			if (prev)
-				prev->next = next;
-			if (next)
-				next->prev = prev;
-			return ;
+			return (head);
 		}
-		prev = tmp;
 		tmp = tmp->next;
 	}
+	return (head);
 }
+/*if (tmp == to_del)
+{
+free(tmp);
+if (prev)
+prev->next = next;
+if (next)
+next->prev = prev;
+return ;
+}
+prev = tmp;
+ */

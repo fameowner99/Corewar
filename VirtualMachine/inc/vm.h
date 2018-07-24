@@ -83,7 +83,7 @@ void				bot_clear_list(t_bot *head);
 int 				parse_bot(t_union *un);
 t_pc				*pc_push_back(t_pc *head, int pos, int bot_num);
 t_pc				*pc_push_front(t_pc *head, t_pc *new);
-void				delete_pc(t_pc *head, t_pc *to_del);
+t_pc		*delete_pc(t_pc *head, t_pc *to_del);
 void				display_map(t_union *un);
 void				corewar(t_union *un);
 t_pc	*pc_new(int pos, int bot_num);
