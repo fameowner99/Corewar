@@ -19,6 +19,12 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/display_map.c.o
  /Users/vmiachko/Corewar/VirtualMachine/src/display_map.c
  /Users/vmiachko/Corewar/libft/ft_printf/ft_printf.h
  /Users/vmiachko/Corewar/libft/libft.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/end_game.c.o
+ /Users/vmiachko/Corewar/VirtualMachine/inc/op.h
+ /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+ /Users/vmiachko/Corewar/VirtualMachine/src/end_game.c
+ /Users/vmiachko/Corewar/libft/ft_printf/ft_printf.h
+ /Users/vmiachko/Corewar/libft/libft.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/ft_get_int.c.o
  /Users/vmiachko/Corewar/VirtualMachine/inc/op.h
  /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
@@ -36,6 +42,12 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/manage_bot_list.c.o
  /Users/vmiachko/Corewar/VirtualMachine/inc/op.h
  /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
  /Users/vmiachko/Corewar/VirtualMachine/src/manage_bot_list.c
+ /Users/vmiachko/Corewar/libft/ft_printf/ft_printf.h
+ /Users/vmiachko/Corewar/libft/libft.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/manage_map.c.o
+ /Users/vmiachko/Corewar/VirtualMachine/inc/op.h
+ /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+ /Users/vmiachko/Corewar/VirtualMachine/src/manage_map.c
  /Users/vmiachko/Corewar/libft/ft_printf/ft_printf.h
  /Users/vmiachko/Corewar/libft/libft.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/manage_pc_list.c.o

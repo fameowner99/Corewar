@@ -19,6 +19,12 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/display_map.c.o: ../VirtualMachine/src
 CMakeFiles/Corewar.dir/VirtualMachine/src/display_map.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/display_map.c.o: ../libft/libft.h
 
+CMakeFiles/Corewar.dir/VirtualMachine/src/end_game.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/end_game.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/end_game.c.o: ../VirtualMachine/src/end_game.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/end_game.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/end_game.c.o: ../libft/libft.h
+
 CMakeFiles/Corewar.dir/VirtualMachine/src/ft_get_int.c.o: ../VirtualMachine/inc/op.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/ft_get_int.c.o: ../VirtualMachine/inc/vm.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/ft_get_int.c.o: ../VirtualMachine/src/ft_get_int.c
@@ -37,6 +43,12 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/manage_bot_list.c.o: ../VirtualMachine
 CMakeFiles/Corewar.dir/VirtualMachine/src/manage_bot_list.c.o: ../VirtualMachine/src/manage_bot_list.c
 CMakeFiles/Corewar.dir/VirtualMachine/src/manage_bot_list.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/manage_bot_list.c.o: ../libft/libft.h
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/manage_map.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/manage_map.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/manage_map.c.o: ../VirtualMachine/src/manage_map.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/manage_map.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/manage_map.c.o: ../libft/libft.h
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/manage_pc_list.c.o: ../VirtualMachine/inc/op.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/manage_pc_list.c.o: ../VirtualMachine/inc/vm.h

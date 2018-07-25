@@ -38,6 +38,7 @@ static int if_file(t_union *un, char *num, char *filename)
 	else
 		id = 0;
 	un->bot = bot_push_back(un->bot, filename, id);
+	++un->bots_number;
 
 	++un->count.c;
 	++un->count.i;

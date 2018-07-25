@@ -40,6 +40,10 @@ ncurses.h
 ../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
+/Users/vmiachko/Corewar/VirtualMachine/src/end_game.c
+../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+
 /Users/vmiachko/Corewar/VirtualMachine/src/ft_get_int.c
 ../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
@@ -51,6 +55,10 @@ ncurses.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 
 /Users/vmiachko/Corewar/VirtualMachine/src/manage_bot_list.c
+../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+
+/Users/vmiachko/Corewar/VirtualMachine/src/manage_map.c
 ../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 

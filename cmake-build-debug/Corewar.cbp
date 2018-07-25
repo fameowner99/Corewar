@@ -89,6 +89,9 @@
 		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/display_map.c">
 			<Option target="Corewar"/>
 		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/end_game.c">
+			<Option target="Corewar"/>
+		</Unit>
 		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/ft_get_int.c">
 			<Option target="Corewar"/>
 		</Unit>
@@ -96,6 +99,9 @@
 			<Option target="Corewar"/>
 		</Unit>
 		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/manage_bot_list.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/manage_map.c">
 			<Option target="Corewar"/>
 		</Unit>
 		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/manage_pc_list.c">

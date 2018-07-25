@@ -13,7 +13,6 @@
 #include "../inc/vm.h"
 
 
-
 static t_pc *clear_arr(t_pc *pc)
 {
 	int i;
@@ -32,7 +31,6 @@ t_pc	*pc_new(int pos, int bot_num)
 	t_pc	*res;
 	int 	i;
 
-	i = 0;
 	if (!(res = (t_pc *)malloc(sizeof(t_pc))))
 		return (NULL);
 	res->curr_position = pos;
@@ -47,7 +45,7 @@ t_pc	*pc_new(int pos, int bot_num)
 	}
 	res->alive = 0;
 	res->curr_command = 0;
-	res->number_cycles_to_wait = 0;
+	res->number_cycles_to_wait = -1;
 	res->next = NULL;
 	res->prev = NULL;
 	clear_arr(res);
@@ -56,14 +54,19 @@ t_pc	*pc_new(int pos, int bot_num)
 
 t_pc    *pc_copy(t_pc *prev, int position)
 {
+    int i;
 	t_pc    *res;
-
+    i = 0;
 	if (!(res = (t_pc *)malloc(sizeof(t_pc))))
 		return (NULL);
 	res->curr_position = position;
-	res->carry = 0; //перевірити
+	res->carry = prev->carry; //перевірити
 	res->creator_id = prev->creator_id;
-	res->reg[0] = prev->reg[0];
+    while (i < 16)
+    {
+        res->reg[i] = prev->reg[i];
+        ++i;
+    }
 	res->alive = 0;
 	res->curr_command = 0;
 	res->number_cycles_to_wait = -1;
@@ -73,9 +76,10 @@ t_pc    *pc_copy(t_pc *prev, int position)
 }
 
 
-t_pc		*pc_push_front(t_pc *head, t_pc *new)
+t_pc		*pc_push_front(t_pc *head, t_pc *new, t_union *un)
 {
 	new->next = head;
+	++un->procces_number;
 	if (head != NULL)
 		head->prev = new;
 	return (new);
@@ -101,7 +105,7 @@ t_pc		*pc_push_front(t_pc *head, t_pc *new)
 	return (head);
 }*/
 
-t_pc		*delete_pc(t_pc *head, t_pc *to_del)
+t_pc		*delete_pc(t_pc *head, t_pc *to_del, t_union *un)
 {
 	t_pc	*tmp;
 	t_pc	*next;
@@ -114,6 +118,7 @@ t_pc		*delete_pc(t_pc *head, t_pc *to_del)
 			next = tmp->next;
 			if (tmp == head)
 			{
+				--un->procces_number;
 				if (next)
 					next->prev = NULL;
 				return (next);
@@ -129,14 +134,3 @@ t_pc		*delete_pc(t_pc *head, t_pc *to_del)
 	}
 	return (head);
 }
-/*if (tmp == to_del)
-{
-free(tmp);
-if (prev)
-prev->next = next;
-if (next)
-next->prev = prev;
-return ;
-}
-prev = tmp;
- */

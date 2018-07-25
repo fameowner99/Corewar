@@ -204,6 +204,33 @@ VirtualMachine/src/display_map.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/display_map.c.s
 .PHONY : VirtualMachine/src/display_map.c.s
 
+VirtualMachine/src/end_game.o: VirtualMachine/src/end_game.c.o
+
+.PHONY : VirtualMachine/src/end_game.o
+
+# target to build an object file
+VirtualMachine/src/end_game.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/end_game.c.o
+.PHONY : VirtualMachine/src/end_game.c.o
+
+VirtualMachine/src/end_game.i: VirtualMachine/src/end_game.c.i
+
+.PHONY : VirtualMachine/src/end_game.i
+
+# target to preprocess a source file
+VirtualMachine/src/end_game.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/end_game.c.i
+.PHONY : VirtualMachine/src/end_game.c.i
+
+VirtualMachine/src/end_game.s: VirtualMachine/src/end_game.c.s
+
+.PHONY : VirtualMachine/src/end_game.s
+
+# target to generate assembly for a file
+VirtualMachine/src/end_game.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/end_game.c.s
+.PHONY : VirtualMachine/src/end_game.c.s
+
 VirtualMachine/src/ft_get_int.o: VirtualMachine/src/ft_get_int.c.o
 
 .PHONY : VirtualMachine/src/ft_get_int.o
@@ -284,6 +311,33 @@ VirtualMachine/src/manage_bot_list.s: VirtualMachine/src/manage_bot_list.c.s
 VirtualMachine/src/manage_bot_list.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/manage_bot_list.c.s
 .PHONY : VirtualMachine/src/manage_bot_list.c.s
+
+VirtualMachine/src/manage_map.o: VirtualMachine/src/manage_map.c.o
+
+.PHONY : VirtualMachine/src/manage_map.o
+
+# target to build an object file
+VirtualMachine/src/manage_map.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/manage_map.c.o
+.PHONY : VirtualMachine/src/manage_map.c.o
+
+VirtualMachine/src/manage_map.i: VirtualMachine/src/manage_map.c.i
+
+.PHONY : VirtualMachine/src/manage_map.i
+
+# target to preprocess a source file
+VirtualMachine/src/manage_map.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/manage_map.c.i
+.PHONY : VirtualMachine/src/manage_map.c.i
+
+VirtualMachine/src/manage_map.s: VirtualMachine/src/manage_map.c.s
+
+.PHONY : VirtualMachine/src/manage_map.s
+
+# target to generate assembly for a file
+VirtualMachine/src/manage_map.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/manage_map.c.s
+.PHONY : VirtualMachine/src/manage_map.c.s
 
 VirtualMachine/src/manage_pc_list.o: VirtualMachine/src/manage_pc_list.c.o
 
@@ -492,6 +546,9 @@ help:
 	@echo "... VirtualMachine/src/display_map.o"
 	@echo "... VirtualMachine/src/display_map.i"
 	@echo "... VirtualMachine/src/display_map.s"
+	@echo "... VirtualMachine/src/end_game.o"
+	@echo "... VirtualMachine/src/end_game.i"
+	@echo "... VirtualMachine/src/end_game.s"
 	@echo "... VirtualMachine/src/ft_get_int.o"
 	@echo "... VirtualMachine/src/ft_get_int.i"
 	@echo "... VirtualMachine/src/ft_get_int.s"
@@ -501,6 +558,9 @@ help:
 	@echo "... VirtualMachine/src/manage_bot_list.o"
 	@echo "... VirtualMachine/src/manage_bot_list.i"
 	@echo "... VirtualMachine/src/manage_bot_list.s"
+	@echo "... VirtualMachine/src/manage_map.o"
+	@echo "... VirtualMachine/src/manage_map.i"
+	@echo "... VirtualMachine/src/manage_map.s"
 	@echo "... VirtualMachine/src/manage_pc_list.o"
 	@echo "... VirtualMachine/src/manage_pc_list.i"
 	@echo "... VirtualMachine/src/manage_pc_list.s"

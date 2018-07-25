@@ -76,19 +76,27 @@ typedef struct		s_union
 	int 			checks;
 	int 			visual;
 	uint8_t			arg[3];
+	int 			bots_number;
+	int 			procces_number;
 }					t_union;
 
 t_bot				*bot_push_back(t_bot *head, char *filename, int id);
 void				bot_clear_list(t_bot *head);
 int 				parse_bot(t_union *un);
 t_pc				*pc_push_back(t_pc *head, int pos, int bot_num);
-t_pc				*pc_push_front(t_pc *head, t_pc *new);
-t_pc		*delete_pc(t_pc *head, t_pc *to_del);
+t_pc				*pc_push_front(t_pc *head, t_pc *new, t_union *un);
+t_pc		*delete_pc(t_pc *head, t_pc *to_del, t_union *un);
 void				display_map(t_union *un);
 void				corewar(t_union *un);
 t_pc	*pc_new(int pos, int bot_num);
 void 		move_code_to_map(t_union *un, int color);
 void		update_pc(t_union *un);
+void			initialize_map(t_union *un);
+void 		move_code_to_map(t_union *un, int color);
+void			initialize_map(t_union *un);
+void		check_if_pc_alive(t_union *un);
+int		decrease_cycle_to_die(t_union *un);
+void		clear_num_live(t_union *un);
 
 
 //

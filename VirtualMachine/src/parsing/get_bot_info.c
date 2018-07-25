@@ -15,7 +15,7 @@ int 		get_bot_name(const int fd, t_bot **tmp)
 int 		get_bot_size(const int fd, t_bot **tmp)
 {
 	int 	r;
-	char 	buf[8];
+	unsigned char 	buf[8];
 
 	r = (int)read(fd, &buf, 4);
 	if (r < 4)
@@ -60,26 +60,13 @@ int 		get_bot_code(const int fd, t_bot **tmp)
 	return (1);
 }
 
-int 		check_size_is_true(t_bot bot)
-{
-/*	int 	i;
-	int 	c;
 
-	i = 0;
-	c = 0;
-	while (!bot.code[i])
-	{
-		++i;
-	}
-	while (i < bot.code_length)
-	{
-		++c;
-		++i;
-	}
-	if (c == bot.size)
+int         check_size_is_true(t_bot bot)
+{
+
+	if (bot.code_length == bot.size)
 		return (1);
-	if (c > CHAMP_MAX_SIZE)
-		ft_printf(RED"Error: File %s has too large a code (%i bytes > 682 bytes)\n"RESET, bot.filename, c);
-	return (0);*/
-	return (1);
+	if (bot.code_length > CHAMP_MAX_SIZE)
+		ft_printf(RED"Error: File %s has too large a code (%i bytes > 682 bytes)\n"RESET, bot.filename, bot.code_length);
+	return (0);
 }
