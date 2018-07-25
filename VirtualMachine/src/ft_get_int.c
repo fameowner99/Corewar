@@ -12,7 +12,8 @@
 int ft_get_int(t_union *un, int start, int lenght)
 {
     int ar;
-    
+
+    ar = 0;
     if (lenght == 4)
     {
         ar = (un->map[start].value << 24);

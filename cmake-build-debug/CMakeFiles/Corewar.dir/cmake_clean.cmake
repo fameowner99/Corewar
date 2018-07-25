@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Corewar.dir/VirtualMachine/src/display_map.c.o"
   "CMakeFiles/Corewar.dir/VirtualMachine/src/manage_map.c.o"
   "CMakeFiles/Corewar.dir/VirtualMachine/src/end_game.c.o"
+  "CMakeFiles/Corewar.dir/VirtualMachine/src/manage_pc_list2.c.o"
   "Corewar.pdb"
   "Corewar"
 )

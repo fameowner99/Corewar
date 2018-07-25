@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/vmiachko/Corewar/VirtualMachine/src/manage_bot_list.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/manage_bot_list.c.o"
   "/Users/vmiachko/Corewar/VirtualMachine/src/manage_map.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/manage_map.c.o"
   "/Users/vmiachko/Corewar/VirtualMachine/src/manage_pc_list.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/manage_pc_list.c.o"
+  "/Users/vmiachko/Corewar/VirtualMachine/src/manage_pc_list2.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/manage_pc_list2.c.o"
   "/Users/vmiachko/Corewar/VirtualMachine/src/parsing/get_bot_info.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o"
   "/Users/vmiachko/Corewar/VirtualMachine/src/parsing/manage_arguments.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/manage_arguments.c.o"
   "/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot.c.o"

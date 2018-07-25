@@ -366,6 +366,33 @@ VirtualMachine/src/manage_pc_list.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/manage_pc_list.c.s
 .PHONY : VirtualMachine/src/manage_pc_list.c.s
 
+VirtualMachine/src/manage_pc_list2.o: VirtualMachine/src/manage_pc_list2.c.o
+
+.PHONY : VirtualMachine/src/manage_pc_list2.o
+
+# target to build an object file
+VirtualMachine/src/manage_pc_list2.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/manage_pc_list2.c.o
+.PHONY : VirtualMachine/src/manage_pc_list2.c.o
+
+VirtualMachine/src/manage_pc_list2.i: VirtualMachine/src/manage_pc_list2.c.i
+
+.PHONY : VirtualMachine/src/manage_pc_list2.i
+
+# target to preprocess a source file
+VirtualMachine/src/manage_pc_list2.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/manage_pc_list2.c.i
+.PHONY : VirtualMachine/src/manage_pc_list2.c.i
+
+VirtualMachine/src/manage_pc_list2.s: VirtualMachine/src/manage_pc_list2.c.s
+
+.PHONY : VirtualMachine/src/manage_pc_list2.s
+
+# target to generate assembly for a file
+VirtualMachine/src/manage_pc_list2.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/manage_pc_list2.c.s
+.PHONY : VirtualMachine/src/manage_pc_list2.c.s
+
 VirtualMachine/src/parsing/get_bot_info.o: VirtualMachine/src/parsing/get_bot_info.c.o
 
 .PHONY : VirtualMachine/src/parsing/get_bot_info.o
@@ -564,6 +591,9 @@ help:
 	@echo "... VirtualMachine/src/manage_pc_list.o"
 	@echo "... VirtualMachine/src/manage_pc_list.i"
 	@echo "... VirtualMachine/src/manage_pc_list.s"
+	@echo "... VirtualMachine/src/manage_pc_list2.o"
+	@echo "... VirtualMachine/src/manage_pc_list2.i"
+	@echo "... VirtualMachine/src/manage_pc_list2.s"
 	@echo "... VirtualMachine/src/parsing/get_bot_info.o"
 	@echo "... VirtualMachine/src/parsing/get_bot_info.i"
 	@echo "... VirtualMachine/src/parsing/get_bot_info.s"

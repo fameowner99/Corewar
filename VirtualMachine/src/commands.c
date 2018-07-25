@@ -24,6 +24,8 @@ void ft_load(t_pc *pc, t_union *un)
 {
 	unsigned int n;
 	int plus;
+
+	plus = 0;
 	ft_check_codage(un->map[pc->curr_position + 1].value, un);
 	if (un->arg[0] == DIR_CODE)
 	{
@@ -287,6 +289,7 @@ void ft_ldi(t_pc *pc, t_union *un)
 	int plus;
 	int one;
 	int two;
+	plus = 0;
 	ft_check_codage(un->map[pc->curr_position + 1].value, un);
 	if (un->arg[0] == REG_CODE)
 	{

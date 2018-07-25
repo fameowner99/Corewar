@@ -29,7 +29,6 @@ static t_pc *clear_arr(t_pc *pc)
 t_pc	*pc_new(int pos, int bot_num)
 {
 	t_pc	*res;
-	int 	i;
 
 	if (!(res = (t_pc *)malloc(sizeof(t_pc))))
 		return (NULL);
@@ -37,12 +36,6 @@ t_pc	*pc_new(int pos, int bot_num)
 	res->carry = 0;
 	res->creator_id = bot_num;
 	res->reg[0] = res->creator_id;
-	i = 1;
-	while (i < 16)
-	{
-		res->reg[i] = 0;
-		++i;
-	}
 	res->alive = 0;
 	res->curr_command = 0;
 	res->number_cycles_to_wait = -1;
@@ -85,25 +78,6 @@ t_pc		*pc_push_front(t_pc *head, t_pc *new, t_union *un)
 	return (new);
 }
 
-/*t_pc		*pc_push_back(t_pc *head, int pos, int bot_num)
-{
-	t_pc	*tmp;
-	t_pc	*new;
-	t_pc	*prev;
-
-	prev = NULL;
-	tmp = head;
-	if (!tmp)
-		return (pc_new(pos, bot_num));
-	while (tmp->next)
-	{
-		prev = tmp;
-		tmp = tmp->next;
-	}
-	new = pc_new(pos, bot_num);
-	tmp->next = new;
-	return (head);
-}*/
 
 t_pc		*delete_pc(t_pc *head, t_pc *to_del, t_union *un)
 {

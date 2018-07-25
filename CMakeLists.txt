@@ -19,7 +19,8 @@ add_executable(Corewar
         VirtualMachine/src/parsing_commands.c
         VirtualMachine/src/display_map.c
         VirtualMachine/src/manage_map.c
-        VirtualMachine/src/end_game.c)
+        VirtualMachine/src/end_game.c
+        VirtualMachine/src/manage_pc_list2.c)
 
 
 find_package(Curses REQUIRED)

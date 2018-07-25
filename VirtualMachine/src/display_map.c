@@ -51,6 +51,7 @@ void		display_map(t_union *un)
 				wattron(win, COLOR_PAIR(un->map[i].color + 10));
 			}
 
+
 			mvwprintw(win, y, x, "%02x ", un->map[i].value);
 			x +=3;
 
@@ -84,7 +85,7 @@ void		display_map(t_union *un)
 					break ;
 			}
 		}
-		usleep(100000);
+		//usleep(100000);
 		corewar(un);
 		update_pc(un);
 		//clear();

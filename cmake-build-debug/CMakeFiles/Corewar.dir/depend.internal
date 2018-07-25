@@ -56,6 +56,12 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/manage_pc_list.c.o
  /Users/vmiachko/Corewar/VirtualMachine/src/manage_pc_list.c
  /Users/vmiachko/Corewar/libft/ft_printf/ft_printf.h
  /Users/vmiachko/Corewar/libft/libft.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/manage_pc_list2.c.o
+ /Users/vmiachko/Corewar/VirtualMachine/inc/op.h
+ /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+ /Users/vmiachko/Corewar/VirtualMachine/src/manage_pc_list2.c
+ /Users/vmiachko/Corewar/libft/ft_printf/ft_printf.h
+ /Users/vmiachko/Corewar/libft/libft.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o
  /Users/vmiachko/Corewar/VirtualMachine/inc/op.h
  /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h

@@ -107,6 +107,9 @@
 		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/manage_pc_list.c">
 			<Option target="Corewar"/>
 		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/manage_pc_list2.c">
+			<Option target="Corewar"/>
+		</Unit>
 		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/get_bot_info.c">
 			<Option target="Corewar"/>
 		</Unit>

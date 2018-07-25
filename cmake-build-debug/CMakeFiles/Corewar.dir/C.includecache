@@ -66,6 +66,10 @@ ncurses.h
 ../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
+/Users/vmiachko/Corewar/VirtualMachine/src/manage_pc_list2.c
+../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+
 /Users/vmiachko/Corewar/VirtualMachine/src/parsing/get_bot_info.c
 ../../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h

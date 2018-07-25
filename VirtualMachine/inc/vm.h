@@ -97,6 +97,8 @@ void			initialize_map(t_union *un);
 void		check_if_pc_alive(t_union *un);
 int		decrease_cycle_to_die(t_union *un);
 void		clear_num_live(t_union *un);
+void		pc_clear_list(t_pc *head);
+void		pc_sort_ascending(t_union *un);
 
 
 //
