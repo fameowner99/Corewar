@@ -9,12 +9,12 @@ void ft_live(t_pc *pc, t_union *un)
 	pc->alive = 1;
 	tmp = un->bot;
 	num_player = ft_get_int(un, pc->curr_position + 1, 4);
-	while (tmp != NULL)
+	while (tmp)
 	{
 		if (tmp->id == num_player)
 			tmp->last_live = un->cycle;
 		if (pc->creator_id == tmp->id)
-			tmp->num_live += 1;
+			++tmp->num_live;
 		tmp = tmp->next;
 	}
 	pc->curr_position = pc->curr_position + 5;
@@ -25,7 +25,7 @@ void ft_load(t_pc *pc, t_union *un)
 	unsigned int n;
 	int plus;
 
-	plus = 0;
+
 	ft_check_codage(un->map[pc->curr_position + 1].value, un);
 	if (un->arg[0] == DIR_CODE)
 	{
@@ -354,8 +354,12 @@ void ft_sti(t_pc *pc, t_union *un)
 		two = (short)ft_get_int(un, pc->curr_position + plus, 2);
 		plus += 2;
 	}
+
 	position = (one + two) % IDX_MOD + pc->curr_position;
-	num = ft_get_char_from_int(pc, un->map[pc->curr_position + 2].value - 1);
+
+
+
+	num = ft_get_char_from_int(pc, un->map[pc->curr_position + 2].value == 0 ? 0 : un->map[pc->curr_position + 2].value - 1);
 	un->map[position].value = num[0];
 	un->map[position + 1].value = num[1];
 	un->map[position + 2].value = num[2];

@@ -50,6 +50,7 @@ void			without_visual(t_union *un)
 void		execute_command(t_pc *pc, t_union *un)
 {
 
+
 		if (un->map[pc->curr_position].value >= 1 && un->map[pc->curr_position].value <= 16 && pc->number_cycles_to_wait == -1)
 		{
 			choose_number_cycles_to_wait(pc, un);
@@ -64,10 +65,7 @@ void		execute_command(t_pc *pc, t_union *un)
 			--pc->number_cycles_to_wait;
 		else
 			pc->curr_position++;
-	if (pc->curr_position >= MEM_SIZE)
-		pc->curr_position %= MEM_SIZE;
-	else if (pc->curr_position < 0)
-		pc->curr_position += MEM_SIZE;
+
 }
 
 void		move_pc(t_union *un)

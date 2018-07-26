@@ -33,7 +33,6 @@ void			initialize_map(t_union *un)
 void 		move_code_to_map(t_union *un, int color)
 {
 	int i;
-	int j;
 	int move;
 	t_bot	*bot;
 

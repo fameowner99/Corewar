@@ -18,6 +18,7 @@ int				main(int argc, char **argv)
 {
 	t_union		un;
 
+	un.dump = 0;
 	un.visual = 0;
 	un.checks = 0;
 	un.cycle_to_die = CYCLE_TO_DIE;
