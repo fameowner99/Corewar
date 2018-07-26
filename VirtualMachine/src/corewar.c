@@ -3,6 +3,50 @@
 #include "../inc/vm.h"
 
 
+void			dump(t_union *un)
+{
+	int 		i;
+	int			k;
+	int			h;
+
+	i = 0;
+	k = 0;
+	h = 0;
+	ft_printf("%#.4x : ", h);
+	while (i < MEM_SIZE)
+	{
+		ft_printf("%02x ", un->map[i].value);
+		++i;
+		++k;
+		if (k == 64)
+		{
+			ft_printf("\n");
+			h += 64;
+			if (i < MEM_SIZE)
+				ft_printf("%#.4x : ", h);
+			k = 0;
+		}
+	}
+}
+
+void			without_visual(t_union *un)
+{
+
+	print_players_info(un);
+	while(un->cycle_to_die > 0 && un->pc)
+	{
+		corewar(un);
+		if (un->cycle == un->dump)
+		{
+			dump(un);
+			break ;
+		}
+	}
+	if (!un->dump)
+		print_winner(un);
+
+}
+
 void		execute_command(t_pc *pc, t_union *un)
 {
 

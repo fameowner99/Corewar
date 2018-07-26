@@ -123,6 +123,33 @@ Corewar/fast:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/build
 .PHONY : Corewar/fast
 
+VirtualMachine/src/choose_winner.o: VirtualMachine/src/choose_winner.c.o
+
+.PHONY : VirtualMachine/src/choose_winner.o
+
+# target to build an object file
+VirtualMachine/src/choose_winner.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/choose_winner.c.o
+.PHONY : VirtualMachine/src/choose_winner.c.o
+
+VirtualMachine/src/choose_winner.i: VirtualMachine/src/choose_winner.c.i
+
+.PHONY : VirtualMachine/src/choose_winner.i
+
+# target to preprocess a source file
+VirtualMachine/src/choose_winner.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/choose_winner.c.i
+.PHONY : VirtualMachine/src/choose_winner.c.i
+
+VirtualMachine/src/choose_winner.s: VirtualMachine/src/choose_winner.c.s
+
+.PHONY : VirtualMachine/src/choose_winner.s
+
+# target to generate assembly for a file
+VirtualMachine/src/choose_winner.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/choose_winner.c.s
+.PHONY : VirtualMachine/src/choose_winner.c.s
+
 VirtualMachine/src/commands.o: VirtualMachine/src/commands.c.o
 
 .PHONY : VirtualMachine/src/commands.o
@@ -564,6 +591,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Corewar"
+	@echo "... VirtualMachine/src/choose_winner.o"
+	@echo "... VirtualMachine/src/choose_winner.i"
+	@echo "... VirtualMachine/src/choose_winner.s"
 	@echo "... VirtualMachine/src/commands.o"
 	@echo "... VirtualMachine/src/commands.i"
 	@echo "... VirtualMachine/src/commands.s"

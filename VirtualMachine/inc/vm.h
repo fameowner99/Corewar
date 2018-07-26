@@ -99,6 +99,11 @@ int		decrease_cycle_to_die(t_union *un);
 void		clear_num_live(t_union *un);
 void		pc_clear_list(t_pc *head);
 void		pc_sort_ascending(t_union *un);
+int 		choose_winner(t_union *un);
+void			without_visual(t_union *un);
+void				print_winner(t_union *un);
+void			without_visual(t_union *un);
+void				print_players_info(t_union *un);
 
 
 //

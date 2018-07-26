@@ -102,6 +102,7 @@ t_pc		*delete_pc(t_pc *head, t_pc *to_del, t_union *un)
 			if (tmp->next)
 				tmp->next->prev = tmp->prev;
 			free(tmp);
+			tmp = NULL;
 			return (head);
 		}
 		tmp = tmp->next;

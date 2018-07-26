@@ -28,6 +28,10 @@ unistd.h
 ncurses.h
 -
 
+/Users/vmiachko/Corewar/VirtualMachine/src/choose_winner.c
+../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+
 /Users/vmiachko/Corewar/VirtualMachine/src/commands.c
 ../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h

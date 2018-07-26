@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/vmiachko/Corewar/VirtualMachine/src/choose_winner.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/choose_winner.c.o"
   "/Users/vmiachko/Corewar/VirtualMachine/src/commands.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/commands.c.o"
   "/Users/vmiachko/Corewar/VirtualMachine/src/corewar.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/corewar.c.o"
   "/Users/vmiachko/Corewar/VirtualMachine/src/display_map.c" "/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/VirtualMachine/src/display_map.c.o"

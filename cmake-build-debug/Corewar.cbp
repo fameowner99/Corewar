@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/choose_winner.c">
+			<Option target="Corewar"/>
+		</Unit>
 		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands.c">
 			<Option target="Corewar"/>
 		</Unit>

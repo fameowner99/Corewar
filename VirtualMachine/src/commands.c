@@ -327,6 +327,7 @@ void ft_sti(t_pc *pc, t_union *un)
 	int two;
 	int position;
 	uint8_t *num;
+
 	ft_check_codage(un->map[pc->curr_position + 1].value, un);
 	if (un->arg[1] == REG_CODE)
 	{

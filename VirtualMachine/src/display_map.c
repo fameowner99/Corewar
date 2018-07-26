@@ -52,11 +52,11 @@ void		display_map(t_union *un)
 			}
 
 
-			mvwprintw(win, y, x, "%02x ", un->map[i].value);
+			mvwprintw(win, y, x, "%02x", un->map[i].value);
 			x +=3;
 
 			wattroff(win, COLOR_PAIR(un->map[i].color));
-			wprintw(win, " ");
+			mvwprintw(win, y, x, " ");
 			if (un->map[i].cursor)
 			{
 				wattroff(win, A_BOLD);
@@ -74,8 +74,6 @@ void		display_map(t_union *un)
 		wrefresh(win);
 		refresh();
 		key = getch();
-		if (key == 27)
-			break ;
 		if (key == 32)
 		{
 			while (1)
@@ -83,8 +81,22 @@ void		display_map(t_union *un)
 				key = getch();
 				if (key == 32)
 					break ;
+				if (key == 27)
+					break ;
 			}
 		}
+
+		if (un->cycle_to_die <= 0 || !un->pc)
+		{
+			while (1)
+			{
+				key = getch();
+				if (key == 27)
+					break ;
+			}
+		}
+		if (key == 27)
+			break ;
 		//usleep(100000);
 		corewar(un);
 		update_pc(un);

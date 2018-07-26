@@ -20,7 +20,9 @@ add_executable(Corewar
         VirtualMachine/src/display_map.c
         VirtualMachine/src/manage_map.c
         VirtualMachine/src/end_game.c
-        VirtualMachine/src/manage_pc_list2.c)
+        VirtualMachine/src/manage_pc_list2.c
+        VirtualMachine/src/choose_winner.c)
+
 
 
 find_package(Curses REQUIRED)
