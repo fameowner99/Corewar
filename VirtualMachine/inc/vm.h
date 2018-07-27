@@ -31,7 +31,7 @@ typedef struct		s_bot
 	int 			last_live;
 	int 			num_live;
 	int 			size;
-	unsigned char	*code; //не забыть занулить массивы
+	unsigned char	*code;
 	int 			id;
 	struct s_bot	*next;
 }					t_bot;
@@ -105,6 +105,7 @@ void			without_visual(t_union *un);
 void				print_winner(t_union *un);
 void			without_visual(t_union *un);
 void				print_players_info(t_union *un);
+void	flag_visualisation(int *i, t_union *un);
 
 
 //

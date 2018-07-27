@@ -18,7 +18,7 @@
 
 int 				parsing(int argc, char **argv, t_union *un);
 int					check_if_input_correct(char **argv, t_union *un);
-int					set_bot_id(t_union *un);
+int					set_bot_id(t_union *un, t_bot *tmp, t_bot *tmp1);
 int 				get_bot_name(const int fd, t_bot **tmp);
 int 				get_bot_size(const int fd, t_bot **tmp);
 int 				get_bot_comment(const int fd, t_bot **tmp);

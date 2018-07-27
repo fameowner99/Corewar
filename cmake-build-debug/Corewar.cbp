@@ -80,57 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/choose_winner.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/corewar.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/display_map.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/end_game.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/ft_get_int.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/manage_bot_list.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/manage_map.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/manage_pc_list.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/manage_pc_list2.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/get_bot_info.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/manage_arguments.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot_id.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parsing.c">
-			<Option target="Corewar"/>
-		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing_commands.c">
-			<Option target="Corewar"/>
-		</Unit>
 		<Unit filename="/Users/vmiachko/Corewar/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

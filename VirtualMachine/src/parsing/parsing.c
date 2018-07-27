@@ -6,16 +6,16 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/05 12:25:09 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/05 12:25:13 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/27 16:27:20 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../inc/vm.h"
 #include "../../inc/parsing.h"
 
-int 		parsing(int argc, char **argv, t_union *un)
+int			parsing(int argc, char **argv, t_union *un)
 {
-	int 	r;
+	int		r;
 
 	un->bot = NULL;
 	un->pc = NULL;
@@ -24,7 +24,9 @@ int 		parsing(int argc, char **argv, t_union *un)
 	un->count.i = 1;
 	if (check_if_input_correct(argv, un) == 0)
 	{
-		ft_printf(RED"Usage: ./corewar [-dump nbr_cycles > 0] [[-n number > 0] champion1.cor] ... \n-v : Ncurses output mode\n"RESET);
+		ft_printf(RED"Usage: ./corewar [-dump nbr_cycles > 0] [[-n number >");
+		ft_printf(" 0 && number < 5] champion1.cor] ... \n");
+		ft_printf("-v : Ncurses output mode\n"RESET);
 		return (0);
 	}
 	else if ((check_if_input_correct(argv, un) == -1))
@@ -38,4 +40,10 @@ int 		parsing(int argc, char **argv, t_union *un)
 		return (0);
 	}
 	return (r);
+}
+
+void		flag_visualisation(int *i, t_union *un)
+{
+	un->visual = 1;
+	++*i;
 }

@@ -12,6 +12,8 @@
 vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
+/Users/vmiachko/Corewar/VirtualMachine/inc/visualization.h
+
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../libft/libft.h
 /Users/vmiachko/Corewar/libft/libft.h
@@ -43,6 +45,8 @@ ncurses.h
 /Users/vmiachko/Corewar/VirtualMachine/src/display_map.c
 ../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+../inc/visualization.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/visualization.h
 
 /Users/vmiachko/Corewar/VirtualMachine/src/end_game.c
 ../inc/vm.h
