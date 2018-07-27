@@ -14,6 +14,8 @@
 
 # define VISUALIZATION_H
 
+#include "vm.h"
+
 # define XMAX 200
 # define YMAX 200
 
@@ -26,4 +28,9 @@ typedef struct	s_vis
 	int y;
 	WINDOW *win;
 }				t_vis;
+
+void		print_border(WINDOW *win);
+void		print_to_right_window(t_union *un);
+void		print_pause(t_vis vis);
+
 #endif

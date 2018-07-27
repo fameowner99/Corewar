@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/05 14:39:07 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/27 17:02:49 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/27 19:28:46 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,31 +72,23 @@ static int	flag_n(t_union *un, char **argv)
 	return (1);
 }
 
-int			check_if_input_correct(char **argv, t_union *un)
+int			check_arg(t_union *un, char **argv)
 {
-	while (un->count.i < un->argc)
+	if (!ft_strcmp(argv[un->count.i], "-dump"))
+		return (flag_dump(un, argv));
+	else if (!ft_strcmp(argv[un->count.i], "-n"))
+		return (flag_n(un, argv));
+	else if ((un->count.fd = open(argv[un->count.i], O_RDONLY)) > 0)
 	{
-		if (!ft_strcmp(argv[un->count.i], "-dump"))
-		{
-			if (!flag_dump(un, argv))
-				return (0);
-		}
-		else if (!ft_strcmp(argv[un->count.i], "-n"))
-		{
-			if (!flag_n(un, argv))
-				return (0);
-		}
-		else if ((un->count.fd = open(argv[un->count.i], O_RDONLY)) > 0)
-		{
-			if (!if_file(un, NULL, argv[un->count.i]))
-				return (-1);
-		}
-		else if (!ft_strcmp("-v", argv[un->count.i]))
-		{
-			flag_visualisation(&un->count.i, un);
-		}
+		if (!if_file(un, NULL, argv[un->count.i]))
+			return (-1);
 		else
-			return (0);
+			return (1);
 	}
-	return (un->count.c == 0 ? 0 : 1);
+	else if (!ft_strcmp("-v", argv[un->count.i]))
+		return (flag_visualisation(&un->count.i, un));
+	else if (!ft_strcmp("-a", argv[un->count.i]))
+		return (flag_a(&un->count.i, un));
+	else
+		return (0);
 }

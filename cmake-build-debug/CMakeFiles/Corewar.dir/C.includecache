@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
+vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+
 /Users/vmiachko/Corewar/VirtualMachine/inc/op.h
 
 /Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
@@ -13,6 +17,8 @@ vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
 /Users/vmiachko/Corewar/VirtualMachine/inc/visualization.h
+vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../libft/libft.h
@@ -30,52 +36,56 @@ unistd.h
 ncurses.h
 -
 
-/Users/vmiachko/Corewar/VirtualMachine/src/choose_winner.c
-../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/commands.c
+../../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+../../inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
+
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_get_int.c
+../../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/Users/vmiachko/Corewar/VirtualMachine/src/commands.c
-../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/parsing_commands.c
+../../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+../../inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
+
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/choose_winner.c
+../../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/Users/vmiachko/Corewar/VirtualMachine/src/corewar.c
-../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/corewar.c
+../../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+../../inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
+
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/end_game.c
+../../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/Users/vmiachko/Corewar/VirtualMachine/src/display_map.c
-../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/main.c
+../../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
-../inc/visualization.h
-/Users/vmiachko/Corewar/VirtualMachine/inc/visualization.h
-
-/Users/vmiachko/Corewar/VirtualMachine/src/end_game.c
-../inc/vm.h
-/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
-
-/Users/vmiachko/Corewar/VirtualMachine/src/ft_get_int.c
-../inc/vm.h
-/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
-
-/Users/vmiachko/Corewar/VirtualMachine/src/main.c
-../inc/vm.h
-/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
-../inc/parsing.h
+../../inc/parsing.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 
-/Users/vmiachko/Corewar/VirtualMachine/src/manage_bot_list.c
-../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_bot_list.c
+../../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/Users/vmiachko/Corewar/VirtualMachine/src/manage_map.c
-../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_map.c
+../../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/Users/vmiachko/Corewar/VirtualMachine/src/manage_pc_list.c
-../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_pc_list.c
+../../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/Users/vmiachko/Corewar/VirtualMachine/src/manage_pc_list2.c
-../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_pc_list2.c
+../../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
 /Users/vmiachko/Corewar/VirtualMachine/src/parsing/get_bot_info.c
@@ -104,9 +114,23 @@ ncurses.h
 ../../inc/parsing.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 
-/Users/vmiachko/Corewar/VirtualMachine/src/parsing_commands.c
-../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/src/visualization/display_map.c
+../../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+../../inc/visualization.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/visualization.h
+
+/Users/vmiachko/Corewar/VirtualMachine/src/visualization/print_border.c
+../../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+../../inc/visualization.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/visualization.h
+
+/Users/vmiachko/Corewar/VirtualMachine/src/visualization/print_right_window.c
+../../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+../../inc/visualization.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/visualization.h
 
 /Users/vmiachko/Corewar/libft/ft_printf/ft_printf.h
 ../libft.h

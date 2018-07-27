@@ -24,4 +24,7 @@ int 				get_bot_size(const int fd, t_bot **tmp);
 int 				get_bot_comment(const int fd, t_bot **tmp);
 int 				get_bot_code(const int fd, t_bot **tmp);
 int 				check_size_is_true(t_bot bot);
+int					flag_visualisation(int *i, t_union *un);
+int					flag_a(int *i, t_union *un);
+int					check_arg(t_union *un, char **argv);
 #endif

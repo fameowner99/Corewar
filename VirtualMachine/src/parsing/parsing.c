@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/05 12:25:09 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/27 16:27:20 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/27 19:28:15 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,29 @@ int			parsing(int argc, char **argv, t_union *un)
 	return (r);
 }
 
-void		flag_visualisation(int *i, t_union *un)
+int			flag_visualisation(int *i, t_union *un)
 {
 	un->visual = 1;
 	++*i;
+	return (1);
+}
+
+int			flag_a(int *i, t_union *un)
+{
+	un->a = 1;
+	++*i;
+	return (1);
+}
+
+int			check_if_input_correct(char **argv, t_union *un)
+{
+	int		r;
+
+	while (un->count.i < un->argc)
+	{
+		r = check_arg(un, argv);
+		if (r != 1)
+			return (r);
+	}
+	return (un->count.c == 0 ? 0 : 1);
 }

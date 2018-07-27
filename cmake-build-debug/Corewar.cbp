@@ -80,6 +80,63 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/commands.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_get_int.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/parsing_commands.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/choose_winner.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/corewar.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/end_game.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/main.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_bot_list.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_map.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_pc_list.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_pc_list2.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/get_bot_info.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/manage_arguments.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot_id.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parsing.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/visualization/display_map.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/visualization/print_border.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/visualization/print_right_window.c">
+			<Option target="Corewar"/>
+		</Unit>
 		<Unit filename="/Users/vmiachko/Corewar/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

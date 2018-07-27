@@ -18,6 +18,7 @@ int				main(int argc, char **argv)
 	t_union		un;
 
 	un.dump = 0;
+	un.a = 0;
 	un.k = 0;
 	un.visual = 0;
 	un.checks = 0;

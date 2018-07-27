@@ -1,4 +1,5 @@
 #include "../../inc/vm.h"
+#include "../../inc/commands.h"
 
 int ft_check_position(int position)
 {

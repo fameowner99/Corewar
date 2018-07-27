@@ -123,6 +123,519 @@ Corewar/fast:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/build
 .PHONY : Corewar/fast
 
+VirtualMachine/src/commands/commands.o: VirtualMachine/src/commands/commands.c.o
+
+.PHONY : VirtualMachine/src/commands/commands.o
+
+# target to build an object file
+VirtualMachine/src/commands/commands.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/commands.c.o
+.PHONY : VirtualMachine/src/commands/commands.c.o
+
+VirtualMachine/src/commands/commands.i: VirtualMachine/src/commands/commands.c.i
+
+.PHONY : VirtualMachine/src/commands/commands.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/commands.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/commands.c.i
+.PHONY : VirtualMachine/src/commands/commands.c.i
+
+VirtualMachine/src/commands/commands.s: VirtualMachine/src/commands/commands.c.s
+
+.PHONY : VirtualMachine/src/commands/commands.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/commands.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/commands.c.s
+.PHONY : VirtualMachine/src/commands/commands.c.s
+
+VirtualMachine/src/commands/ft_get_int.o: VirtualMachine/src/commands/ft_get_int.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_get_int.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_get_int.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_get_int.c.o
+.PHONY : VirtualMachine/src/commands/ft_get_int.c.o
+
+VirtualMachine/src/commands/ft_get_int.i: VirtualMachine/src/commands/ft_get_int.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_get_int.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_get_int.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_get_int.c.i
+.PHONY : VirtualMachine/src/commands/ft_get_int.c.i
+
+VirtualMachine/src/commands/ft_get_int.s: VirtualMachine/src/commands/ft_get_int.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_get_int.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_get_int.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_get_int.c.s
+.PHONY : VirtualMachine/src/commands/ft_get_int.c.s
+
+VirtualMachine/src/commands/parsing_commands.o: VirtualMachine/src/commands/parsing_commands.c.o
+
+.PHONY : VirtualMachine/src/commands/parsing_commands.o
+
+# target to build an object file
+VirtualMachine/src/commands/parsing_commands.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/parsing_commands.c.o
+.PHONY : VirtualMachine/src/commands/parsing_commands.c.o
+
+VirtualMachine/src/commands/parsing_commands.i: VirtualMachine/src/commands/parsing_commands.c.i
+
+.PHONY : VirtualMachine/src/commands/parsing_commands.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/parsing_commands.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/parsing_commands.c.i
+.PHONY : VirtualMachine/src/commands/parsing_commands.c.i
+
+VirtualMachine/src/commands/parsing_commands.s: VirtualMachine/src/commands/parsing_commands.c.s
+
+.PHONY : VirtualMachine/src/commands/parsing_commands.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/parsing_commands.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/parsing_commands.c.s
+.PHONY : VirtualMachine/src/commands/parsing_commands.c.s
+
+VirtualMachine/src/main_part/choose_winner.o: VirtualMachine/src/main_part/choose_winner.c.o
+
+.PHONY : VirtualMachine/src/main_part/choose_winner.o
+
+# target to build an object file
+VirtualMachine/src/main_part/choose_winner.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/choose_winner.c.o
+.PHONY : VirtualMachine/src/main_part/choose_winner.c.o
+
+VirtualMachine/src/main_part/choose_winner.i: VirtualMachine/src/main_part/choose_winner.c.i
+
+.PHONY : VirtualMachine/src/main_part/choose_winner.i
+
+# target to preprocess a source file
+VirtualMachine/src/main_part/choose_winner.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/choose_winner.c.i
+.PHONY : VirtualMachine/src/main_part/choose_winner.c.i
+
+VirtualMachine/src/main_part/choose_winner.s: VirtualMachine/src/main_part/choose_winner.c.s
+
+.PHONY : VirtualMachine/src/main_part/choose_winner.s
+
+# target to generate assembly for a file
+VirtualMachine/src/main_part/choose_winner.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/choose_winner.c.s
+.PHONY : VirtualMachine/src/main_part/choose_winner.c.s
+
+VirtualMachine/src/main_part/corewar.o: VirtualMachine/src/main_part/corewar.c.o
+
+.PHONY : VirtualMachine/src/main_part/corewar.o
+
+# target to build an object file
+VirtualMachine/src/main_part/corewar.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/corewar.c.o
+.PHONY : VirtualMachine/src/main_part/corewar.c.o
+
+VirtualMachine/src/main_part/corewar.i: VirtualMachine/src/main_part/corewar.c.i
+
+.PHONY : VirtualMachine/src/main_part/corewar.i
+
+# target to preprocess a source file
+VirtualMachine/src/main_part/corewar.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/corewar.c.i
+.PHONY : VirtualMachine/src/main_part/corewar.c.i
+
+VirtualMachine/src/main_part/corewar.s: VirtualMachine/src/main_part/corewar.c.s
+
+.PHONY : VirtualMachine/src/main_part/corewar.s
+
+# target to generate assembly for a file
+VirtualMachine/src/main_part/corewar.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/corewar.c.s
+.PHONY : VirtualMachine/src/main_part/corewar.c.s
+
+VirtualMachine/src/main_part/end_game.o: VirtualMachine/src/main_part/end_game.c.o
+
+.PHONY : VirtualMachine/src/main_part/end_game.o
+
+# target to build an object file
+VirtualMachine/src/main_part/end_game.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/end_game.c.o
+.PHONY : VirtualMachine/src/main_part/end_game.c.o
+
+VirtualMachine/src/main_part/end_game.i: VirtualMachine/src/main_part/end_game.c.i
+
+.PHONY : VirtualMachine/src/main_part/end_game.i
+
+# target to preprocess a source file
+VirtualMachine/src/main_part/end_game.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/end_game.c.i
+.PHONY : VirtualMachine/src/main_part/end_game.c.i
+
+VirtualMachine/src/main_part/end_game.s: VirtualMachine/src/main_part/end_game.c.s
+
+.PHONY : VirtualMachine/src/main_part/end_game.s
+
+# target to generate assembly for a file
+VirtualMachine/src/main_part/end_game.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/end_game.c.s
+.PHONY : VirtualMachine/src/main_part/end_game.c.s
+
+VirtualMachine/src/main_part/main.o: VirtualMachine/src/main_part/main.c.o
+
+.PHONY : VirtualMachine/src/main_part/main.o
+
+# target to build an object file
+VirtualMachine/src/main_part/main.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/main.c.o
+.PHONY : VirtualMachine/src/main_part/main.c.o
+
+VirtualMachine/src/main_part/main.i: VirtualMachine/src/main_part/main.c.i
+
+.PHONY : VirtualMachine/src/main_part/main.i
+
+# target to preprocess a source file
+VirtualMachine/src/main_part/main.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/main.c.i
+.PHONY : VirtualMachine/src/main_part/main.c.i
+
+VirtualMachine/src/main_part/main.s: VirtualMachine/src/main_part/main.c.s
+
+.PHONY : VirtualMachine/src/main_part/main.s
+
+# target to generate assembly for a file
+VirtualMachine/src/main_part/main.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/main.c.s
+.PHONY : VirtualMachine/src/main_part/main.c.s
+
+VirtualMachine/src/main_part/manage_bot_list.o: VirtualMachine/src/main_part/manage_bot_list.c.o
+
+.PHONY : VirtualMachine/src/main_part/manage_bot_list.o
+
+# target to build an object file
+VirtualMachine/src/main_part/manage_bot_list.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_bot_list.c.o
+.PHONY : VirtualMachine/src/main_part/manage_bot_list.c.o
+
+VirtualMachine/src/main_part/manage_bot_list.i: VirtualMachine/src/main_part/manage_bot_list.c.i
+
+.PHONY : VirtualMachine/src/main_part/manage_bot_list.i
+
+# target to preprocess a source file
+VirtualMachine/src/main_part/manage_bot_list.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_bot_list.c.i
+.PHONY : VirtualMachine/src/main_part/manage_bot_list.c.i
+
+VirtualMachine/src/main_part/manage_bot_list.s: VirtualMachine/src/main_part/manage_bot_list.c.s
+
+.PHONY : VirtualMachine/src/main_part/manage_bot_list.s
+
+# target to generate assembly for a file
+VirtualMachine/src/main_part/manage_bot_list.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_bot_list.c.s
+.PHONY : VirtualMachine/src/main_part/manage_bot_list.c.s
+
+VirtualMachine/src/main_part/manage_map.o: VirtualMachine/src/main_part/manage_map.c.o
+
+.PHONY : VirtualMachine/src/main_part/manage_map.o
+
+# target to build an object file
+VirtualMachine/src/main_part/manage_map.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_map.c.o
+.PHONY : VirtualMachine/src/main_part/manage_map.c.o
+
+VirtualMachine/src/main_part/manage_map.i: VirtualMachine/src/main_part/manage_map.c.i
+
+.PHONY : VirtualMachine/src/main_part/manage_map.i
+
+# target to preprocess a source file
+VirtualMachine/src/main_part/manage_map.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_map.c.i
+.PHONY : VirtualMachine/src/main_part/manage_map.c.i
+
+VirtualMachine/src/main_part/manage_map.s: VirtualMachine/src/main_part/manage_map.c.s
+
+.PHONY : VirtualMachine/src/main_part/manage_map.s
+
+# target to generate assembly for a file
+VirtualMachine/src/main_part/manage_map.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_map.c.s
+.PHONY : VirtualMachine/src/main_part/manage_map.c.s
+
+VirtualMachine/src/main_part/manage_pc_list.o: VirtualMachine/src/main_part/manage_pc_list.c.o
+
+.PHONY : VirtualMachine/src/main_part/manage_pc_list.o
+
+# target to build an object file
+VirtualMachine/src/main_part/manage_pc_list.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list.c.o
+.PHONY : VirtualMachine/src/main_part/manage_pc_list.c.o
+
+VirtualMachine/src/main_part/manage_pc_list.i: VirtualMachine/src/main_part/manage_pc_list.c.i
+
+.PHONY : VirtualMachine/src/main_part/manage_pc_list.i
+
+# target to preprocess a source file
+VirtualMachine/src/main_part/manage_pc_list.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list.c.i
+.PHONY : VirtualMachine/src/main_part/manage_pc_list.c.i
+
+VirtualMachine/src/main_part/manage_pc_list.s: VirtualMachine/src/main_part/manage_pc_list.c.s
+
+.PHONY : VirtualMachine/src/main_part/manage_pc_list.s
+
+# target to generate assembly for a file
+VirtualMachine/src/main_part/manage_pc_list.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list.c.s
+.PHONY : VirtualMachine/src/main_part/manage_pc_list.c.s
+
+VirtualMachine/src/main_part/manage_pc_list2.o: VirtualMachine/src/main_part/manage_pc_list2.c.o
+
+.PHONY : VirtualMachine/src/main_part/manage_pc_list2.o
+
+# target to build an object file
+VirtualMachine/src/main_part/manage_pc_list2.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list2.c.o
+.PHONY : VirtualMachine/src/main_part/manage_pc_list2.c.o
+
+VirtualMachine/src/main_part/manage_pc_list2.i: VirtualMachine/src/main_part/manage_pc_list2.c.i
+
+.PHONY : VirtualMachine/src/main_part/manage_pc_list2.i
+
+# target to preprocess a source file
+VirtualMachine/src/main_part/manage_pc_list2.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list2.c.i
+.PHONY : VirtualMachine/src/main_part/manage_pc_list2.c.i
+
+VirtualMachine/src/main_part/manage_pc_list2.s: VirtualMachine/src/main_part/manage_pc_list2.c.s
+
+.PHONY : VirtualMachine/src/main_part/manage_pc_list2.s
+
+# target to generate assembly for a file
+VirtualMachine/src/main_part/manage_pc_list2.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list2.c.s
+.PHONY : VirtualMachine/src/main_part/manage_pc_list2.c.s
+
+VirtualMachine/src/parsing/get_bot_info.o: VirtualMachine/src/parsing/get_bot_info.c.o
+
+.PHONY : VirtualMachine/src/parsing/get_bot_info.o
+
+# target to build an object file
+VirtualMachine/src/parsing/get_bot_info.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o
+.PHONY : VirtualMachine/src/parsing/get_bot_info.c.o
+
+VirtualMachine/src/parsing/get_bot_info.i: VirtualMachine/src/parsing/get_bot_info.c.i
+
+.PHONY : VirtualMachine/src/parsing/get_bot_info.i
+
+# target to preprocess a source file
+VirtualMachine/src/parsing/get_bot_info.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.i
+.PHONY : VirtualMachine/src/parsing/get_bot_info.c.i
+
+VirtualMachine/src/parsing/get_bot_info.s: VirtualMachine/src/parsing/get_bot_info.c.s
+
+.PHONY : VirtualMachine/src/parsing/get_bot_info.s
+
+# target to generate assembly for a file
+VirtualMachine/src/parsing/get_bot_info.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.s
+.PHONY : VirtualMachine/src/parsing/get_bot_info.c.s
+
+VirtualMachine/src/parsing/manage_arguments.o: VirtualMachine/src/parsing/manage_arguments.c.o
+
+.PHONY : VirtualMachine/src/parsing/manage_arguments.o
+
+# target to build an object file
+VirtualMachine/src/parsing/manage_arguments.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/manage_arguments.c.o
+.PHONY : VirtualMachine/src/parsing/manage_arguments.c.o
+
+VirtualMachine/src/parsing/manage_arguments.i: VirtualMachine/src/parsing/manage_arguments.c.i
+
+.PHONY : VirtualMachine/src/parsing/manage_arguments.i
+
+# target to preprocess a source file
+VirtualMachine/src/parsing/manage_arguments.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/manage_arguments.c.i
+.PHONY : VirtualMachine/src/parsing/manage_arguments.c.i
+
+VirtualMachine/src/parsing/manage_arguments.s: VirtualMachine/src/parsing/manage_arguments.c.s
+
+.PHONY : VirtualMachine/src/parsing/manage_arguments.s
+
+# target to generate assembly for a file
+VirtualMachine/src/parsing/manage_arguments.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/manage_arguments.c.s
+.PHONY : VirtualMachine/src/parsing/manage_arguments.c.s
+
+VirtualMachine/src/parsing/parse_bot.o: VirtualMachine/src/parsing/parse_bot.c.o
+
+.PHONY : VirtualMachine/src/parsing/parse_bot.o
+
+# target to build an object file
+VirtualMachine/src/parsing/parse_bot.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot.c.o
+.PHONY : VirtualMachine/src/parsing/parse_bot.c.o
+
+VirtualMachine/src/parsing/parse_bot.i: VirtualMachine/src/parsing/parse_bot.c.i
+
+.PHONY : VirtualMachine/src/parsing/parse_bot.i
+
+# target to preprocess a source file
+VirtualMachine/src/parsing/parse_bot.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot.c.i
+.PHONY : VirtualMachine/src/parsing/parse_bot.c.i
+
+VirtualMachine/src/parsing/parse_bot.s: VirtualMachine/src/parsing/parse_bot.c.s
+
+.PHONY : VirtualMachine/src/parsing/parse_bot.s
+
+# target to generate assembly for a file
+VirtualMachine/src/parsing/parse_bot.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot.c.s
+.PHONY : VirtualMachine/src/parsing/parse_bot.c.s
+
+VirtualMachine/src/parsing/parse_bot_id.o: VirtualMachine/src/parsing/parse_bot_id.c.o
+
+.PHONY : VirtualMachine/src/parsing/parse_bot_id.o
+
+# target to build an object file
+VirtualMachine/src/parsing/parse_bot_id.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot_id.c.o
+.PHONY : VirtualMachine/src/parsing/parse_bot_id.c.o
+
+VirtualMachine/src/parsing/parse_bot_id.i: VirtualMachine/src/parsing/parse_bot_id.c.i
+
+.PHONY : VirtualMachine/src/parsing/parse_bot_id.i
+
+# target to preprocess a source file
+VirtualMachine/src/parsing/parse_bot_id.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot_id.c.i
+.PHONY : VirtualMachine/src/parsing/parse_bot_id.c.i
+
+VirtualMachine/src/parsing/parse_bot_id.s: VirtualMachine/src/parsing/parse_bot_id.c.s
+
+.PHONY : VirtualMachine/src/parsing/parse_bot_id.s
+
+# target to generate assembly for a file
+VirtualMachine/src/parsing/parse_bot_id.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot_id.c.s
+.PHONY : VirtualMachine/src/parsing/parse_bot_id.c.s
+
+VirtualMachine/src/parsing/parsing.o: VirtualMachine/src/parsing/parsing.c.o
+
+.PHONY : VirtualMachine/src/parsing/parsing.o
+
+# target to build an object file
+VirtualMachine/src/parsing/parsing.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.o
+.PHONY : VirtualMachine/src/parsing/parsing.c.o
+
+VirtualMachine/src/parsing/parsing.i: VirtualMachine/src/parsing/parsing.c.i
+
+.PHONY : VirtualMachine/src/parsing/parsing.i
+
+# target to preprocess a source file
+VirtualMachine/src/parsing/parsing.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.i
+.PHONY : VirtualMachine/src/parsing/parsing.c.i
+
+VirtualMachine/src/parsing/parsing.s: VirtualMachine/src/parsing/parsing.c.s
+
+.PHONY : VirtualMachine/src/parsing/parsing.s
+
+# target to generate assembly for a file
+VirtualMachine/src/parsing/parsing.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.s
+.PHONY : VirtualMachine/src/parsing/parsing.c.s
+
+VirtualMachine/src/visualization/display_map.o: VirtualMachine/src/visualization/display_map.c.o
+
+.PHONY : VirtualMachine/src/visualization/display_map.o
+
+# target to build an object file
+VirtualMachine/src/visualization/display_map.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/display_map.c.o
+.PHONY : VirtualMachine/src/visualization/display_map.c.o
+
+VirtualMachine/src/visualization/display_map.i: VirtualMachine/src/visualization/display_map.c.i
+
+.PHONY : VirtualMachine/src/visualization/display_map.i
+
+# target to preprocess a source file
+VirtualMachine/src/visualization/display_map.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/display_map.c.i
+.PHONY : VirtualMachine/src/visualization/display_map.c.i
+
+VirtualMachine/src/visualization/display_map.s: VirtualMachine/src/visualization/display_map.c.s
+
+.PHONY : VirtualMachine/src/visualization/display_map.s
+
+# target to generate assembly for a file
+VirtualMachine/src/visualization/display_map.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/display_map.c.s
+.PHONY : VirtualMachine/src/visualization/display_map.c.s
+
+VirtualMachine/src/visualization/print_border.o: VirtualMachine/src/visualization/print_border.c.o
+
+.PHONY : VirtualMachine/src/visualization/print_border.o
+
+# target to build an object file
+VirtualMachine/src/visualization/print_border.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_border.c.o
+.PHONY : VirtualMachine/src/visualization/print_border.c.o
+
+VirtualMachine/src/visualization/print_border.i: VirtualMachine/src/visualization/print_border.c.i
+
+.PHONY : VirtualMachine/src/visualization/print_border.i
+
+# target to preprocess a source file
+VirtualMachine/src/visualization/print_border.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_border.c.i
+.PHONY : VirtualMachine/src/visualization/print_border.c.i
+
+VirtualMachine/src/visualization/print_border.s: VirtualMachine/src/visualization/print_border.c.s
+
+.PHONY : VirtualMachine/src/visualization/print_border.s
+
+# target to generate assembly for a file
+VirtualMachine/src/visualization/print_border.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_border.c.s
+.PHONY : VirtualMachine/src/visualization/print_border.c.s
+
+VirtualMachine/src/visualization/print_right_window.o: VirtualMachine/src/visualization/print_right_window.c.o
+
+.PHONY : VirtualMachine/src/visualization/print_right_window.o
+
+# target to build an object file
+VirtualMachine/src/visualization/print_right_window.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.o
+.PHONY : VirtualMachine/src/visualization/print_right_window.c.o
+
+VirtualMachine/src/visualization/print_right_window.i: VirtualMachine/src/visualization/print_right_window.c.i
+
+.PHONY : VirtualMachine/src/visualization/print_right_window.i
+
+# target to preprocess a source file
+VirtualMachine/src/visualization/print_right_window.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.i
+.PHONY : VirtualMachine/src/visualization/print_right_window.c.i
+
+VirtualMachine/src/visualization/print_right_window.s: VirtualMachine/src/visualization/print_right_window.c.s
+
+.PHONY : VirtualMachine/src/visualization/print_right_window.s
+
+# target to generate assembly for a file
+VirtualMachine/src/visualization/print_right_window.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.s
+.PHONY : VirtualMachine/src/visualization/print_right_window.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +645,63 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Corewar"
+	@echo "... VirtualMachine/src/commands/commands.o"
+	@echo "... VirtualMachine/src/commands/commands.i"
+	@echo "... VirtualMachine/src/commands/commands.s"
+	@echo "... VirtualMachine/src/commands/ft_get_int.o"
+	@echo "... VirtualMachine/src/commands/ft_get_int.i"
+	@echo "... VirtualMachine/src/commands/ft_get_int.s"
+	@echo "... VirtualMachine/src/commands/parsing_commands.o"
+	@echo "... VirtualMachine/src/commands/parsing_commands.i"
+	@echo "... VirtualMachine/src/commands/parsing_commands.s"
+	@echo "... VirtualMachine/src/main_part/choose_winner.o"
+	@echo "... VirtualMachine/src/main_part/choose_winner.i"
+	@echo "... VirtualMachine/src/main_part/choose_winner.s"
+	@echo "... VirtualMachine/src/main_part/corewar.o"
+	@echo "... VirtualMachine/src/main_part/corewar.i"
+	@echo "... VirtualMachine/src/main_part/corewar.s"
+	@echo "... VirtualMachine/src/main_part/end_game.o"
+	@echo "... VirtualMachine/src/main_part/end_game.i"
+	@echo "... VirtualMachine/src/main_part/end_game.s"
+	@echo "... VirtualMachine/src/main_part/main.o"
+	@echo "... VirtualMachine/src/main_part/main.i"
+	@echo "... VirtualMachine/src/main_part/main.s"
+	@echo "... VirtualMachine/src/main_part/manage_bot_list.o"
+	@echo "... VirtualMachine/src/main_part/manage_bot_list.i"
+	@echo "... VirtualMachine/src/main_part/manage_bot_list.s"
+	@echo "... VirtualMachine/src/main_part/manage_map.o"
+	@echo "... VirtualMachine/src/main_part/manage_map.i"
+	@echo "... VirtualMachine/src/main_part/manage_map.s"
+	@echo "... VirtualMachine/src/main_part/manage_pc_list.o"
+	@echo "... VirtualMachine/src/main_part/manage_pc_list.i"
+	@echo "... VirtualMachine/src/main_part/manage_pc_list.s"
+	@echo "... VirtualMachine/src/main_part/manage_pc_list2.o"
+	@echo "... VirtualMachine/src/main_part/manage_pc_list2.i"
+	@echo "... VirtualMachine/src/main_part/manage_pc_list2.s"
+	@echo "... VirtualMachine/src/parsing/get_bot_info.o"
+	@echo "... VirtualMachine/src/parsing/get_bot_info.i"
+	@echo "... VirtualMachine/src/parsing/get_bot_info.s"
+	@echo "... VirtualMachine/src/parsing/manage_arguments.o"
+	@echo "... VirtualMachine/src/parsing/manage_arguments.i"
+	@echo "... VirtualMachine/src/parsing/manage_arguments.s"
+	@echo "... VirtualMachine/src/parsing/parse_bot.o"
+	@echo "... VirtualMachine/src/parsing/parse_bot.i"
+	@echo "... VirtualMachine/src/parsing/parse_bot.s"
+	@echo "... VirtualMachine/src/parsing/parse_bot_id.o"
+	@echo "... VirtualMachine/src/parsing/parse_bot_id.i"
+	@echo "... VirtualMachine/src/parsing/parse_bot_id.s"
+	@echo "... VirtualMachine/src/parsing/parsing.o"
+	@echo "... VirtualMachine/src/parsing/parsing.i"
+	@echo "... VirtualMachine/src/parsing/parsing.s"
+	@echo "... VirtualMachine/src/visualization/display_map.o"
+	@echo "... VirtualMachine/src/visualization/display_map.i"
+	@echo "... VirtualMachine/src/visualization/display_map.s"
+	@echo "... VirtualMachine/src/visualization/print_border.o"
+	@echo "... VirtualMachine/src/visualization/print_border.i"
+	@echo "... VirtualMachine/src/visualization/print_border.s"
+	@echo "... VirtualMachine/src/visualization/print_right_window.o"
+	@echo "... VirtualMachine/src/visualization/print_right_window.i"
+	@echo "... VirtualMachine/src/visualization/print_right_window.s"
 .PHONY : help
 
 

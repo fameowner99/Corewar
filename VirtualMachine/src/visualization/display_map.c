@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/27 14:10:10 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/27 15:07:25 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/27 21:24:50 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,16 +34,9 @@ WINDOW		*init_colors(int *key)
 	init_pair(13, COLOR_WHITE, COLOR_BLUE);
 	init_pair(14, COLOR_WHITE, COLOR_MAGENTA);
 	init_pair(15, COLOR_WHITE, COLOR_YELLOW);
-	return (newwin(YMAX, XMAX, 1, 1));
-}
-
-void		print_to_back_window(t_union *un)
-{
-	mvprintw(5, XMAX + 5, "Cycle: %d\n", un->cycle);
-	mvprintw(8, XMAX + 5, "Cycle_to_die: %d\n", un->cycle_to_die);
-	mvprintw(12, XMAX + 5, "Number live: %d\n", un->bot->num_live);
-	mvprintw(15, XMAX + 5, "Last live: %d\n", un->bot->last_live);
-	mvprintw(18, XMAX + 5, "Number proccess: %d\n", un->procces_number);
+	init_pair(30, COLOR_WHITE, COLOR_WHITE);
+	init_pair(31, COLOR_GREEN, COLOR_BLACK);
+	return (newwin(YMAX, XMAX, 0, 0));
 }
 
 void		print_map(t_vis *vis, t_union *un)
@@ -63,7 +56,7 @@ void		print_map(t_vis *vis, t_union *un)
 		if (vis->k == 64)
 		{
 			vis->y++;
-			vis->x = 0;
+			vis->x = 3;
 			vis->k = 0;
 		}
 		++vis->i;
@@ -78,6 +71,7 @@ int			pause_exit(t_vis vis, t_union *un)
 	{
 		while (1)
 		{
+			print_pause(vis);
 			vis.key = getch();
 			if (vis.key == 32)
 				break ;
@@ -108,9 +102,10 @@ void		display_map(t_union *un)
 	{
 		vis.i = 0;
 		vis.k = 0;
-		vis.x = 0;
-		vis.y = 0;
-		print_to_back_window(un);
+		vis.x = 3;
+		vis.y = 2;
+		print_to_right_window(un);
+		print_border(vis.win);
 		print_map(&vis, un);
 		vis.key = getch();
 		vis.key = pause_exit(vis, un);
