@@ -20,7 +20,7 @@ static t_bot		*bot_new(char *filename, int id)
 		return (NULL);
 	if (!(res->filename = (char *)ft_memalloc(ft_strlen(filename) + 1)))
 		return (NULL);
-	res->code = (unsigned char*)ft_memalloc(CHAMP_MAX_SIZE * sizeof(unsigned char) + 1000);
+	res->code = (unsigned char*)ft_memalloc(CHAMP_MAX_SIZE * sizeof(unsigned char) + 10);
 	res->filename = ft_strcpy(res->filename, filename);
 	res->size = 0;
 	res->id = id;

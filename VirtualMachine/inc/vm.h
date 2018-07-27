@@ -78,6 +78,7 @@ typedef struct		s_union
 	uint8_t			arg[3];
 	int 			bots_number;
 	int 			procces_number;
+	int 			k;
 }					t_union;
 
 t_bot				*bot_push_back(t_bot *head, char *filename, int id);
@@ -109,7 +110,7 @@ void				print_players_info(t_union *un);
 //
 int					ft_get_int(t_union *un, int start, int lenght);
 uint8_t* ft_get_char_from_int(t_pc *pc, unsigned int num);
-void ft_check_codage(uint8_t codage, t_union *un);
+int ft_check_codage(uint8_t codage,  int num_args, int number_command,t_union *un);
 void				ft_live(t_pc *pc, t_union *un);
 void ft_load(t_pc *pc, t_union *un);
 void ft_st(t_pc *pc, t_union *un);

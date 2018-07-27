@@ -43,9 +43,46 @@ uint8_t* ft_get_char_from_int(t_pc *pc, unsigned int num)
     return (arg);
 }
 
-void ft_check_codage(uint8_t codage, t_union *un)
+int check_if_possible(int number_command,t_union *un)
 {
+	/*if (number_command == 2)
+	{
+		if (!((un->arg[0] == DIR_CODE || un->arg[0] == IND_CODE) && un->arg[1] != REG_CODE))
+			return (0);
+	}
+	else if (number_command == 3)
+	{
+		if (!(un->arg[0] == REG_CODE && (un->arg[1] == REG_CODE || IND_CODE)))
+			return (0);
+	}
+	else if (number_command == 4 || number_command == 5)
+	{
+		if (!(un->arg[0] == REG_CODE && un->arg[1] == REG_CODE && un->arg[2] == REG_CODE))
+			return (0);
+	}
+	else if (number_command == 6 || number_command == 7 || number_command == 8)
+	{
+		if (!((un->arg[0] == REG_CODE || un->arg[0] == DIR_CODE || un->arg[0] == IND_CODE) &&
+				(un->arg[1] == REG_CODE || un->arg[1] == DIR_CODE || un->arg[1] == IND_CODE) && un->arg[2] == REG_CODE))
+			return (0);
+	}*/
+
+}
+
+int ft_check_codage(uint8_t codage,  int num_args, int number_command,t_union *un)
+{
+	int i;
+
     un->arg[0] = codage >> 6;
     un->arg[1] = (codage & 0x30) >> 4;
     un->arg[2] = (codage & 0xC) >> 2;
+	i = 0;
+	while (i < num_args)
+	{
+		if (un->arg[i] != REG_CODE && un->arg[i] != DIR_CODE && un->arg[i] != IND_CODE)
+			return (0);
+		++i;
+	}
+
+	return (1);
 }
