@@ -37,6 +37,7 @@ void			dump(t_union *un)
 			k = 0;
 		}
 	}
+
 }
 
 void			without_visual(t_union *un)
@@ -53,8 +54,12 @@ void			without_visual(t_union *un)
 	}
 	if (!un->dump)
 		print_winner(un);
-	ft_printf("%d\n", un->cycle);
-	ft_printf("%d\n", un->bot->last_live);
+	ft_printf("CYCLES: %i\n", un->cycle);
+	while (un->bot)
+	{
+		ft_printf("LAST LIVE BOT <%i> NUM: %i\n", un->bot->id, un->bot->last_live);
+		un->bot = un->bot->next;
+	}
 }
 
 void			execute_command(t_pc *pc, t_union *un)

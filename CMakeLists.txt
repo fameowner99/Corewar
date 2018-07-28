@@ -7,6 +7,17 @@ add_executable(Corewar
         VirtualMachine/src/commands/commands.c
         VirtualMachine/src/commands/ft_get_int.c
         VirtualMachine/src/commands/parsing_commands.c
+        VirtualMachine/src/commands/ft_and.c
+        VirtualMachine/src/commands/ft_fork.c
+        VirtualMachine/src/commands/ft_ldi.c
+        VirtualMachine/src/commands/ft_lldi.c
+        VirtualMachine/src/commands/ft_lld.c
+        VirtualMachine/src/commands/ft_load.c
+        VirtualMachine/src/commands/ft_or.c
+        VirtualMachine/src/commands/ft_st.c
+        VirtualMachine/src/commands/ft_sti_dir.c
+        VirtualMachine/src/commands/ft_sti.c
+        VirtualMachine/src/commands/ft_xor.c
         VirtualMachine/src/main_part/choose_winner.c
         VirtualMachine/src/main_part/corewar.c
         VirtualMachine/src/main_part/end_game.c
@@ -23,6 +34,9 @@ add_executable(Corewar
         VirtualMachine/src/visualization/display_map.c
         VirtualMachine/src/visualization/print_border.c
         VirtualMachine/src/visualization/print_right_window.c
+        VirtualMachine/src/commands/ft_and_dir_ind.c
+        VirtualMachine/src/commands/ft_or_dir_ind.c
+        VirtualMachine/src/commands/ft_xor_dir_ind.c
         )
 
 find_package(Curses REQUIRED)

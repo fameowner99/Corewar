@@ -24,8 +24,8 @@ int			parsing(int argc, char **argv, t_union *un)
 	un->count.i = 1;
 	if (check_if_input_correct(argv, un) == 0)
 	{
-		ft_printf(RED"Usage: ./corewar [-dump nbr_cycles > 0] [[-n number >");
-		ft_printf(" 0 && number < 5] champion1.cor] ... \n");
+		ft_printf(RED"Usage: ./corewar [-a] [-dump nbr_cycles > 0] [[-n num");
+		ft_printf("ber > 0 && number < 5] champion1.cor] ... \n");
 		ft_printf("-v : Ncurses output mode\n"RESET);
 		return (0);
 	}

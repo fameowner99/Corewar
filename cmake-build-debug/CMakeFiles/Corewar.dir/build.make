@@ -129,9 +129,273 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/commands/parsing_commands.c.o.provides
 CMakeFiles/Corewar.dir/VirtualMachine/src/commands/parsing_commands.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/parsing_commands.c.o
 
 
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o: ../VirtualMachine/src/commands/ft_and.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_and.c
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_and.c > CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.i
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_and.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.s
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o.requires
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o.provides
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o
+
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o: ../VirtualMachine/src/commands/ft_fork.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_fork.c
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_fork.c > CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.i
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_fork.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.s
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o.requires
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o.provides
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o
+
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o: ../VirtualMachine/src/commands/ft_ldi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_ldi.c
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_ldi.c > CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.i
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_ldi.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.s
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o.requires
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o.provides
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o
+
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o: ../VirtualMachine/src/commands/ft_lldi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_lldi.c
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_lldi.c > CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.i
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_lldi.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.s
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o.requires
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o.provides
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o
+
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o: ../VirtualMachine/src/commands/ft_lld.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_lld.c
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_lld.c > CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.i
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_lld.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.s
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o.requires
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o.provides
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o
+
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o: ../VirtualMachine/src/commands/ft_load.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_load.c
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_load.c > CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.i
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_load.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.s
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o.requires
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o.provides
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o
+
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o: ../VirtualMachine/src/commands/ft_or.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_or.c
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_or.c > CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.i
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_or.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.s
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o.requires
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o.provides
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o
+
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o: ../VirtualMachine/src/commands/ft_st.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_st.c
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_st.c > CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.i
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_st.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.s
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o.requires
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o.provides
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o
+
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o: ../VirtualMachine/src/commands/ft_sti_dir.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_sti_dir.c
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_sti_dir.c > CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.i
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_sti_dir.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.s
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o.requires
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o.provides
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o
+
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o: ../VirtualMachine/src/commands/ft_sti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_sti.c
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_sti.c > CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.i
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_sti.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.s
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o.requires
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o.provides
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o
+
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o: ../VirtualMachine/src/commands/ft_xor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_xor.c
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_xor.c > CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.i
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_xor.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.s
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o.requires
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o.provides
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o
+
+
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/choose_winner.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/choose_winner.c.o: ../VirtualMachine/src/main_part/choose_winner.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/choose_winner.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/choose_winner.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/choose_winner.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/main_part/choose_winner.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/choose_winner.c.i: cmake_force
@@ -155,7 +419,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/choose_winner.c.o.provides.b
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/corewar.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/corewar.c.o: ../VirtualMachine/src/main_part/corewar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/corewar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/corewar.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/corewar.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/main_part/corewar.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/corewar.c.i: cmake_force
@@ -179,7 +443,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/corewar.c.o.provides.build: 
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/end_game.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/end_game.c.o: ../VirtualMachine/src/main_part/end_game.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/end_game.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/end_game.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/end_game.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/main_part/end_game.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/end_game.c.i: cmake_force
@@ -203,7 +467,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/end_game.c.o.provides.build:
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/main.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/main.c.o: ../VirtualMachine/src/main_part/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/main.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/main_part/main.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/main.c.i: cmake_force
@@ -227,7 +491,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/main.c.o.provides.build: CMa
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_bot_list.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_bot_list.c.o: ../VirtualMachine/src/main_part/manage_bot_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_bot_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_bot_list.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_bot_list.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_bot_list.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_bot_list.c.i: cmake_force
@@ -251,7 +515,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_bot_list.c.o.provides
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list.c.o: ../VirtualMachine/src/main_part/manage_pc_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_pc_list.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list.c.i: cmake_force
@@ -275,7 +539,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list.c.o.provides.
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list2.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list2.c.o: ../VirtualMachine/src/main_part/manage_pc_list2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list2.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list2.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_pc_list2.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list2.c.i: cmake_force
@@ -299,7 +563,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list2.c.o.provides
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_map.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_map.c.o: ../VirtualMachine/src/main_part/manage_map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_map.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_map.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_map.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_map.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_map.c.i: cmake_force
@@ -323,7 +587,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_map.c.o.provides.buil
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o: ../VirtualMachine/src/parsing/get_bot_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/parsing/get_bot_info.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.i: cmake_force
@@ -347,7 +611,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o.provides.buil
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/manage_arguments.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/manage_arguments.c.o: ../VirtualMachine/src/parsing/manage_arguments.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/manage_arguments.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/manage_arguments.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/manage_arguments.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/parsing/manage_arguments.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/manage_arguments.c.i: cmake_force
@@ -371,7 +635,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/manage_arguments.c.o.provides.
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot.c.o: ../VirtualMachine/src/parsing/parse_bot.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot.c.i: cmake_force
@@ -395,7 +659,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot.c.o.provides.build: 
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot_id.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot_id.c.o: ../VirtualMachine/src/parsing/parse_bot_id.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot_id.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot_id.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot_id.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot_id.c.i: cmake_force
@@ -419,7 +683,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parse_bot_id.c.o.provides.buil
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.o: ../VirtualMachine/src/parsing/parsing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/parsing/parsing.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.i: cmake_force
@@ -443,7 +707,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.o.provides.build: CM
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/display_map.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/display_map.c.o: ../VirtualMachine/src/visualization/display_map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/display_map.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/display_map.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/display_map.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/visualization/display_map.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/display_map.c.i: cmake_force
@@ -467,7 +731,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/display_map.c.o.provides
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_border.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_border.c.o: ../VirtualMachine/src/visualization/print_border.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_border.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_border.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_border.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/visualization/print_border.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_border.c.i: cmake_force
@@ -491,7 +755,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_border.c.o.provide
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.o: ../VirtualMachine/src/visualization/print_right_window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/visualization/print_right_window.c
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.i: cmake_force
@@ -513,11 +777,94 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.o.p
 CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.o
 
 
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o: ../VirtualMachine/src/commands/ft_and_dir_ind.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_and_dir_ind.c
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_and_dir_ind.c > CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.i
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_and_dir_ind.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.s
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o.requires
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o.provides
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o
+
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o: ../VirtualMachine/src/commands/ft_or_dir_ind.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_or_dir_ind.c
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_or_dir_ind.c > CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.i
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_or_dir_ind.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.s
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o.requires
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o.provides
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o
+
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o: ../VirtualMachine/src/commands/ft_xor_dir_ind.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o   -c /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_xor_dir_ind.c
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_xor_dir_ind.c > CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.i
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_xor_dir_ind.c -o CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.s
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o.requires
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o.provides: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o.provides
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o.provides.build: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o
+
+
 # Object files for target Corewar
 Corewar_OBJECTS = \
 "CMakeFiles/Corewar.dir/VirtualMachine/src/commands/commands.c.o" \
 "CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_get_int.c.o" \
 "CMakeFiles/Corewar.dir/VirtualMachine/src/commands/parsing_commands.c.o" \
+"CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o" \
+"CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o" \
+"CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o" \
+"CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o" \
+"CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o" \
+"CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o" \
+"CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o" \
+"CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o" \
+"CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o" \
+"CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o" \
+"CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o" \
 "CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/choose_winner.c.o" \
 "CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/corewar.c.o" \
 "CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/end_game.c.o" \
@@ -533,7 +880,10 @@ Corewar_OBJECTS = \
 "CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.o" \
 "CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/display_map.c.o" \
 "CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_border.c.o" \
-"CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.o"
+"CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.o" \
+"CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o" \
+"CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o" \
+"CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o"
 
 # External object files for target Corewar
 Corewar_EXTERNAL_OBJECTS =
@@ -541,6 +891,17 @@ Corewar_EXTERNAL_OBJECTS =
 Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/commands.c.o
 Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_get_int.c.o
 Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/parsing_commands.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o
 Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/choose_winner.c.o
 Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/corewar.c.o
 Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/end_game.c.o
@@ -557,12 +918,15 @@ Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/parsing.c.o
 Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/display_map.c.o
 Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_border.c.o
 Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o
+Corewar: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o
 Corewar: CMakeFiles/Corewar.dir/build.make
 Corewar: /usr/lib/libcurses.dylib
 Corewar: /usr/lib/libform.dylib
 Corewar: ../libft/libft.a
 Corewar: CMakeFiles/Corewar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C executable Corewar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vmiachko/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C executable Corewar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Corewar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -573,6 +937,17 @@ CMakeFiles/Corewar.dir/build: Corewar
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/commands.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_get_int.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/parsing_commands.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/choose_winner.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/corewar.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/end_game.c.o.requires
@@ -589,6 +964,9 @@ CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/parsi
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/display_map.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_border.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/visualization/print_right_window.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o.requires
 
 .PHONY : CMakeFiles/Corewar.dir/requires
 

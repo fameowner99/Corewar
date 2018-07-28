@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/27 14:17:38 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/27 14:18:33 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/28 17:10:27 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,23 +14,23 @@
 
 # define VISUALIZATION_H
 
-#include "vm.h"
+# include "vm.h"
 
 # define XMAX 200
 # define YMAX 200
 
 typedef struct	s_vis
 {
-	int key;
-	int i;
-	int k;
-	int x;
-	int y;
-	WINDOW *win;
+	int			key;
+	int			i;
+	int			k;
+	int			x;
+	int			y;
+	WINDOW		*win;
 }				t_vis;
 
-void		print_border(WINDOW *win);
-void		print_to_right_window(t_union *un);
-void		print_pause(t_vis vis);
+void			print_border(WINDOW *win);
+void			print_to_right_window(t_union *un);
+void			print_pause(t_vis vis);
 
 #endif

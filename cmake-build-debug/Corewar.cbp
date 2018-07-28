@@ -83,7 +83,49 @@
 		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/commands.c">
 			<Option target="Corewar"/>
 		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_and.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_and_dir_ind.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_fork.c">
+			<Option target="Corewar"/>
+		</Unit>
 		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_get_int.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_ldi.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_lld.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_lldi.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_load.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_or.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_or_dir_ind.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_st.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_sti.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_sti_dir.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_xor.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_xor_dir_ind.c">
 			<Option target="Corewar"/>
 		</Unit>
 		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/parsing_commands.c">

@@ -150,6 +150,87 @@ VirtualMachine/src/commands/commands.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/commands.c.s
 .PHONY : VirtualMachine/src/commands/commands.c.s
 
+VirtualMachine/src/commands/ft_and.o: VirtualMachine/src/commands/ft_and.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_and.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_and.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o
+.PHONY : VirtualMachine/src/commands/ft_and.c.o
+
+VirtualMachine/src/commands/ft_and.i: VirtualMachine/src/commands/ft_and.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_and.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_and.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.i
+.PHONY : VirtualMachine/src/commands/ft_and.c.i
+
+VirtualMachine/src/commands/ft_and.s: VirtualMachine/src/commands/ft_and.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_and.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_and.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.s
+.PHONY : VirtualMachine/src/commands/ft_and.c.s
+
+VirtualMachine/src/commands/ft_and_dir_ind.o: VirtualMachine/src/commands/ft_and_dir_ind.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_and_dir_ind.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_and_dir_ind.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o
+.PHONY : VirtualMachine/src/commands/ft_and_dir_ind.c.o
+
+VirtualMachine/src/commands/ft_and_dir_ind.i: VirtualMachine/src/commands/ft_and_dir_ind.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_and_dir_ind.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_and_dir_ind.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.i
+.PHONY : VirtualMachine/src/commands/ft_and_dir_ind.c.i
+
+VirtualMachine/src/commands/ft_and_dir_ind.s: VirtualMachine/src/commands/ft_and_dir_ind.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_and_dir_ind.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_and_dir_ind.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.s
+.PHONY : VirtualMachine/src/commands/ft_and_dir_ind.c.s
+
+VirtualMachine/src/commands/ft_fork.o: VirtualMachine/src/commands/ft_fork.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_fork.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_fork.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o
+.PHONY : VirtualMachine/src/commands/ft_fork.c.o
+
+VirtualMachine/src/commands/ft_fork.i: VirtualMachine/src/commands/ft_fork.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_fork.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_fork.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.i
+.PHONY : VirtualMachine/src/commands/ft_fork.c.i
+
+VirtualMachine/src/commands/ft_fork.s: VirtualMachine/src/commands/ft_fork.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_fork.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_fork.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.s
+.PHONY : VirtualMachine/src/commands/ft_fork.c.s
+
 VirtualMachine/src/commands/ft_get_int.o: VirtualMachine/src/commands/ft_get_int.c.o
 
 .PHONY : VirtualMachine/src/commands/ft_get_int.o
@@ -176,6 +257,303 @@ VirtualMachine/src/commands/ft_get_int.s: VirtualMachine/src/commands/ft_get_int
 VirtualMachine/src/commands/ft_get_int.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_get_int.c.s
 .PHONY : VirtualMachine/src/commands/ft_get_int.c.s
+
+VirtualMachine/src/commands/ft_ldi.o: VirtualMachine/src/commands/ft_ldi.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_ldi.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_ldi.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o
+.PHONY : VirtualMachine/src/commands/ft_ldi.c.o
+
+VirtualMachine/src/commands/ft_ldi.i: VirtualMachine/src/commands/ft_ldi.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_ldi.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_ldi.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.i
+.PHONY : VirtualMachine/src/commands/ft_ldi.c.i
+
+VirtualMachine/src/commands/ft_ldi.s: VirtualMachine/src/commands/ft_ldi.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_ldi.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_ldi.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.s
+.PHONY : VirtualMachine/src/commands/ft_ldi.c.s
+
+VirtualMachine/src/commands/ft_lld.o: VirtualMachine/src/commands/ft_lld.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_lld.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_lld.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o
+.PHONY : VirtualMachine/src/commands/ft_lld.c.o
+
+VirtualMachine/src/commands/ft_lld.i: VirtualMachine/src/commands/ft_lld.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_lld.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_lld.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.i
+.PHONY : VirtualMachine/src/commands/ft_lld.c.i
+
+VirtualMachine/src/commands/ft_lld.s: VirtualMachine/src/commands/ft_lld.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_lld.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_lld.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.s
+.PHONY : VirtualMachine/src/commands/ft_lld.c.s
+
+VirtualMachine/src/commands/ft_lldi.o: VirtualMachine/src/commands/ft_lldi.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_lldi.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_lldi.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o
+.PHONY : VirtualMachine/src/commands/ft_lldi.c.o
+
+VirtualMachine/src/commands/ft_lldi.i: VirtualMachine/src/commands/ft_lldi.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_lldi.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_lldi.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.i
+.PHONY : VirtualMachine/src/commands/ft_lldi.c.i
+
+VirtualMachine/src/commands/ft_lldi.s: VirtualMachine/src/commands/ft_lldi.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_lldi.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_lldi.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.s
+.PHONY : VirtualMachine/src/commands/ft_lldi.c.s
+
+VirtualMachine/src/commands/ft_load.o: VirtualMachine/src/commands/ft_load.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_load.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_load.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o
+.PHONY : VirtualMachine/src/commands/ft_load.c.o
+
+VirtualMachine/src/commands/ft_load.i: VirtualMachine/src/commands/ft_load.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_load.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_load.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.i
+.PHONY : VirtualMachine/src/commands/ft_load.c.i
+
+VirtualMachine/src/commands/ft_load.s: VirtualMachine/src/commands/ft_load.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_load.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_load.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.s
+.PHONY : VirtualMachine/src/commands/ft_load.c.s
+
+VirtualMachine/src/commands/ft_or.o: VirtualMachine/src/commands/ft_or.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_or.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_or.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o
+.PHONY : VirtualMachine/src/commands/ft_or.c.o
+
+VirtualMachine/src/commands/ft_or.i: VirtualMachine/src/commands/ft_or.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_or.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_or.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.i
+.PHONY : VirtualMachine/src/commands/ft_or.c.i
+
+VirtualMachine/src/commands/ft_or.s: VirtualMachine/src/commands/ft_or.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_or.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_or.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.s
+.PHONY : VirtualMachine/src/commands/ft_or.c.s
+
+VirtualMachine/src/commands/ft_or_dir_ind.o: VirtualMachine/src/commands/ft_or_dir_ind.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_or_dir_ind.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_or_dir_ind.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o
+.PHONY : VirtualMachine/src/commands/ft_or_dir_ind.c.o
+
+VirtualMachine/src/commands/ft_or_dir_ind.i: VirtualMachine/src/commands/ft_or_dir_ind.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_or_dir_ind.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_or_dir_ind.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.i
+.PHONY : VirtualMachine/src/commands/ft_or_dir_ind.c.i
+
+VirtualMachine/src/commands/ft_or_dir_ind.s: VirtualMachine/src/commands/ft_or_dir_ind.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_or_dir_ind.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_or_dir_ind.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.s
+.PHONY : VirtualMachine/src/commands/ft_or_dir_ind.c.s
+
+VirtualMachine/src/commands/ft_st.o: VirtualMachine/src/commands/ft_st.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_st.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_st.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o
+.PHONY : VirtualMachine/src/commands/ft_st.c.o
+
+VirtualMachine/src/commands/ft_st.i: VirtualMachine/src/commands/ft_st.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_st.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_st.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.i
+.PHONY : VirtualMachine/src/commands/ft_st.c.i
+
+VirtualMachine/src/commands/ft_st.s: VirtualMachine/src/commands/ft_st.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_st.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_st.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.s
+.PHONY : VirtualMachine/src/commands/ft_st.c.s
+
+VirtualMachine/src/commands/ft_sti.o: VirtualMachine/src/commands/ft_sti.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_sti.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_sti.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o
+.PHONY : VirtualMachine/src/commands/ft_sti.c.o
+
+VirtualMachine/src/commands/ft_sti.i: VirtualMachine/src/commands/ft_sti.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_sti.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_sti.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.i
+.PHONY : VirtualMachine/src/commands/ft_sti.c.i
+
+VirtualMachine/src/commands/ft_sti.s: VirtualMachine/src/commands/ft_sti.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_sti.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_sti.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.s
+.PHONY : VirtualMachine/src/commands/ft_sti.c.s
+
+VirtualMachine/src/commands/ft_sti_dir.o: VirtualMachine/src/commands/ft_sti_dir.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_sti_dir.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_sti_dir.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o
+.PHONY : VirtualMachine/src/commands/ft_sti_dir.c.o
+
+VirtualMachine/src/commands/ft_sti_dir.i: VirtualMachine/src/commands/ft_sti_dir.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_sti_dir.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_sti_dir.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.i
+.PHONY : VirtualMachine/src/commands/ft_sti_dir.c.i
+
+VirtualMachine/src/commands/ft_sti_dir.s: VirtualMachine/src/commands/ft_sti_dir.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_sti_dir.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_sti_dir.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.s
+.PHONY : VirtualMachine/src/commands/ft_sti_dir.c.s
+
+VirtualMachine/src/commands/ft_xor.o: VirtualMachine/src/commands/ft_xor.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_xor.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_xor.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o
+.PHONY : VirtualMachine/src/commands/ft_xor.c.o
+
+VirtualMachine/src/commands/ft_xor.i: VirtualMachine/src/commands/ft_xor.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_xor.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_xor.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.i
+.PHONY : VirtualMachine/src/commands/ft_xor.c.i
+
+VirtualMachine/src/commands/ft_xor.s: VirtualMachine/src/commands/ft_xor.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_xor.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_xor.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.s
+.PHONY : VirtualMachine/src/commands/ft_xor.c.s
+
+VirtualMachine/src/commands/ft_xor_dir_ind.o: VirtualMachine/src/commands/ft_xor_dir_ind.c.o
+
+.PHONY : VirtualMachine/src/commands/ft_xor_dir_ind.o
+
+# target to build an object file
+VirtualMachine/src/commands/ft_xor_dir_ind.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o
+.PHONY : VirtualMachine/src/commands/ft_xor_dir_ind.c.o
+
+VirtualMachine/src/commands/ft_xor_dir_ind.i: VirtualMachine/src/commands/ft_xor_dir_ind.c.i
+
+.PHONY : VirtualMachine/src/commands/ft_xor_dir_ind.i
+
+# target to preprocess a source file
+VirtualMachine/src/commands/ft_xor_dir_ind.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.i
+.PHONY : VirtualMachine/src/commands/ft_xor_dir_ind.c.i
+
+VirtualMachine/src/commands/ft_xor_dir_ind.s: VirtualMachine/src/commands/ft_xor_dir_ind.c.s
+
+.PHONY : VirtualMachine/src/commands/ft_xor_dir_ind.s
+
+# target to generate assembly for a file
+VirtualMachine/src/commands/ft_xor_dir_ind.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.s
+.PHONY : VirtualMachine/src/commands/ft_xor_dir_ind.c.s
 
 VirtualMachine/src/commands/parsing_commands.o: VirtualMachine/src/commands/parsing_commands.c.o
 
@@ -648,9 +1026,51 @@ help:
 	@echo "... VirtualMachine/src/commands/commands.o"
 	@echo "... VirtualMachine/src/commands/commands.i"
 	@echo "... VirtualMachine/src/commands/commands.s"
+	@echo "... VirtualMachine/src/commands/ft_and.o"
+	@echo "... VirtualMachine/src/commands/ft_and.i"
+	@echo "... VirtualMachine/src/commands/ft_and.s"
+	@echo "... VirtualMachine/src/commands/ft_and_dir_ind.o"
+	@echo "... VirtualMachine/src/commands/ft_and_dir_ind.i"
+	@echo "... VirtualMachine/src/commands/ft_and_dir_ind.s"
+	@echo "... VirtualMachine/src/commands/ft_fork.o"
+	@echo "... VirtualMachine/src/commands/ft_fork.i"
+	@echo "... VirtualMachine/src/commands/ft_fork.s"
 	@echo "... VirtualMachine/src/commands/ft_get_int.o"
 	@echo "... VirtualMachine/src/commands/ft_get_int.i"
 	@echo "... VirtualMachine/src/commands/ft_get_int.s"
+	@echo "... VirtualMachine/src/commands/ft_ldi.o"
+	@echo "... VirtualMachine/src/commands/ft_ldi.i"
+	@echo "... VirtualMachine/src/commands/ft_ldi.s"
+	@echo "... VirtualMachine/src/commands/ft_lld.o"
+	@echo "... VirtualMachine/src/commands/ft_lld.i"
+	@echo "... VirtualMachine/src/commands/ft_lld.s"
+	@echo "... VirtualMachine/src/commands/ft_lldi.o"
+	@echo "... VirtualMachine/src/commands/ft_lldi.i"
+	@echo "... VirtualMachine/src/commands/ft_lldi.s"
+	@echo "... VirtualMachine/src/commands/ft_load.o"
+	@echo "... VirtualMachine/src/commands/ft_load.i"
+	@echo "... VirtualMachine/src/commands/ft_load.s"
+	@echo "... VirtualMachine/src/commands/ft_or.o"
+	@echo "... VirtualMachine/src/commands/ft_or.i"
+	@echo "... VirtualMachine/src/commands/ft_or.s"
+	@echo "... VirtualMachine/src/commands/ft_or_dir_ind.o"
+	@echo "... VirtualMachine/src/commands/ft_or_dir_ind.i"
+	@echo "... VirtualMachine/src/commands/ft_or_dir_ind.s"
+	@echo "... VirtualMachine/src/commands/ft_st.o"
+	@echo "... VirtualMachine/src/commands/ft_st.i"
+	@echo "... VirtualMachine/src/commands/ft_st.s"
+	@echo "... VirtualMachine/src/commands/ft_sti.o"
+	@echo "... VirtualMachine/src/commands/ft_sti.i"
+	@echo "... VirtualMachine/src/commands/ft_sti.s"
+	@echo "... VirtualMachine/src/commands/ft_sti_dir.o"
+	@echo "... VirtualMachine/src/commands/ft_sti_dir.i"
+	@echo "... VirtualMachine/src/commands/ft_sti_dir.s"
+	@echo "... VirtualMachine/src/commands/ft_xor.o"
+	@echo "... VirtualMachine/src/commands/ft_xor.i"
+	@echo "... VirtualMachine/src/commands/ft_xor.s"
+	@echo "... VirtualMachine/src/commands/ft_xor_dir_ind.o"
+	@echo "... VirtualMachine/src/commands/ft_xor_dir_ind.i"
+	@echo "... VirtualMachine/src/commands/ft_xor_dir_ind.s"
 	@echo "... VirtualMachine/src/commands/parsing_commands.o"
 	@echo "... VirtualMachine/src/commands/parsing_commands.i"
 	@echo "... VirtualMachine/src/commands/parsing_commands.s"

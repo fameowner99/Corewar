@@ -8,11 +8,109 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/commands/commands.c.o: ../VirtualMachi
 CMakeFiles/Corewar.dir/VirtualMachine/src/commands/commands.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/commands/commands.c.o: ../libft/libft.h
 
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o: ../VirtualMachine/inc/commands.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o: ../VirtualMachine/src/commands/ft_and.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and.c.o: ../libft/libft.h
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o: ../VirtualMachine/inc/commands.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o: ../VirtualMachine/src/commands/ft_and_dir_ind.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o: ../libft/libft.h
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o: ../VirtualMachine/inc/commands.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o: ../VirtualMachine/src/commands/ft_fork.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_fork.c.o: ../libft/libft.h
+
 CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_get_int.c.o: ../VirtualMachine/inc/op.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_get_int.c.o: ../VirtualMachine/inc/vm.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_get_int.c.o: ../VirtualMachine/src/commands/ft_get_int.c
 CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_get_int.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_get_int.c.o: ../libft/libft.h
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o: ../VirtualMachine/inc/commands.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o: ../VirtualMachine/src/commands/ft_ldi.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_ldi.c.o: ../libft/libft.h
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o: ../VirtualMachine/inc/commands.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o: ../VirtualMachine/src/commands/ft_lld.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lld.c.o: ../libft/libft.h
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o: ../VirtualMachine/inc/commands.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o: ../VirtualMachine/src/commands/ft_lldi.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_lldi.c.o: ../libft/libft.h
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o: ../VirtualMachine/inc/commands.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o: ../VirtualMachine/src/commands/ft_load.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_load.c.o: ../libft/libft.h
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o: ../VirtualMachine/inc/commands.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o: ../VirtualMachine/src/commands/ft_or.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or.c.o: ../libft/libft.h
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o: ../VirtualMachine/inc/commands.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o: ../VirtualMachine/src/commands/ft_or_dir_ind.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o: ../libft/libft.h
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o: ../VirtualMachine/inc/commands.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o: ../VirtualMachine/src/commands/ft_st.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_st.c.o: ../libft/libft.h
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o: ../VirtualMachine/inc/commands.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o: ../VirtualMachine/src/commands/ft_sti.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti.c.o: ../libft/libft.h
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o: ../VirtualMachine/inc/commands.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o: ../VirtualMachine/src/commands/ft_sti_dir.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_sti_dir.c.o: ../libft/libft.h
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o: ../VirtualMachine/inc/commands.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o: ../VirtualMachine/src/commands/ft_xor.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor.c.o: ../libft/libft.h
+
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o: ../VirtualMachine/inc/commands.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o: ../VirtualMachine/inc/vm.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o: ../VirtualMachine/src/commands/ft_xor_dir_ind.c
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o: ../libft/libft.h
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/commands/parsing_commands.c.o: ../VirtualMachine/inc/commands.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/commands/parsing_commands.c.o: ../VirtualMachine/inc/op.h

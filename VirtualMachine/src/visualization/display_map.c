@@ -93,10 +93,33 @@ int			pause_exit(t_vis vis, t_union *un)
 	return (1);
 }
 
+void		change_speed(int key, t_union *un)
+{
+	if (key == 45)
+	{
+		if (un->speed_v >= 5){
+			un->speed += 8000;
+			un->speed_v -= 5;
+		}
+	}
+	if (key == 61)
+	{
+		if (un->speed >= 8000)
+		{
+			un->speed -= 8000;
+			un->speed_v += 5;
+		}
+	}
+
+}
+
 void		display_map(t_union *un)
 {
 	t_vis	vis;
 
+
+	un->speed = 0;
+	un->speed_v = 100;
 	vis.win = init_colors(&vis.key);
 	while (vis.key)
 	{
@@ -108,11 +131,13 @@ void		display_map(t_union *un)
 		print_border(vis.win);
 		print_map(&vis, un);
 		vis.key = getch();
+		change_speed(vis.key, un);
 		vis.key = pause_exit(vis, un);
 		if (vis.key == 27)
 			break ;
 		corewar(un);
 		update_pc(un);
+		usleep(un->speed);
 	}
 	endwin();
 	curs_set(1);
