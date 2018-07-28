@@ -100,6 +100,8 @@ void			move_pc(t_union *un)
 
 void			corewar(t_union *un)
 {
+	++un->cycle;
+	move_pc(un);
 	if (un->k == un->cycle_to_die && un->cycle != 0)
 	{
 		check_if_pc_alive(un);
@@ -118,7 +120,5 @@ void			corewar(t_union *un)
 		clear_num_live(un);
 		un->k = 0;
 	}
-	++un->cycle;
 	++un->k;
-	move_pc(un);
 }

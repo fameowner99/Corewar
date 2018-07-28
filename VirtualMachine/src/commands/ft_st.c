@@ -33,7 +33,7 @@ void ft_st_ind(t_pc *pc, t_union *un)
 		pc->curr_position = pc->curr_position + 5;
 		return ;
 	}
-	position = pc->curr_position + ((short)ft_get_int(un, pc->curr_position + 3, 2) % IDX_MOD);
+	position = pc->curr_position + ((short)ft_get_int(un, ft_check_position(pc->curr_position + 3), 2) % IDX_MOD);
 	position = ft_check_position(position);
 	num = ft_get_char_from_int(pc, one - 1);
 	un->map[position].value = num[0];
