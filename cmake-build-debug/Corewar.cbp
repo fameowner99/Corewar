@@ -8,178 +8,182 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/vmiachko/Corewar/cmake-build-debug"/>
+				<Option working_dir="/home/fameowner/Corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/vmiachko/Corewar/cmake-build-debug"/>
+				<Option working_dir="/home/fameowner/Corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/vmiachko/Corewar/cmake-build-debug"/>
+				<Option working_dir="/home/fameowner/Corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Corewar">
-				<Option output="/Users/vmiachko/Corewar/cmake-build-debug/Corewar" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/vmiachko/Corewar/cmake-build-debug"/>
+				<Option output="/home/fameowner/Corewar/cmake-build-debug/Corewar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fameowner/Corewar/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 Corewar"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 Corewar"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Corewar/fast">
-				<Option output="/Users/vmiachko/Corewar/cmake-build-debug/Corewar" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/vmiachko/Corewar/cmake-build-debug"/>
+				<Option output="/home/fameowner/Corewar/cmake-build-debug/Corewar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fameowner/Corewar/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 Corewar/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 Corewar/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fameowner/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/commands.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/commands.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_and.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_and.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_and_dir_ind.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_and_dir_ind.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_fork.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_fork.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_get_int.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_get_int.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_ldi.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_ldi.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_lld.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_lld.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_lldi.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_lldi.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_load.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_load.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_or.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_or.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_or_dir_ind.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_or_dir_ind.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_st.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_st.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_sti.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_sti.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_sti_dir.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_sti_dir.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_xor.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_xor.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_xor_dir_ind.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/ft_xor_dir_ind.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/commands/parsing_commands.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/commands/parsing_commands.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/choose_winner.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/main_part/choose_winner.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/corewar.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/main_part/corewar.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/end_game.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/main_part/end_game.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/main.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/main_part/main.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_bot_list.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/main_part/manage_bot_list.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_map.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/main_part/manage_map.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_pc_list.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/main_part/manage_pc_list.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_pc_list2.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/main_part/manage_pc_list2.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/get_bot_info.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/parsing/get_bot_info.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/manage_arguments.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/parsing/manage_arguments.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/parsing/parse_bot.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot_id.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/parsing/parse_bot_id.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parsing.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/parsing/parsing.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/visualization/display_map.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/visualization/display_map.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/visualization/print_border.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/visualization/print_border.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/VirtualMachine/src/visualization/print_right_window.c">
+		<Unit filename="/home/fameowner/Corewar/VirtualMachine/src/visualization/print_right_window.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/Corewar/CMakeLists.txt">
+		<Unit filename="/home/fameowner/Corewar/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -53,6 +53,7 @@ void ft_sti_dir_dir(t_pc *pc, t_union *un)
 		un->map[ft_check_position(position + 1)].value = num[1];
 		un->map[ft_check_position(position + 2)].value = num[2];
 		un->map[ft_check_position(position + 3)].value = num[3];
+		free(num);
 		un->map[ft_check_position(position)].color = un->map[pc->curr_position].color;
 		un->map[ft_check_position(position + 1)].color = un->map[pc->curr_position].color;
 		un->map[ft_check_position(position + 2)].color = un->map[pc->curr_position].color;

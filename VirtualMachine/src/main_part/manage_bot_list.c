@@ -16,7 +16,7 @@ static t_bot		*bot_new(char *filename, int id)
 {
 	t_bot			*res;
 
-	if (!(res = (t_bot *)malloc(sizeof(t_bot) + 1)))
+	if (!(res = (t_bot *)malloc(sizeof(t_bot))))
 		return (NULL);
 	if (!(res->filename = (char *)ft_memalloc(ft_strlen(filename) + 1)))
 		return (NULL);
