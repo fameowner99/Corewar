@@ -25,6 +25,7 @@ int				main(int argc, char **argv)
 	un.cycle_to_die = CYCLE_TO_DIE;
 	un.bots_number = 0;
 	un.procces_number = 0;
+	un.cycle = 0;
 	if (parsing(argc, argv, &un))
 	{
 		un.map = (t_map*)malloc(4096 * sizeof(t_map) + 1);
@@ -38,7 +39,6 @@ int				main(int argc, char **argv)
 		bot_clear_list(un.bot);
 		pc_clear_list(un.pc);
 		free(un.map);
-
 	}
 	return (0);
 }

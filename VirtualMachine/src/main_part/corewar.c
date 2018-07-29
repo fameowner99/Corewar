@@ -46,13 +46,13 @@ void			without_visual(t_union *un)
 	while (un->cycle_to_die > 0 && un->pc)
 	{
 		corewar(un);
-		if (un->cycle == un->dump)
+			if (un->cycle == un->dump)
 		{
 			dump(un);
 			break ;
 		}
 	}
-	if (!un->dump)
+	if (!un->dump || un->dump > un->cycle)
 		print_winner(un);
 	//del
 	t_bot	*bot;

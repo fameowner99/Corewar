@@ -48,7 +48,7 @@ void				print_players_info(t_union *un)
 	while (bot)
 	{
 		ft_printf(GREEN"* Player % i, weighing %i bytes,", bot->id, bot->size);
-		ft_printf("  \"%s\", (\"%s\") !\n"RESET, bot->name, bot->comment);
+		ft_printf("  \"%s\" (\"%s\") !\n"RESET, bot->name, bot->comment);
 		bot = bot->next;
 	}
 }

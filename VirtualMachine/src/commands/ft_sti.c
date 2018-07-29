@@ -18,7 +18,7 @@ void ft_sti_reg_reg(t_pc *pc, t_union *un)
 	three = un->map[ft_check_position(pc->curr_position + 4)].value;
 	if (one <= 16 && one > 0 && two <= 16 && two > 0 && three <= 16 && three > 0)
 	{
-		position = (pc->reg[two - 1] + pc->reg[three - 1]) % IDX_MOD + pc->curr_position;
+		position = (int)(pc->reg[two - 1] + pc->reg[three - 1]) % IDX_MOD + pc->curr_position;
 		position = ft_check_position(position);
 		num = ft_get_char_from_int(pc, one - 1);
 		un->map[ft_check_position(position)].value = num[0];
@@ -46,7 +46,7 @@ void ft_sti_dir_reg(t_pc *pc, t_union *un)
 	if (one <= 16 && one > 0 && three <= 16 && three > 0)
 	{
 		two = (short)ft_get_int(un, ft_check_position(pc->curr_position + 3), 2);
-		position = (two + pc->reg[three - 1]) % IDX_MOD + pc->curr_position;
+		position = (two + (int)pc->reg[three - 1]) % IDX_MOD + pc->curr_position;
 		position = ft_check_position(position);
 		num = ft_get_char_from_int(pc, one - 1);
 		un->map[ft_check_position(position)].value = num[0];
@@ -75,7 +75,7 @@ void ft_sti_ind_reg(t_pc *pc, t_union *un)
 	if (one <= 16 && one > 0 && three <= 16 && three > 0)
 	{
 		two = ft_get_int(un, ft_check_position(pc->curr_position + ((short)ft_get_int(un, ft_check_position(pc->curr_position + 3), 2) % IDX_MOD)), 4);
-		position = (two + pc->reg[three - 1]) % IDX_MOD + pc->curr_position;
+		position = (two + (int)pc->reg[three - 1]) % IDX_MOD + pc->curr_position;
 		position = ft_check_position(position);
 		num = ft_get_char_from_int(pc, one - 1);
 		un->map[ft_check_position(position)].value = num[0];
@@ -93,12 +93,12 @@ void ft_sti_ind_reg(t_pc *pc, t_union *un)
 
 void ft_sti(t_pc *pc, t_union *un)
 {
+	ft_check_codage(un->map[ft_check_position(pc->curr_position + 1)].value, un);
 	if (STI(un->map[ft_check_position(pc->curr_position + 1)].value) && STI_COD(un->map[ft_check_position(pc->curr_position + 1)].value))
 	{
-		pc->curr_position += 2;
+		pc->curr_position += ft_move_wrong_codage(un, pc->curr_command);
 		return ;
 	}
-	ft_check_codage(un->map[ft_check_position(pc->curr_position + 1)].value, un);
 	if (un->arg[1] == REG_CODE && un->arg[2] == REG_CODE)
 		ft_sti_reg_reg(pc, un);
 	if (un->arg[1] == DIR_CODE && un->arg[2] == REG_CODE)

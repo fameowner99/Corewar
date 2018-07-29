@@ -28,9 +28,10 @@ void ft_add(t_pc *pc, t_union *un)
 	uint8_t three;
 	unsigned int n;
 
-	if ((un->map[ft_check_position(pc->curr_position + 1)].value) == ADD_SUB)
+	ft_check_codage(un->map[ft_check_position(pc->curr_position + 1)].value, un);
+	if ((un->map[ft_check_position(pc->curr_position + 1)].value) != ADD_SUB)
 	{
-		pc->curr_position += 2;
+		pc->curr_position += ft_move_wrong_codage(un, pc->curr_command);
 		return ;
 	}
 	one = un->map[ft_check_position(pc->curr_position + 2)].value;
@@ -56,9 +57,10 @@ void ft_sub(t_pc *pc, t_union *un)
 	uint8_t three;
 	unsigned int n;
 
-	if ((un->map[ft_check_position(pc->curr_position + 1)].value) == ADD_SUB)
+	ft_check_codage(un->map[ft_check_position(pc->curr_position + 1)].value, un);
+	if ((un->map[ft_check_position(pc->curr_position + 1)].value) != ADD_SUB)
 	{
-		pc->curr_position += 2;
+		pc->curr_position += ft_move_wrong_codage(un, pc->curr_command);
 		return ;
 	}
 	one = un->map[ft_check_position(pc->curr_position + 2)].value;
@@ -94,9 +96,10 @@ void ft_aff(t_pc *pc, t_union *un)
 {
 	unsigned char symbol;
 
-	if ((un->map[ft_check_position(pc->curr_position + 1)].value) == AFF_COD)
+	ft_check_codage(un->map[ft_check_position(pc->curr_position + 1)].value, un);
+	if ((un->map[ft_check_position(pc->curr_position + 1)].value) != AFF_COD)
 	{
-		pc->curr_position += 2;
+		pc->curr_position += ft_move_wrong_codage(un, pc->curr_command);
 		return ;
 	}
 	if (un->a)

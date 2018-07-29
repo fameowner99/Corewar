@@ -30,35 +30,35 @@ void choose_commands(t_pc *pc, t_union *un)
 {
     if (pc->curr_command == 1)
         ft_live(pc, un);
-    if (pc->curr_command == 2)
+    else if (pc->curr_command == 2)
         ft_load(pc, un);
-    if (pc->curr_command == 3)
+    else if (pc->curr_command == 3)
         ft_st(pc, un);
-    if (pc->curr_command == 4)
+    else if (pc->curr_command == 4)
         ft_add(pc, un);
-    if (pc->curr_command == 5)
+    else if (pc->curr_command == 5)
         ft_sub(pc, un);
-    if (pc->curr_command == 6)
+    else if (pc->curr_command == 6)
         ft_and(pc, un);
-    if (pc->curr_command == 7)
+    else if (pc->curr_command == 7)
         ft_or(pc, un);
-    if (pc->curr_command == 8)
+    else if (pc->curr_command == 8)
         ft_xor(pc, un);
-    if (pc->curr_command == 9)
+    else if (pc->curr_command == 9)
         ft_zjmp(pc, un);
-    if (pc->curr_command == 10)
+    else if (pc->curr_command == 10)
         ft_ldi(pc, un);
-    if (pc->curr_command == 11)
+    else if (pc->curr_command == 11)
         ft_sti(pc, un);
-    if (pc->curr_command == 12)
+    else if (pc->curr_command == 12)
         ft_fork(pc, un);
-    if (pc->curr_command == 13)
+    else if (pc->curr_command == 13)
         ft_lld(pc, un);
-    if (pc->curr_command == 14)
+    else if (pc->curr_command == 14)
         ft_lldi(pc, un);
-    if (pc->curr_command == 15)
+    else if (pc->curr_command == 15)
         ft_lfork(pc, un);
-    if (pc->curr_command == 16)
+    else if (pc->curr_command == 16)
        ft_aff(pc, un);
 
 }

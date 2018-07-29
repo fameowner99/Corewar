@@ -31,6 +31,7 @@ t_pc			*pc_new(int pos, int bot_num)
 
 	if (!(res = (t_pc *)malloc(sizeof(t_pc))))
 		return (NULL);
+
 	res->curr_position = pos;
 	res->carry = 0;
 	res->creator_id = bot_num;
@@ -70,6 +71,8 @@ t_pc			*pc_copy(t_pc *prev, int position)
 
 t_pc			*pc_push_front(t_pc *head, t_pc *new, t_union *un)
 {
+	if (un->visual)
+		system("afplay music/new.mp3 &");
 	new->next = head;
 	++un->procces_number;
 	if (head != NULL)
@@ -90,11 +93,11 @@ t_pc			*delete_pc(t_pc *head, t_pc *to_del, t_union *un)
 			next = tmp->next;
 			if (tmp == head)
 			{
-				--un->procces_number;
 				if (next)
 					next->prev = NULL;
 				return (next);
 			}
+			--un->procces_number;
 			tmp->prev ? tmp->prev->next = tmp->next : 0;
 			tmp->next ? tmp->next->prev = tmp->prev : 0;
 			free(tmp);

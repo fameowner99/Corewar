@@ -68,7 +68,9 @@ int					get_bot_code(const int fd, t_bot **tmp)
 			{
 				ft_printf(RED"Error: File %s ", (*tmp)->filename);
 				ft_printf("has too large a code ");
-				ft_printf("(%i bytes > 682 bytes)\n"RESET, (*tmp)->code_length);
+				while (((int)read(fd, buf, 1)) > 0)
+					++all;
+				ft_printf("(%i bytes > 682 bytes)\n"RESET, all);
 				return (0);
 			}
 		}

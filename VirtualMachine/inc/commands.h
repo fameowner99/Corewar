@@ -71,5 +71,6 @@ void				ft_xor_dir_dir(t_pc *pc, t_union *un);
 void				ft_xor_ind_dir(t_pc *pc, t_union *un);
 void				ft_xor_reg_ind(t_pc *pc, t_union *un);
 void				ft_xor_dir_ind(t_pc *pc, t_union *un);
+int					ft_move_wrong_codage(t_union *un, int command);
 
 #endif

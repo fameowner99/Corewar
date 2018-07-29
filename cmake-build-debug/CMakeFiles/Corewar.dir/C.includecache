@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/inc/op.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/op.h
 
-/home/fameowner/Corewar/VirtualMachine/inc/parsing.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/inc/visualization.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/visualization.h
 vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../libft/libft.h
-/home/fameowner/Corewar/libft/libft.h
+/Users/vmiachko/Corewar/libft/libft.h
 op.h
-/home/fameowner/Corewar/VirtualMachine/inc/op.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/op.h
 fcntl.h
 -
 sys/types.h
@@ -36,201 +36,201 @@ unistd.h
 ncurses.h
 -
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/commands.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/commands.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_and.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_and.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_and_dir_ind.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_and_dir_ind.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_fork.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_fork.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_get_int.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_get_int.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_ldi.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_ldi.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_lld.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_lld.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_lldi.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_lldi.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_load.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_load.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_or.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_or.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_or_dir_ind.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_or_dir_ind.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_st.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_st.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_sti.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_sti.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_sti_dir.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_sti_dir.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_xor.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_xor.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/ft_xor_dir_ind.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/ft_xor_dir_ind.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/commands/parsing_commands.c
+/Users/vmiachko/Corewar/VirtualMachine/src/commands/parsing_commands.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/main_part/choose_winner.c
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/choose_winner.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/main_part/corewar.c
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/corewar.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/commands.h
-/home/fameowner/Corewar/VirtualMachine/inc/commands.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/commands.h
 
-/home/fameowner/Corewar/VirtualMachine/src/main_part/end_game.c
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/end_game.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/main_part/main.c
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/main.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/parsing.h
-/home/fameowner/Corewar/VirtualMachine/inc/parsing.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 
-/home/fameowner/Corewar/VirtualMachine/src/main_part/manage_bot_list.c
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_bot_list.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/main_part/manage_map.c
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_map.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/main_part/manage_pc_list.c
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_pc_list.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/main_part/manage_pc_list2.c
+/Users/vmiachko/Corewar/VirtualMachine/src/main_part/manage_pc_list2.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/parsing/get_bot_info.c
+/Users/vmiachko/Corewar/VirtualMachine/src/parsing/get_bot_info.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/parsing/manage_arguments.c
+/Users/vmiachko/Corewar/VirtualMachine/src/parsing/manage_arguments.c
 ../../inc/parsing.h
-/home/fameowner/Corewar/VirtualMachine/inc/parsing.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/parsing/parse_bot.c
+/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/parsing.h
-/home/fameowner/Corewar/VirtualMachine/inc/parsing.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 
-/home/fameowner/Corewar/VirtualMachine/src/parsing/parse_bot_id.c
+/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parse_bot_id.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
-/home/fameowner/Corewar/VirtualMachine/src/parsing/parsing.c
+/Users/vmiachko/Corewar/VirtualMachine/src/parsing/parsing.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/parsing.h
-/home/fameowner/Corewar/VirtualMachine/inc/parsing.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 
-/home/fameowner/Corewar/VirtualMachine/src/visualization/display_map.c
+/Users/vmiachko/Corewar/VirtualMachine/src/visualization/display_map.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/visualization.h
-/home/fameowner/Corewar/VirtualMachine/inc/visualization.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/visualization.h
 
-/home/fameowner/Corewar/VirtualMachine/src/visualization/print_border.c
+/Users/vmiachko/Corewar/VirtualMachine/src/visualization/print_border.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/visualization.h
-/home/fameowner/Corewar/VirtualMachine/inc/visualization.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/visualization.h
 
-/home/fameowner/Corewar/VirtualMachine/src/visualization/print_right_window.c
+/Users/vmiachko/Corewar/VirtualMachine/src/visualization/print_right_window.c
 ../../inc/vm.h
-/home/fameowner/Corewar/VirtualMachine/inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 ../../inc/visualization.h
-/home/fameowner/Corewar/VirtualMachine/inc/visualization.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/visualization.h
 
-/home/fameowner/Corewar/libft/ft_printf/ft_printf.h
+/Users/vmiachko/Corewar/libft/ft_printf/ft_printf.h
 ../libft.h
-/home/fameowner/Corewar/libft/libft.h
+/Users/vmiachko/Corewar/libft/libft.h
 stdarg.h
 -
 stdlib.h
 -
 
-/home/fameowner/Corewar/libft/libft.h
+/Users/vmiachko/Corewar/libft/libft.h
 string.h
 -
 stdlib.h
 -
 ft_printf/ft_printf.h
-/home/fameowner/Corewar/libft/ft_printf/ft_printf.h
+/Users/vmiachko/Corewar/libft/ft_printf/ft_printf.h
 stdint.h
 -
 

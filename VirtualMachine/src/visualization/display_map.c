@@ -81,6 +81,7 @@ int			pause_exit(t_vis vis, t_union *un)
 	}
 	if (un->cycle_to_die <= 0 || !un->pc)
 	{
+		system("afplay music/winner.mp3 &");
 		while (1)
 		{
 			vis.key = getch();

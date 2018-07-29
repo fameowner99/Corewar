@@ -19,8 +19,11 @@ void		check_if_pc_alive(t_union *un)
 	pc = un->pc;
 	while (pc)
 	{
+
 		if (!pc->alive)
+		{
 			un->pc = delete_pc(un->pc, pc, un);
+		}
 		else
 			pc->alive = 0;
 		pc = pc->next;

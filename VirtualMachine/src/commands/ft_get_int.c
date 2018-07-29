@@ -8,6 +8,38 @@
 
 #include "../../inc/vm.h"
 
+int ft_move_wrong_codage(t_union *un, int command)
+{
+    int plus;
+    int i;
+	int j;
+
+	if (command == 2 || command == 3 || command == 13)
+		j = 2;
+	else if (command == 16)
+		j = 1;
+	else
+		j = 3;
+    i = 0;
+    plus = 2;
+    while (i < j)
+    {
+        if (un->arg[i] == REG_CODE)
+            plus += 1;
+        else if (un->arg[i] == DIR_CODE)
+		{
+			if (command == 10 || command == 11 || command == 14)
+				plus += 2;
+			else
+				plus += 4;
+		}
+        else if (un->arg[i] == IND_CODE)
+            plus += 2;
+        i++;
+    }
+    return (plus);
+}
+
 
 int ft_check_position(int position)
 {
@@ -57,7 +89,6 @@ uint8_t* ft_get_char_from_int(t_pc *pc, unsigned int num)
 
 void ft_check_codage(uint8_t codage, t_union *un)
 {
-	int i;
 
     un->arg[0] = codage >> 6;
     un->arg[1] = (codage & 0x30) >> 4;
