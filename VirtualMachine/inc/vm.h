@@ -21,6 +21,7 @@
 # include <sys/stat.h>
 # include <unistd.h>
 # include <ncurses.h>
+# include <time.h>
 
 typedef struct		s_bot
 {

@@ -71,8 +71,15 @@ t_pc			*pc_copy(t_pc *prev, int position)
 
 t_pc			*pc_push_front(t_pc *head, t_pc *new, t_union *un)
 {
-	if (un->visual)
+	static clock_t end = 0;
+	clock_t start;
+
+	start = clock();
+	if (un->visual && start != end)
+	{
 		system("afplay music/new.mp3 &");
+		end = clock();
+	}
 	new->next = head;
 	++un->procces_number;
 	if (head != NULL)

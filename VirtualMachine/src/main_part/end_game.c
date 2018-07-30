@@ -33,15 +33,16 @@ void		check_if_pc_alive(t_union *un)
 int			decrease_cycle_to_die(t_union *un)
 {
 	t_bot	*bot;
+	int 	sum;
 
+	sum = 0;
 	bot = un->bot;
 	while (bot)
 	{
-		if (bot->num_live >= 21)
-			return (1);
+		sum += bot->num_live;
 		bot = bot->next;
 	}
-	return (0);
+	return (sum >= 21);
 }
 
 void		clear_num_live(t_union *un)

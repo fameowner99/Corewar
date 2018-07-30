@@ -82,6 +82,9 @@ int			pause_exit(t_vis vis, t_union *un)
 	if (un->cycle_to_die <= 0 || !un->pc)
 	{
 		system("afplay music/winner.mp3 &");
+		print_winner_v(un);
+		print_border(vis.win);
+		refresh();
 		while (1)
 		{
 			vis.key = getch();
@@ -117,7 +120,6 @@ void		change_speed(int key, t_union *un)
 void		display_map(t_union *un)
 {
 	t_vis	vis;
-
 
 	un->speed = 0;
 	un->speed_v = 100;

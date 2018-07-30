@@ -32,5 +32,6 @@ typedef struct	s_vis
 void			print_border(WINDOW *win);
 void			print_to_right_window(t_union *un);
 void			print_pause(t_vis vis);
+void			print_winner_v(t_union *un);
 
 #endif
