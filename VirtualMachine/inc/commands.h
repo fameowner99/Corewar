@@ -16,17 +16,17 @@
 
 # include "vm.h"
 
-# define ADD_SUB    84
-# define AFF_COD  64
-# define LD_COD(x)	(x != 144 && x != 208)
-# define ST_COD(x)  (x != 80 && x != 112)
-# define STI_COD(x) (x != 84 &&  x != 100 &&  x != 116 && x != 120)
-# define STI(x)  (x != 88 && x != 104)
+# define ADD_SUB   21
+# define AFF_COD  16
+# define LD_COD(x)	(x != 36 && x != 52)
+# define ST_COD(x)  (x != 20 && x != 28)
+# define STI_COD(x) (x != 21 &&  x != 25 &&  x != 29 && x != 30)
+# define STI(x)  (x != 22 && x != 26)
 
-# define AND_OR(x) ( x != 84 && x != 148 &&  x != 212 && x !=  244 && x != 180)
-# define AND_XOR(x) (x != 118 &&  x != 100 && x != 228 && x != 164)
-# define LDI_COD(x) (x != 84 && x != 212 && x != 148 && x !=  164)
-# define LLDI_COD(x) (x != 228 && x != 100)
+# define AND_OR(x) ( x != 21 && x != 37 &&  x != 53 && x !=  61 && x != 45)
+# define AND_XOR(x) (x != 29 &&  x != 25 && x != 57 && x != 41)
+# define LDI_COD(x) (x != 21 && x != 53 && x != 37 && x !=  41)
+# define LLDI_COD(x) (x != 57 && x != 25)
 
 int					ft_get_int(t_union *un, int start, int lenght);
 uint8_t				*ft_get_char_from_int(t_pc *pc, unsigned int num);

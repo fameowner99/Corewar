@@ -75,7 +75,7 @@ t_pc			*pc_push_front(t_pc *head, t_pc *new, t_union *un)
 	clock_t start;
 
 	start = clock();
-	if (un->visual && start != end)
+	if (un->visual && (start - end) > 10)
 	{
 		system("afplay music/new.mp3 &");
 		end = clock();

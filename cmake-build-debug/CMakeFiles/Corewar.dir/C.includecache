@@ -35,6 +35,8 @@ unistd.h
 -
 ncurses.h
 -
+time.h
+-
 
 /Users/vmiachko/Corewar/VirtualMachine/src/commands/commands.c
 ../../inc/vm.h
