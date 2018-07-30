@@ -171,6 +171,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list2.c.o
  /Users/vmiachko/Corewar/libft/libft.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o
  /Users/vmiachko/Corewar/VirtualMachine/inc/op.h
+ /Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
  /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
  /Users/vmiachko/Corewar/VirtualMachine/src/parsing/get_bot_info.c
  /Users/vmiachko/Corewar/libft/ft_printf/ft_printf.h

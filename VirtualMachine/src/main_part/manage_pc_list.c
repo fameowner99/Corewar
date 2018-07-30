@@ -6,13 +6,13 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/06 10:39:18 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/27 17:32:25 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/30 14:53:38 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../inc/vm.h"
 
-static t_pc		*clear_arr(t_pc *pc)
+static t_pc			*clear_arr(t_pc *pc)
 {
 	int			i;
 
@@ -25,13 +25,12 @@ static t_pc		*clear_arr(t_pc *pc)
 	return (pc);
 }
 
-t_pc			*pc_new(int pos, int bot_num)
+t_pc				*pc_new(int pos, int bot_num)
 {
-	t_pc		*res;
+	t_pc			*res;
 
 	if (!(res = (t_pc *)malloc(sizeof(t_pc))))
 		return (NULL);
-
 	res->curr_position = pos;
 	res->carry = 0;
 	res->creator_id = bot_num;
@@ -45,10 +44,10 @@ t_pc			*pc_new(int pos, int bot_num)
 	return (res);
 }
 
-t_pc			*pc_copy(t_pc *prev, int position)
+t_pc				*pc_copy(t_pc *prev, int position)
 {
-	int			i;
-	t_pc		*res;
+	int				i;
+	t_pc			*res;
 
 	i = 0;
 	if (!(res = (t_pc *)malloc(sizeof(t_pc))))
@@ -69,10 +68,10 @@ t_pc			*pc_copy(t_pc *prev, int position)
 	return (res);
 }
 
-t_pc			*pc_push_front(t_pc *head, t_pc *new, t_union *un)
+t_pc				*pc_push_front(t_pc *head, t_pc *new, t_union *un)
 {
-	static clock_t end = 0;
-	clock_t start;
+	static clock_t	end = 0;
+	clock_t			start;
 
 	start = clock();
 	if (un->visual && (start - end) > 10)
@@ -87,10 +86,10 @@ t_pc			*pc_push_front(t_pc *head, t_pc *new, t_union *un)
 	return (new);
 }
 
-t_pc			*delete_pc(t_pc *head, t_pc *to_del, t_union *un)
+t_pc				*delete_pc(t_pc *head, t_pc *to_del, t_union *un)
 {
-	t_pc		*tmp;
-	t_pc		*next;
+	t_pc			*tmp;
+	t_pc			*next;
 
 	tmp = head;
 	while (tmp)

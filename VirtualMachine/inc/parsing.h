@@ -27,5 +27,5 @@ int					check_size_is_true(t_bot bot);
 int					flag_visualisation(int *i, t_union *un);
 int					flag_a(int *i, t_union *un);
 int					check_arg(t_union *un, char **argv);
-
+void				error_length(t_bot **tmp, int fd, unsigned char buf[2], int all);
 #endif

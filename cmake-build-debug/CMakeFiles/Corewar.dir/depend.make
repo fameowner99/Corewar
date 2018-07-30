@@ -170,6 +170,7 @@ CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list2.c.o: ../libf
 CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list2.c.o: ../libft/libft.h
 
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o: ../VirtualMachine/inc/op.h
+CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o: ../VirtualMachine/inc/parsing.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o: ../VirtualMachine/inc/vm.h
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o: ../VirtualMachine/src/parsing/get_bot_info.c
 CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/get_bot_info.c.o: ../libft/ft_printf/ft_printf.h

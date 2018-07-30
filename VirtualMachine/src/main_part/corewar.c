@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/27 17:03:35 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/27 17:06:12 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/30 14:52:38 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,6 @@ void			dump(t_union *un)
 			k = 0;
 		}
 	}
-
 }
 
 void			without_visual(t_union *un)

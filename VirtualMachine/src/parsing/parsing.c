@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/05 12:25:09 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/27 19:28:15 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/30 14:59:20 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,4 +67,14 @@ int			check_if_input_correct(char **argv, t_union *un)
 			return (r);
 	}
 	return (un->count.c == 0 ? 0 : 1);
+}
+
+void		error_length(t_bot **tmp, int fd,
+	unsigned char buf[2], int all)
+{
+	ft_printf(RED"Error: File %s ", (*tmp)->filename);
+	ft_printf("has too large a code ");
+	while (((int)read(fd, buf, 1)) > 0)
+		++all;
+	ft_printf("(%i bytes > 682 bytes)\n"RESET, all);
 }

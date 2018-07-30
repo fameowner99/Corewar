@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/27 14:10:10 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/27 21:24:50 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/30 15:05:24 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,6 +65,14 @@ void		print_map(t_vis *vis, t_union *un)
 	refresh();
 }
 
+static void	win(t_union *un, t_vis vis)
+{
+	system("afplay music/winner.mp3 &");
+	print_winner_v(un);
+	print_border(vis.win);
+	refresh();
+}
+
 int			pause_exit(t_vis vis, t_union *un)
 {
 	if (vis.key == 32)
@@ -81,10 +89,7 @@ int			pause_exit(t_vis vis, t_union *un)
 	}
 	if (un->cycle_to_die <= 0 || !un->pc)
 	{
-		system("afplay music/winner.mp3 &");
-		print_winner_v(un);
-		print_border(vis.win);
-		refresh();
+		win(un, vis);
 		while (1)
 		{
 			vis.key = getch();
@@ -92,29 +97,7 @@ int			pause_exit(t_vis vis, t_union *un)
 				return (27);
 		}
 	}
-	if (vis.key == 27)
-		return (27);
-	return (1);
-}
-
-void		change_speed(int key, t_union *un)
-{
-	if (key == 45)
-	{
-		if (un->speed_v >= 5){
-			un->speed += 8000;
-			un->speed_v -= 5;
-		}
-	}
-	if (key == 61)
-	{
-		if (un->speed >= 8000)
-		{
-			un->speed -= 8000;
-			un->speed_v += 5;
-		}
-	}
-
+	return (vis.key == 27 ? 27 : 1);
 }
 
 void		display_map(t_union *un)

@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/27 20:37:26 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/27 21:24:30 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/30 15:00:13 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@
 void		print_winner_v(t_union *un)
 {
 	t_bot	*bot;
-	int 	b;
-	int 	c;
+	int		b;
+	int		c;
 
 	c = 2;
 	b = 0;
@@ -33,7 +33,8 @@ void		print_winner_v(t_union *un)
 		if (bot->id == choose_winner(un))
 		{
 			wattron(stdscr, COLOR_PAIR(c));
-			mvprintw(27 + b, XMAX + 4, "* WINNER * %i : %s\n", bot->id, bot->name);
+			mvprintw(27 + b, XMAX + 4, "* WINNER * %i : %s\n",
+				bot->id, bot->name);
 			wattroff(stdscr, COLOR_PAIR(c));
 		}
 		++c;

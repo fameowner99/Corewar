@@ -177,6 +177,8 @@ time.h
 /Users/vmiachko/Corewar/VirtualMachine/src/parsing/get_bot_info.c
 ../../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+../../inc/parsing.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
 
 /Users/vmiachko/Corewar/VirtualMachine/src/parsing/manage_arguments.c
 ../../inc/parsing.h

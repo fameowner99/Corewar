@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/25 13:23:18 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/27 17:07:14 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/30 14:52:26 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ void		check_if_pc_alive(t_union *un)
 	pc = un->pc;
 	while (pc)
 	{
-
 		if (!pc->alive)
 		{
 			un->pc = delete_pc(un->pc, pc, un);
@@ -33,7 +32,7 @@ void		check_if_pc_alive(t_union *un)
 int			decrease_cycle_to_die(t_union *un)
 {
 	t_bot	*bot;
-	int 	sum;
+	int		sum;
 
 	sum = 0;
 	bot = un->bot;

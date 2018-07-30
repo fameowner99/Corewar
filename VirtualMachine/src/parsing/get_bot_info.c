@@ -6,11 +6,12 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/27 15:41:03 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/27 15:51:32 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/30 14:58:55 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../inc/vm.h"
+#include "../../inc/parsing.h"
 
 int					get_bot_name(const int fd, t_bot **tmp)
 {
@@ -66,11 +67,7 @@ int					get_bot_code(const int fd, t_bot **tmp)
 			flag = 1;
 			if (++all > CHAMP_MAX_SIZE)
 			{
-				ft_printf(RED"Error: File %s ", (*tmp)->filename);
-				ft_printf("has too large a code ");
-				while (((int)read(fd, buf, 1)) > 0)
-					++all;
-				ft_printf("(%i bytes > 682 bytes)\n"RESET, all);
+				error_length(tmp, fd, buf, all);
 				return (0);
 			}
 		}

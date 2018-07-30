@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/27 19:56:45 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/27 21:29:09 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/30 15:06:00 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,4 +36,24 @@ void		print_border(WINDOW *win)
 	}
 	wattroff(win, COLOR_PAIR(30));
 	wattroff(stdscr, COLOR_PAIR(30));
+}
+
+void		change_speed(int key, t_union *un)
+{
+	if (key == 45)
+	{
+		if (un->speed_v >= 5)
+		{
+			un->speed += 8000;
+			un->speed_v -= 5;
+		}
+	}
+	if (key == 61)
+	{
+		if (un->speed >= 8000)
+		{
+			un->speed -= 8000;
+			un->speed_v += 5;
+		}
+	}
 }

@@ -50,7 +50,7 @@ void				ft_aff(t_pc *pc, t_union *un);
 t_pc				*pc_copy(t_pc *prev, int position);
 void				choose_number_cycles_to_wait(t_pc *pc, t_union *un);
 void				choose_commands(t_pc *pc, t_union *un);
-int					ft_check_position(int position);
+int					cp(int position);
 void				ft_sti_ind_reg(t_pc *pc, t_union *un);
 void				ft_sti_dir_reg(t_pc *pc, t_union *un);
 void				ft_sti_reg_dir(t_pc *pc, t_union *un);
