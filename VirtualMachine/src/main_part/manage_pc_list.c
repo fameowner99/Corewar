@@ -60,7 +60,7 @@ t_pc				*pc_copy(t_pc *prev, int position)
 		res->reg[i] = prev->reg[i];
 		++i;
 	}
-	res->alive = 0;
+	res->alive = prev->alive;
 	res->curr_command = 0;
 	res->number_cycles_to_wait = -1;
 	res->next = NULL;

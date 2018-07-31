@@ -15,17 +15,22 @@
 void		check_if_pc_alive(t_union *un)
 {
 	t_pc	*pc;
+	t_pc	*tmp;
 
 	pc = un->pc;
 	while (pc)
 	{
 		if (!pc->alive)
 		{
+			tmp = pc->next;
 			un->pc = delete_pc(un->pc, pc, un);
+			pc = tmp;
 		}
 		else
+		{
 			pc->alive = 0;
-		pc = pc->next;
+			pc = pc->next;
+		}
 	}
 }
 

@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/27 17:03:35 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/30 14:52:38 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/31 10:58:55 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ void			without_visual(t_union *un)
 	while (un->cycle_to_die > 0 && un->pc)
 	{
 		corewar(un);
-			if (un->cycle == un->dump)
+		if (un->cycle == un->dump)
 		{
 			dump(un);
 			break ;
@@ -53,16 +53,6 @@ void			without_visual(t_union *un)
 	}
 	if (!un->dump || un->dump > un->cycle)
 		print_winner(un);
-	//del
-	t_bot	*bot;
-	bot = un->bot;
-	ft_printf("CYCLES: %i\n", un->cycle);
-	while (bot)
-	{
-		ft_printf("LAST LIVE BOT <%i> NUM: %i\n", bot->id, bot->last_live);
-		bot = bot->next;
-	}
-	//del
 }
 
 void			execute_command(t_pc *pc, t_union *un)
