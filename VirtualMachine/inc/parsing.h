@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/05 12:31:47 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/28 17:09:43 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/31 12:15:40 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,7 @@ int					check_size_is_true(t_bot bot);
 int					flag_visualisation(int *i, t_union *un);
 int					flag_a(int *i, t_union *un);
 int					check_arg(t_union *un, char **argv);
-void				error_length(t_bot **tmp, int fd, unsigned char buf[2], int all);
+void				error_length(t_bot **tmp, int fd,
+	unsigned char buf[2], int all);
+
 #endif
