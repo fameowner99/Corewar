@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/25 13:23:18 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/30 14:52:26 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/31 14:44:46 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,8 @@ void		check_if_pc_alive(t_union *un)
 		if (!pc->alive)
 		{
 			tmp = pc->next;
+			if (un->p == 1)
+				ft_printf("Process %d is died\n", tmp->id);
 			un->pc = delete_pc(un->pc, pc, un);
 			pc = tmp;
 		}
@@ -34,25 +36,31 @@ void		check_if_pc_alive(t_union *un)
 	}
 }
 
-int			decrease_cycle_to_die(t_union *un)
+void		decrease_cycle_to_die(t_union *un)
 {
-	t_bot	*bot;
-	int		sum;
-
-	sum = 0;
-	bot = un->bot;
-	while (bot)
+	if (un->num_plives >= 21)
 	{
-		sum += bot->num_live;
-		bot = bot->next;
+		un->cycle_to_die -= CYCLE_DELTA;
+		un->checks = 0;
+		if (un->c == 1 || un->p == 1)
+			ft_printf("Cycle to die is now %d\n", un->cycle_to_die);
 	}
-	return (sum >= 21);
+	else
+		++un->checks;
+	if (un->checks == MAX_CHECKS)
+	{
+		un->checks = 0;
+		un->cycle_to_die -= CYCLE_DELTA;
+		if (un->c == 1 || un->p == 1)
+			ft_printf("Cycle to die is now %d\n", un->cycle_to_die);
+	}
 }
 
 void		clear_num_live(t_union *un)
 {
 	t_bot	*bot;
 
+	un->num_plives = 0;
 	bot = un->bot;
 	while (bot)
 	{

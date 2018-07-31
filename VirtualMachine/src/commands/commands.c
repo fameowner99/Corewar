@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/30 15:14:13 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/30 15:46:15 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/31 14:44:13 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,14 +19,19 @@ void				ft_live(t_pc *pc, t_union *un)
 	t_bot			*tmp;
 
 	pc->alive = 1;
+	++un->num_plives;
 	tmp = un->bot;
 	num_player = ft_get_int(un, cp(pc->curr_position + 1), 4);
 	while (tmp)
 	{
 		if (tmp->id == num_player)
+		{
 			tmp->last_live = un->cycle;
-		if (pc->creator_id == tmp->id)
 			++tmp->num_live;
+			if (un->c == 1)
+				ft_printf("Player %d (%s) is said to be alive\n",
+			tmp->id, tmp->name);
+		}
 		tmp = tmp->next;
 	}
 	pc->curr_position = pc->curr_position + 5;

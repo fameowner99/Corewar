@@ -86,6 +86,7 @@ void		print_to_right_window(t_union *un)
 		++c;
 	}
 	f(un, b);
+	print_help();
 }
 
 void		print_pause(t_vis vis)

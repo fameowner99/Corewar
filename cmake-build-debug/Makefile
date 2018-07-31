@@ -798,6 +798,33 @@ VirtualMachine/src/main_part/manage_pc_list2.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/main_part/manage_pc_list2.c.s
 .PHONY : VirtualMachine/src/main_part/manage_pc_list2.c.s
 
+VirtualMachine/src/parsing/extra_flag.o: VirtualMachine/src/parsing/extra_flag.c.o
+
+.PHONY : VirtualMachine/src/parsing/extra_flag.o
+
+# target to build an object file
+VirtualMachine/src/parsing/extra_flag.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/extra_flag.c.o
+.PHONY : VirtualMachine/src/parsing/extra_flag.c.o
+
+VirtualMachine/src/parsing/extra_flag.i: VirtualMachine/src/parsing/extra_flag.c.i
+
+.PHONY : VirtualMachine/src/parsing/extra_flag.i
+
+# target to preprocess a source file
+VirtualMachine/src/parsing/extra_flag.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/extra_flag.c.i
+.PHONY : VirtualMachine/src/parsing/extra_flag.c.i
+
+VirtualMachine/src/parsing/extra_flag.s: VirtualMachine/src/parsing/extra_flag.c.s
+
+.PHONY : VirtualMachine/src/parsing/extra_flag.s
+
+# target to generate assembly for a file
+VirtualMachine/src/parsing/extra_flag.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/extra_flag.c.s
+.PHONY : VirtualMachine/src/parsing/extra_flag.c.s
+
 VirtualMachine/src/parsing/get_bot_info.o: VirtualMachine/src/parsing/get_bot_info.c.o
 
 .PHONY : VirtualMachine/src/parsing/get_bot_info.o
@@ -1098,6 +1125,9 @@ help:
 	@echo "... VirtualMachine/src/main_part/manage_pc_list2.o"
 	@echo "... VirtualMachine/src/main_part/manage_pc_list2.i"
 	@echo "... VirtualMachine/src/main_part/manage_pc_list2.s"
+	@echo "... VirtualMachine/src/parsing/extra_flag.o"
+	@echo "... VirtualMachine/src/parsing/extra_flag.i"
+	@echo "... VirtualMachine/src/parsing/extra_flag.s"
 	@echo "... VirtualMachine/src/parsing/get_bot_info.o"
 	@echo "... VirtualMachine/src/parsing/get_bot_info.i"
 	@echo "... VirtualMachine/src/parsing/get_bot_info.s"

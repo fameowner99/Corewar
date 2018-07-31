@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/27 17:03:35 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/31 10:58:55 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/31 14:46:25 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,9 +42,11 @@ void			dump(t_union *un)
 void			without_visual(t_union *un)
 {
 	print_players_info(un);
-	while (un->cycle_to_die > 0 && un->pc)
+	while (un->pc)
 	{
 		corewar(un);
+		if (un->finish == 1)
+			break ;
 		if (un->cycle == un->dump)
 		{
 			dump(un);
@@ -53,6 +55,14 @@ void			without_visual(t_union *un)
 	}
 	if (!un->dump || un->dump > un->cycle)
 		print_winner(un);
+	t_bot	*bot;
+	bot = un->bot;
+	ft_printf("CYCLES: %i\n", un->cycle);
+	while (bot)
+	{
+		ft_printf("LAST LIVE BOT <%i> NUM: %i\n", bot->id, bot->last_live);
+		bot = bot->next;
+	}
 }
 
 void			execute_command(t_pc *pc, t_union *un)
@@ -94,24 +104,20 @@ void			move_pc(t_union *un)
 void			corewar(t_union *un)
 {
 	++un->cycle;
+	if (un->c == 1 || un->p == 1)
+		ft_printf("CYCLE %d\n", un->cycle);
+	if (un->cycle_to_die < 0)
+	{
+		un->finish = 1;
+		return ;
+	}
+	++un->k;
 	move_pc(un);
 	if (un->k == un->cycle_to_die && un->cycle != 0)
 	{
 		check_if_pc_alive(un);
-		if (decrease_cycle_to_die(un))
-		{
-			un->cycle_to_die -= CYCLE_DELTA;
-			un->checks = 0;
-		}
-		else
-			++un->checks;
-		if (un->checks == MAX_CHECKS)
-		{
-			un->checks = 0;
-			un->cycle_to_die -= CYCLE_DELTA;
-		}
+		decrease_cycle_to_die(un);
 		clear_num_live(un);
 		un->k = 0;
 	}
-	++un->k;
 }

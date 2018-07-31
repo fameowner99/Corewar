@@ -71,6 +71,7 @@ t_pc				*pc_copy(t_pc *prev, int position)
 t_pc				*pc_push_front(t_pc *head, t_pc *new, t_union *un)
 {
 	static clock_t	end = 0;
+	static int		i = 0;
 	clock_t			start;
 
 	start = clock();
@@ -80,6 +81,8 @@ t_pc				*pc_push_front(t_pc *head, t_pc *new, t_union *un)
 		end = clock();
 	}
 	new->next = head;
+	new->id = i + 1;
+	//ft_printf("New process %d created\n", new->id);
 	++un->procces_number;
 	if (head != NULL)
 		head->prev = new;

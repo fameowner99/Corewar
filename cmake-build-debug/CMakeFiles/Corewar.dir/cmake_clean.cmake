@@ -32,6 +32,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_and_dir_ind.c.o"
   "CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_or_dir_ind.c.o"
   "CMakeFiles/Corewar.dir/VirtualMachine/src/commands/ft_xor_dir_ind.c.o"
+  "CMakeFiles/Corewar.dir/VirtualMachine/src/parsing/extra_flag.c.o"
   "Corewar.pdb"
   "Corewar"
 )

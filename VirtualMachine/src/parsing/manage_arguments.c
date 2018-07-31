@@ -72,20 +72,6 @@ static int	flag_n(t_union *un, char **argv)
 	return (1);
 }
 
-int			flag_c(int *i, t_union *un)
-{
-	un->c = 1;
-	++*i;
-	return (1);
-}
-
-int			flag_p(int *i, t_union *un)
-{
-	un->p = 1;
-	++*i;
-	return (1);
-}
-
 int			check_arg(t_union *un, char **argv)
 {
 	if (!ft_strcmp(argv[un->count.i], "-dump"))

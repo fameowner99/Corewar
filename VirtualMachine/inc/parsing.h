@@ -29,5 +29,7 @@ int					flag_a(int *i, t_union *un);
 int					check_arg(t_union *un, char **argv);
 void				error_length(t_bot **tmp, int fd,
 	unsigned char buf[2], int all);
+int					flag_c(int *i, t_union *un);
+int					flag_p(int *i, t_union *un);
 
 #endif

@@ -26,6 +26,8 @@ static void		init(t_union *un)
 	un->cycle = 0;
 	un->p = 0;
 	un->c = 0;
+	un->num_plives = 0;
+	un->finish = 0;
 }
 
 int				main(int argc, char **argv)

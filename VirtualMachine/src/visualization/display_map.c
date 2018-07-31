@@ -13,32 +13,6 @@
 #include "../../inc/vm.h"
 #include "../../inc/visualization.h"
 
-WINDOW		*init_colors(int *key)
-{
-	*key = 1;
-	initscr();
-	raw();
-	nodelay(stdscr, TRUE);
-	noecho();
-	curs_set(0);
-	start_color();
-	init_pair(9, COLOR_BLACK, COLOR_WHITE);
-	init_pair(1, COLOR_WHITE, COLOR_BLACK);
-	init_pair(2, COLOR_RED, COLOR_BLACK);
-	init_pair(3, COLOR_BLUE, COLOR_BLACK);
-	init_pair(5, COLOR_YELLOW, COLOR_BLACK);
-	init_pair(4, COLOR_MAGENTA, COLOR_BLACK);
-	init_pair(11, COLOR_WHITE, COLOR_CYAN);
-	init_pair(19, COLOR_GREEN, COLOR_GREEN);
-	init_pair(12, COLOR_WHITE, COLOR_RED);
-	init_pair(13, COLOR_WHITE, COLOR_BLUE);
-	init_pair(14, COLOR_WHITE, COLOR_MAGENTA);
-	init_pair(15, COLOR_WHITE, COLOR_YELLOW);
-	init_pair(30, COLOR_WHITE, COLOR_WHITE);
-	init_pair(31, COLOR_GREEN, COLOR_BLACK);
-	return (newwin(YMAX, XMAX, 0, 0));
-}
-
 void		print_map(t_vis *vis, t_union *un)
 {
 	while (vis->i < MEM_SIZE)
@@ -73,14 +47,23 @@ static void	win(t_union *un, t_vis vis)
 	refresh();
 }
 
+static void	f(t_vis vis, t_union *un)
+{
+	change_speed(vis.key, un);
+	print_to_right_window(un);
+	print_pause(vis);
+	print_border(vis.win);
+}
+
 int			pause_exit(t_vis vis, t_union *un)
 {
 	if (vis.key == 32)
 	{
 		while (1)
 		{
-			print_pause(vis);
 			vis.key = getch();
+			f(vis, un);
+			refresh();
 			if (vis.key == 32)
 				break ;
 			if (vis.key == 27)

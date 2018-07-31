@@ -174,6 +174,12 @@ time.h
 ../../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
 
+/Users/vmiachko/Corewar/VirtualMachine/src/parsing/extra_flag.c
+../../inc/vm.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/vm.h
+../../inc/parsing.h
+/Users/vmiachko/Corewar/VirtualMachine/inc/parsing.h
+
 /Users/vmiachko/Corewar/VirtualMachine/src/parsing/get_bot_info.c
 ../../inc/vm.h
 /Users/vmiachko/Corewar/VirtualMachine/inc/vm.h

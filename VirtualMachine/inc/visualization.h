@@ -34,5 +34,7 @@ void			print_to_right_window(t_union *un);
 void			print_pause(t_vis vis);
 void			print_winner_v(t_union *un);
 void			change_speed(int key, t_union *un);
+WINDOW			*init_colors(int *key);
+void			print_help();
 
 #endif

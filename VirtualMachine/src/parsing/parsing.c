@@ -49,13 +49,6 @@ int			flag_visualisation(int *i, t_union *un)
 	return (1);
 }
 
-int			flag_a(int *i, t_union *un)
-{
-	un->a = 1;
-	++*i;
-	return (1);
-}
-
 int			check_if_input_correct(char **argv, t_union *un)
 {
 	int		r;

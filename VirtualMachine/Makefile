@@ -15,7 +15,8 @@ SRC = src/main_part/main.c src/parsing/manage_arguments.c src/parsing/parsing.c 
 	src/commands/ft_and.c src/commands/ft_fork.c src/commands/ft_ldi.c src/commands/ft_lld.c \
 	src/commands/ft_lldi.c src/commands/ft_load.c src/commands/ft_or.c src/commands/ft_st.c \
 	src/commands/ft_sti_dir.c src/commands/ft_sti.c src/commands/ft_xor.c \
-	src/commands/ft_xor_dir_ind.c src/commands/ft_or_dir_ind.c src/commands/ft_and_dir_ind.c
+	src/commands/ft_xor_dir_ind.c src/commands/ft_or_dir_ind.c src/commands/ft_and_dir_ind.c \
+	src/parsing/extra_flag.c
 
 LIB_DIR = ../libft/
 

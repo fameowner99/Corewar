@@ -37,6 +37,7 @@ add_executable(Corewar
         VirtualMachine/src/commands/ft_and_dir_ind.c
         VirtualMachine/src/commands/ft_or_dir_ind.c
         VirtualMachine/src/commands/ft_xor_dir_ind.c
+        VirtualMachine/src/parsing/extra_flag.c
         )
 
 find_package(Curses REQUIRED)

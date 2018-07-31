@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/05 12:25:51 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/28 17:16:20 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/07/31 14:49:46 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@ typedef struct		s_bot
 typedef	struct		s_pc
 {
 	int				curr_position;
+	int				id;
 	int				carry;
 	int				creator_id;
 	unsigned int	reg[16];
@@ -83,8 +84,10 @@ typedef struct		s_union
 	int				k;
 	useconds_t		speed;
 	int				speed_v;
-	int 			p;
-	int 			c;
+	int				p;
+	int				c;
+	int				num_plives;
+	int				finish;
 }					t_union;
 
 t_bot				*bot_push_back(t_bot *head, char *filename, int id);
@@ -102,7 +105,7 @@ void				initialize_map(t_union *un);
 void				move_code_to_map(t_union *un, int color);
 void				initialize_map(t_union *un);
 void				check_if_pc_alive(t_union *un);
-int					decrease_cycle_to_die(t_union *un);
+void				decrease_cycle_to_die(t_union *un);
 void				clear_num_live(t_union *un);
 void				pc_clear_list(t_pc *head);
 void				pc_sort_ascending(t_union *un);
