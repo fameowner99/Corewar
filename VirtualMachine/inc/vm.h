@@ -83,6 +83,8 @@ typedef struct		s_union
 	int				k;
 	useconds_t		speed;
 	int				speed_v;
+	int 			p;
+	int 			c;
 }					t_union;
 
 t_bot				*bot_push_back(t_bot *head, char *filename, int id);
