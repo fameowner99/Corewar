@@ -48,7 +48,7 @@ int					check_sum(int fd, unsigned int val)
 				(magic_header[0] << 24);
 	if (sum != val)
 	{
-		ft_printf(RED"Wrong magic header.\n"RESET);
+		ft_printf(RED"Wrong magic header or size.\n"RESET);
 		return (0);
 	}
 	return (1);

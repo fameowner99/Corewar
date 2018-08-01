@@ -26,7 +26,7 @@ all: $(NAME)
 
 $(NAME): $(OBJ)
 	@make -C $(LIB_DIR) all
-	$(CC) $(FLAGS) $(OBJ) -o $@ -L$(LIB_DIR) -lft -lncurses
+	$(CC) $(FLAGS) $(OBJ) -o $@ -L$(LIB_DIR) -lft  -lncurses
 	@echo "corewar done."
 
 %.o: %.c

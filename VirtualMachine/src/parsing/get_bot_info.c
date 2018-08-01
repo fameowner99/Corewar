@@ -49,8 +49,8 @@ int					get_bot_comment(const int fd, t_bot **tmp)
 {
 	int				r;
 
-	r = (int)read(fd, &(*tmp)->comment, 254);
-	if (r < 254)
+	r = (int)read(fd, &(*tmp)->comment, 2048);
+	if (r < 2048)
 	{
 		ft_printf(RED"Wrong bot comment.\n"RESET);
 		return (0);
@@ -58,7 +58,7 @@ int					get_bot_comment(const int fd, t_bot **tmp)
 	return (1);
 }
 
-int					get_bot_code(const int fd, t_bot **tmp)
+int					get_bot_code(const int fd, t_bot **tmp		)
 {
 	unsigned char	buf[2];
 	int				ret;
