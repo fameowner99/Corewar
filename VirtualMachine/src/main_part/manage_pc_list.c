@@ -82,7 +82,9 @@ t_pc				*pc_push_front(t_pc *head, t_pc *new, t_union *un)
 	}
 	new->next = head;
 	new->id = i + 1;
-	//ft_printf("New process %d created\n", new->id);
+	++i;
+	if (un->p && un->cycle > 0)
+		ft_printf("New process %d created\n", new->id);
 	++un->procces_number;
 	if (head != NULL)
 		head->prev = new;

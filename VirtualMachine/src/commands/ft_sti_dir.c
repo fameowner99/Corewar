@@ -92,7 +92,7 @@ void		ft_sti_ind_dir(t_pc *pc, t_union *un)
 		two = ft_get_int(un, cp(pc->curr_position + ((short)ft_get_int(un,
 			cp(pc->curr_position + 3), 2) % IDX_MOD)), 4);
 		three = (short)ft_get_int(un, cp(pc->curr_position + 5), 2);
-		position = (two + (int)pc->reg[three - 1]) % IDX_MOD
+		position = (two + three) % IDX_MOD
 			+ pc->curr_position;
 		position = cp(position);
 		num = ft_get_char_from_int(pc, one - 1);

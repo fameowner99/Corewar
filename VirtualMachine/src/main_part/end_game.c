@@ -24,7 +24,7 @@ void		check_if_pc_alive(t_union *un)
 		{
 			tmp = pc->next;
 			if (un->p == 1)
-				ft_printf("Process %d is died\n", tmp->id);
+				ft_printf("Process %d died\n", pc->id);
 			un->pc = delete_pc(un->pc, pc, un);
 			pc = tmp;
 		}

@@ -93,3 +93,16 @@ void		print_help(void)
 	mvprintw(61, XMAX + 4, "* Press ESC to exit *\n");
 	wattroff(stdscr, COLOR_PAIR(5));
 }
+
+void		split_print(t_union *un, int b, int c)
+{
+	t_bot	*bot;
+
+	bot = un->bot;
+	wattron(stdscr, COLOR_PAIR(c));
+	mvprintw(27 + b, XMAX + 4, "* WINNER * %i : %.15s",
+			 bot->id, bot->name);
+	if (ft_strlen(bot->name) > 15)
+		mvprintw(27 + b, XMAX + 35, "...\n", bot->id, bot->name);
+	wattroff(stdscr, COLOR_PAIR(c));
+}

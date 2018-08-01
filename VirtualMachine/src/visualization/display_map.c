@@ -70,7 +70,7 @@ int			pause_exit(t_vis vis, t_union *un)
 				return (27);
 		}
 	}
-	if (un->cycle_to_die <= 0 || !un->pc)
+	if (un->finish || !un->pc)
 	{
 		win(un, vis);
 		while (1)
@@ -92,6 +92,7 @@ void		display_map(t_union *un)
 	vis.win = init_colors(&vis.key);
 	while (vis.key)
 	{
+		corewar(un);
 		vis.i = 0;
 		vis.k = 0;
 		vis.x = 3;
@@ -104,7 +105,6 @@ void		display_map(t_union *un)
 		vis.key = pause_exit(vis, un);
 		if (vis.key == 27)
 			break ;
-		corewar(un);
 		update_pc(un);
 		usleep(un->speed);
 	}

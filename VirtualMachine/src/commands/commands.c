@@ -114,7 +114,7 @@ void				ft_aff(t_pc *pc, t_union *un)
 	}
 	if (un->a)
 	{
-		symbol = pc->reg[un->map[cp(pc->curr_position + 2)].value] % 256;
+		symbol = pc->reg[un->map[cp(pc->curr_position + 2)].value - 1] % 256;
 		ft_putchar(symbol);
 		ft_putchar('\n');
 	}
