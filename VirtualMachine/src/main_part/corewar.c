@@ -55,14 +55,6 @@ void			without_visual(t_union *un)
 	}
 	if (!un->dump || un->dump > un->cycle)
 		print_winner(un);
-//	t_bot	*bot;
-//	bot = un->bot;
-//	ft_printf("CYCLES: %i\n", un->cycle);
-//	while (bot)
-//	{
-//		ft_printf("LAST LIVE BOT <%i> NUM: %i\n", bot->id, bot->last_live);
-//		bot = bot->next;
-//	}
 }
 
 void			execute_command(t_pc *pc, t_union *un)
@@ -104,8 +96,6 @@ void			move_pc(t_union *un)
 void			corewar(t_union *un)
 {
 	++un->cycle;
-//	if (un->cycle == 25)
-//		ft_printf("df");
 	if (un->c == 1 || un->p == 1)
 		ft_printf("CYCLE %d\n", un->cycle);
 	if (un->cycle_to_die < 0)

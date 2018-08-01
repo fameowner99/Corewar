@@ -58,7 +58,7 @@ int					get_bot_comment(const int fd, t_bot **tmp)
 	return (1);
 }
 
-int					get_bot_code(const int fd, t_bot **tmp		)
+int					get_bot_code(const int fd, t_bot **tmp)
 {
 	unsigned char	buf[2];
 	int				ret;

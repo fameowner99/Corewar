@@ -32,7 +32,7 @@ void		print_winner_v(t_union *un)
 	{
 		if (bot->id == choose_winner(un))
 		{
-			split_print(un, b, c);
+			split_print(b, c, bot);
 		}
 		++c;
 		bot = bot->next;

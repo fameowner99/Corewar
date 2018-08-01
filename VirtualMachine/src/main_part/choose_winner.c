@@ -44,12 +44,12 @@ void				print_players_info(t_union *un)
 	t_bot			*bot;
 
 	bot = un->bot;
-	//ft_printf(GREEN"Introducing contestants...\n"RESET);
+	ft_printf(GREEN"Introducing contestants...\n"RESET);
 	ft_printf("Introducing contestants...\n");
 	while (bot)
 	{
-//		ft_printf(GREEN"* Player % i, weighing %i bytes,", bot->id, bot->size);
-//		ft_printf("  \"%s\" (\"%s\") !\n"RESET, bot->name, bot->comment);
+		ft_printf(GREEN"* Player % i, weighing %i bytes,", bot->id, bot->size);
+		ft_printf("  \"%s\" (\"%s\") !\n"RESET, bot->name, bot->comment);
 		ft_printf("* Player %i, weighing %i bytes,", -bot->id, bot->size);
 		ft_printf(" \"%s\" (\"%s\") !\n", bot->name, bot->comment);
 		bot = bot->next;

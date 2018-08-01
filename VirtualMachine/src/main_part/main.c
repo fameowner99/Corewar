@@ -48,6 +48,7 @@ int				main(int argc, char **argv)
 		bot_clear_list(un.bot);
 		pc_clear_list(un.pc);
 		free(un.map);
+		system("leaks Corewar");
 	}
 	return (0);
 }

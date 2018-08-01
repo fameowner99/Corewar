@@ -88,6 +88,7 @@ typedef struct		s_union
 	int				c;
 	int				num_plives;
 	int				finish;
+	uint8_t			ab[4];
 }					t_union;
 
 t_bot				*bot_push_back(t_bot *head, char *filename, int id);

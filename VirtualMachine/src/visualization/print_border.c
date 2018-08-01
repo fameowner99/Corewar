@@ -6,7 +6,7 @@
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/27 19:56:45 by vmiachko          #+#    #+#             */
-/*   Updated: 2018/07/31 14:16:49 by vmiachko         ###   ########.fr       */
+/*   Updated: 2018/08/01 16:01:53 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,14 +94,11 @@ void		print_help(void)
 	wattroff(stdscr, COLOR_PAIR(5));
 }
 
-void		split_print(t_union *un, int b, int c)
+void		split_print(int b, int c, t_bot *bot)
 {
-	t_bot	*bot;
-
-	bot = un->bot;
 	wattron(stdscr, COLOR_PAIR(c));
 	mvprintw(27 + b, XMAX + 4, "* WINNER * %i : %.15s",
-			 bot->id, bot->name);
+		bot->id, bot->name);
 	if (ft_strlen(bot->name) > 15)
 		mvprintw(27 + b, XMAX + 35, "...\n", bot->id, bot->name);
 	wattroff(stdscr, COLOR_PAIR(c));
